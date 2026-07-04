@@ -1,0 +1,41 @@
+name: Decision Record
+ description: Record a new decision
+title: "[DECISION] "
+labels: ["decision", "needs-review"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What situation led to this decision?
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision
+      description: What was decided?
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why was this decision made?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: What alternatives were evaluated?
+  - type: dropdown
+    id: pillar
+    attributes:
+      label: Pillar
+      options:
+        - A (SSS Firm)
+        - B (AIA Corridor)
+        - C (Corleone)
+        - Multiple
+        - None
