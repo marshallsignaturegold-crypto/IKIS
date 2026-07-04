@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/marshallsignaturegold-crypto/IKIS/schemas/metadata.schema.json",
+  "title": "IKIS Metadata",
+  "description": "Metadata block for all IKIS artifacts",
+  "type": "object",
+  "required": ["artifact_id", "type", "title", "status", "confidence", "authors", "owner", "created_date", "provenance", "governance"],
+  "properties": {
+    "artifact_id": {
+      "type": "string",
+      "pattern": "^IKIS-[A-Z]{3}-\\d{4}-\\d{3}$",
+      "description": "Unique artifact identifier"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["knowledge_entry", "source_note", "intelligence_brief", "decision_record", "gap_report", "assumption_record", "sss_initiative", "sss_project", "sss_specification", "sss_detail", "portfolio_entity", "ontology", "template", "schema", "automation", "governance"],
+      "description": "Artifact type"
+    },
+    "title": {"type": "string", "minLength": 1},
+    "status": {
+      "type": "string",
+      "enum": ["draft", "under_review", "revision_requested", "validated", "deprecated", "archived"],
+      "description": "Lifecycle state"
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low", "provisional"]
+    },
+    "pillar": {
+      "type": "string",
+      "enum": ["A", "B", "C", "multiple", "none"]
+    },
+    "portfolio_entity": {
+      "type": "string",
+      "enum": ["SSTLC", "BIBC", "SSTP", "AIA-SMCC", "CORLEONE", "DVPO", "SSS", "none"]
+    },
+    "authors": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "owner": {"type": "string", "minLength": 1},
+    "created_date": {"type": "string", "format": "date"},
+    "last_reviewed": {"type": "string", "format": "date"},
+    "review_cycle_months": {"type": "integer", "enum": [1, 3, 6, 12]},
+    "provenance": {
+      "type": "object",
+      "required": ["source_artifacts"],
+      "properties": {
+        "source_artifacts": {"type": "array", "items": {"type": "string"}},
+        "validation_method": {"type": "string", "enum": ["cross_reference", "expert_review", "automated", "none"]},
+        "validated_by": {"type": "array", "items": {"type": "string"}},
+        "validated_date": {"type": "string", "format": "date"},
+        "transformation_history": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "date": {"type": "string", "format": "date"},
+              "action": {"type": "string"},
+              "actor": {"type": "string"},
+              "description": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "related_artifacts": {"type": "array", "items": {"type": "string"}},
+    "governance": {
+      "type": "object",
+      "required": ["classification"],
+      "properties": {
+        "classification": {"type": "string", "enum": ["internal", "confidential", "public", "restricted"]},
+        "escalation_required": {"type": "boolean"},
+        "legal_reviewed": {"type": "boolean"}
+      }
+    }
+  }
+}
