@@ -1,0 +1,42 @@
+@prefix : <https://github.com/marshallsignaturegold-crypto/IKIS/ontologies/sss_business_domain#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+: a owl:Ontology ;
+    rdfs:label "SSS Business Domain Ontology" ;
+    rdfs:comment "Domain ontology for Signature Sovereign Solutions" ;
+    owl:versionInfo "1.0.0" .
+
+:Pillar a owl:Class ; rdfs:label "Pillar" .
+:Program a owl:Class ; rdfs:label "Program" .
+:Corridor a owl:Class ; rdfs:label "Corridor" .
+:Initiative a owl:Class ; rdfs:label "Initiative" .
+:Asset a owl:Class ; rdfs:label "Asset" .
+:SPV a owl:Class ; rdfs:label "SPV" .
+:Division a owl:Class ; rdfs:label "Division" .
+:Project a owl:Class ; rdfs:label "Project" .
+:Specification a owl:Class ; rdfs:label "Specification" .
+:Decision a owl:Class ; rdfs:label "Decision" .
+:Risk a owl:Class ; rdfs:label "Risk" .
+:Person a owl:Class ; rdfs:label "Person" .
+:Organization a owl:Class ; rdfs:label "Organization" .
+
+:hasChild a owl:ObjectProperty ; rdfs:label "has child" .
+:hasParent a owl:ObjectProperty ; rdfs:label "has parent" ; owl:inverseOf :hasChild .
+:dependsOn a owl:ObjectProperty ; rdfs:label "depends on" .
+:produces a owl:ObjectProperty ; rdfs:label "produces" .
+:risks a owl:ObjectProperty ; rdfs:label "risks" .
+:hasStatus a owl:DatatypeProperty ; rdfs:range xsd:string .
+
+:SSS a :Organization ; rdfs:label "Signature Sovereign Solutions, LLC" ; :hasStatus "active" .
+:PillarA a :Pillar ; rdfs:label "Pillar A: SSS Firm" ; :hasParent :SSS ; :hasStatus "active" .
+:PillarB a :Pillar ; rdfs:label "Pillar B: AIA Corridor" ; :hasParent :SSS ; :hasStatus "active" .
+:PillarC a :Pillar ; rdfs:label "Pillar C: Corleone Holdings" ; :hasParent :SSS ; :hasStatus "proposed" .
+:SSTP a :Program ; rdfs:label "Sovereign SafeTrade Program" ; :hasParent :PillarB ; :hasStatus "active" .
+:AIA_SMCC a :Corridor ; rdfs:label "AIA-SMCC" ; :hasParent :SSTP ; :hasStatus "conceptual" .
+:SSTLC a :Asset ; rdfs:label "SSTLC" ; :hasParent :AIA_SMCC ; :hasStatus "proposed" .
+:BIBC a :Asset ; rdfs:label "BIBC" ; :hasParent :AIA_SMCC ; :hasStatus "proposed" .
+:CorleoneHoldings a :Organization ; rdfs:label "Corleone Enterprise Holdings" ; :hasParent :PillarC ; :hasStatus "proposed" .
+:ChristopherKonopka a :Person ; rdfs:label "Christopher Konopka" .
+:MarshallMorrison a :Person ; rdfs:label "Marshall W. Morrison" .

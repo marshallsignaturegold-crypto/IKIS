@@ -1,0 +1,20 @@
+@prefix : <https://github.com/marshallsignaturegold-crypto/IKIS/ontologies/knowledge_ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+: a owl:Ontology ;
+    rdfs:label "IKIS Knowledge Classification Ontology" ;
+    owl:versionInfo "1.0.0" .
+
+:Artifact a owl:Class ; rdfs:label "Artifact" .
+:SourceMaterial a owl:Class ; rdfs:subClassOf :Artifact ; rdfs:label "Source Material" .
+:CuratedKnowledge a owl:Class ; rdfs:subClassOf :Artifact ; rdfs:label "Curated Knowledge" .
+:DerivedIntelligence a owl:Class ; rdfs:subClassOf :Artifact ; rdfs:label "Derived Intelligence" .
+:DecisionRecord a owl:Class ; rdfs:subClassOf :Artifact ; rdfs:label "Decision Record" .
+:OperationalGuidance a owl:Class ; rdfs:subClassOf :Artifact ; rdfs:label "Operational Guidance" .
+:ProvisionalKnowledge a owl:Class ; rdfs:subClassOf :Artifact ; rdfs:label "Provisional Knowledge" .
+:HistoricalRecord a owl:Class ; rdfs:subClassOf :Artifact ; rdfs:label "Historical Record" .
+
+:derivesFrom a owl:ObjectProperty ; rdfs:label "derives from" ; rdfs:domain :DerivedIntelligence ; rdfs:range :Artifact .
+:supersedes a owl:ObjectProperty ; rdfs:label "supersedes" ; rdfs:domain :Artifact ; rdfs:range :Artifact .
+:hasConfidence a owl:DatatypeProperty ; rdfs:label "has confidence" .

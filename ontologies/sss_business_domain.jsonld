@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "sss": "https://github.com/marshallsignaturegold-crypto/IKIS/ontologies/sss_business_domain#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@graph": [
+    {
+      "@id": "sss:SSS",
+      "@type": "sss:Organization",
+      "rdfs:label": "Signature Sovereign Solutions, LLC",
+      "sss:hasStatus": "active",
+      "sss:hasChild": [
+        {"@id": "sss:PillarA"},
+        {"@id": "sss:PillarB"},
+        {"@id": "sss:PillarC"}
+      ]
+    },
+    {
+      "@id": "sss:PillarA",
+      "@type": "sss:Pillar",
+      "rdfs:label": "Pillar A: SSS Firm",
+      "sss:hasStatus": "active"
+    },
+    {
+      "@id": "sss:PillarB",
+      "@type": "sss:Pillar",
+      "rdfs:label": "Pillar B: AIA Corridor",
+      "sss:hasStatus": "active",
+      "sss:hasChild": [{"@id": "sss:SSTP"}]
+    },
+    {
+      "@id": "sss:PillarC",
+      "@type": "sss:Pillar",
+      "rdfs:label": "Pillar C: Corleone Holdings",
+      "sss:hasStatus": "proposed",
+      "sss:hasChild": [{"@id": "sss:CorleoneHoldings"}]
+    },
+    {
+      "@id": "sss:SSTP",
+      "@type": "sss:Program",
+      "rdfs:label": "Sovereign SafeTrade Program",
+      "sss:hasStatus": "active",
+      "sss:hasChild": [{"@id": "sss:AIA_SMCC"}]
+    },
+    {
+      "@id": "sss:AIA_SMCC",
+      "@type": "sss:Corridor",
+      "rdfs:label": "AIA-SMCC",
+      "sss:hasStatus": "conceptual",
+      "sss:hasChild": [
+        {"@id": "sss:SSTLC"},
+        {"@id": "sss:BIBC"}
+      ]
+    },
+    {
+      "@id": "sss:SSTLC",
+      "@type": "sss:Asset",
+      "rdfs:label": "SovereignSomaliland SafeTrade and Logistics Complex",
+      "sss:hasStatus": "proposed"
+    },
+    {
+      "@id": "sss:BIBC",
+      "@type": "sss:Asset",
+      "rdfs:label": "IndiSovereign Bihar Integrated Bullion Complex",
+      "sss:hasStatus": "proposed"
+    },
+    {
+      "@id": "sss:CorleoneHoldings",
+      "@type": "sss:Organization",
+      "rdfs:label": "Corleone Enterprise Holdings",
+      "sss:hasStatus": "proposed"
+    },
+    {
+      "@id": "sss:ChristopherKonopka",
+      "@type": "sss:Person",
+      "rdfs:label": "Christopher Konopka",
+      "sss:hasRole": "CEO"
+    },
+    {
+      "@id": "sss:MarshallMorrison",
+      "@type": "sss:Person",
+      "rdfs:label": "Marshall W. Morrison",
+      "sss:hasRole": "COO"
+    }
+  ]
+}

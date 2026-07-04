@@ -1,0 +1,17 @@
+@prefix : <https://github.com/marshallsignaturegold-crypto/IKIS/ontologies/ai_agent_ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+: a owl:Ontology ;
+    rdfs:label "IKIS AI Agent Interaction Ontology" ;
+    owl:versionInfo "1.0.0" .
+
+:AgentRole a owl:Class ; rdfs:label "Agent Role" .
+:KnowledgeSteward a owl:Class ; rdfs:subClassOf :AgentRole ; rdfs:label "Knowledge Steward" .
+:Reviewer a owl:Class ; rdfs:subClassOf :AgentRole ; rdfs:label "Reviewer" .
+:Synthesizer a owl:Class ; rdfs:subClassOf :AgentRole ; rdfs:label "Synthesizer" .
+:Validator a owl:Class ; rdfs:subClassOf :AgentRole ; rdfs:label "Validator" .
+:Producer a owl:Class ; rdfs:subClassOf :AgentRole ; rdfs:label "Producer" .
+
+:hasCapability a owl:ObjectProperty ; rdfs:label "has capability" ; rdfs:domain :AgentRole ; rdfs:range :Capability .
+:Capability a owl:Class ; rdfs:label "Capability" .
