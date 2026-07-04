@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/marshallsignaturegold-crypto/IKIS/schemas/decision_record.schema.json",
+  "title": "IKIS Decision Record",
+  "description": "Schema for decision records",
+  "allOf": [{"$ref": "artifact.schema.json"}],
+  "properties": {
+    "metadata": {
+      "allOf": [{"$ref": "metadata.schema.json"}],
+      "properties": {
+        "type": {"const": "decision_record"}
+      }
+    },
+    "content": {
+      "type": "string",
+      "description": "Must include: context, decision, rationale, alternatives, implications, stakeholders"
+    }
+  }
+}

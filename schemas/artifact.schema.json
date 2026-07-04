@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/marshallsignaturegold-crypto/IKIS/schemas/artifact.schema.json",
+  "title": "IKIS Base Artifact",
+  "description": "Base schema for all IKIS artifacts",
+  "type": "object",
+  "required": ["metadata", "content"],
+  "properties": {
+    "metadata": {"$ref": "metadata.schema.json"},
+    "content": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown content of the artifact"
+    }
+  }
+}

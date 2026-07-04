@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/marshallsignaturegold-crypto/IKIS/schemas/intelligence_brief.schema.json",
+  "title": "IKIS Intelligence Brief",
+  "description": "Schema for intelligence briefs",
+  "allOf": [{"$ref": "artifact.schema.json"}],
+  "properties": {
+    "metadata": {
+      "allOf": [{"$ref": "metadata.schema.json"}],
+      "properties": {
+        "type": {"const": "intelligence_brief"}
+      }
+    },
+    "content": {
+      "type": "string",
+      "description": "Must include: executive summary, key findings, evidence, analysis, recommendations, risk assessment"
+    }
+  }
+}

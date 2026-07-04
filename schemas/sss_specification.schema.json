@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/marshallsignaturegold-crypto/IKIS/schemas/sss_specification.schema.json",
+  "title": "IKIS SSS Specification",
+  "description": "Schema for SSS specifications",
+  "allOf": [{"$ref": "artifact.schema.json"}],
+  "properties": {
+    "metadata": {
+      "allOf": [{"$ref": "metadata.schema.json"}],
+      "properties": {
+        "type": {"const": "sss_specification"}
+      }
+    },
+    "content": {
+      "type": "string",
+      "description": "Must include: purpose, scope, requirements, constraints, standards, acceptance criteria, version history"
+    }
+  }
+}

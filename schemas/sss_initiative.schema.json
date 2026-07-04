@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/marshallsignaturegold-crypto/IKIS/schemas/sss_initiative.schema.json",
+  "title": "IKIS SSS Initiative",
+  "description": "Schema for SSS initiatives",
+  "allOf": [{"$ref": "artifact.schema.json"}],
+  "properties": {
+    "metadata": {
+      "allOf": [{"$ref": "metadata.schema.json"}],
+      "properties": {
+        "type": {"const": "sss_initiative"}
+      }
+    },
+    "content": {
+      "type": "string",
+      "description": "Must include: description, objectives, scope, stakeholders, timeline, budget, risks, dependencies, success criteria"
+    }
+  }
+}

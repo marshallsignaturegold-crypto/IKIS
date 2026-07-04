@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/marshallsignaturegold-crypto/IKIS/schemas/knowledge_entry.schema.json",
+  "title": "IKIS Knowledge Entry",
+  "description": "Schema for validated knowledge entries",
+  "allOf": [{"$ref": "artifact.schema.json"}],
+  "properties": {
+    "metadata": {
+      "allOf": [{"$ref": "metadata.schema.json"}],
+      "properties": {
+        "type": {"const": "knowledge_entry"}
+      }
+    },
+    "content": {
+      "type": "string",
+      "description": "Must include: summary, evidence, sources, confidence rationale"
+    }
+  }
+}

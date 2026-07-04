@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/marshallsignaturegold-crypto/IKIS/schemas/portfolio_entity.schema.json",
+  "title": "IKIS Portfolio Entity",
+  "description": "Schema for portfolio entity profiles",
+  "allOf": [{"$ref": "artifact.schema.json"}],
+  "properties": {
+    "metadata": {
+      "allOf": [{"$ref": "metadata.schema.json"}],
+      "properties": {
+        "type": {"const": "portfolio_entity"}
+      }
+    },
+    "content": {
+      "type": "string",
+      "description": "Must include: description, status, pillar, engagement level, key metrics, stakeholders, risks, related initiatives"
+    }
+  }
+}
