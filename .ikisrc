@@ -1,0 +1,23 @@
+# IKIS Configuration
+
+[repository]
+name = "IKIS"
+version = "1.0.0"
+owner = "marshallsignaturegold-crypto"
+description = "Institutional Knowledge & Intelligence System"
+
+[knowledge]
+base_schema_version = "1.0.0"
+metadata_schema = "schemas/metadata.schema.json"
+
+[governance]
+min_approval_level = "L2"
+auto_archive_days = 90
+
+[automation]
+health_check_schedule = "weekly"
+index_rebuild_schedule = "monthly"
+
+[sss]
+default_legal_gating = "strict"
+program_hierarchy = "Signature Sovereign Solutions, LLC > Sovereign SafeTrade Program (SSTP) > Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC) > SovereignSomaliland PPP Initiative / IndiSovereign PPP Initiative > proposed SSTLC / proposed BIBC"
