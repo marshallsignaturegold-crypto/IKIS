@@ -1,7 +1,7 @@
 ---
 artifact_id: "IKIS-SSS-2026-002"
 type: "sss_initiative"
-title: "Pillar A: SSS Firm — Structuring Engine"
+title: "Pillar A: SSS Firm: SSS Firm — Structuring Engine"
 status: "validated"
 confidence: "high"
 pillar: "A"
@@ -35,7 +35,7 @@ governance:
   legal_reviewed: true
 ---
 
-# Pillar A: SSS Firm — Structuring Engine
+# Pillar A: SSS Firm: SSS Firm — Structuring Engine
 
 > **The advisory and structuring engine of the SSS platform. Revenue derives from advisory fees, management fees on AUM, and carried interest on realized gains.**
 
@@ -43,7 +43,7 @@ governance:
 
 ## 1. Overview
 
-Pillar A is Signature Sovereign Solutions, LLC itself — the Florida-registered operational entity that structures sovereign-grade trade corridors and premium CPG investments. It generates revenue through three streams:
+Pillar A: SSS Firm is Signature Sovereign Solutions, LLC itself — the Florida-registered operational entity that structures sovereign-grade trade corridors and premium CPG investments. It generates revenue through three streams:
 
 1. **Advisory Fees** — Fees for structuring, advisory, and consulting services
 2. **Management Fees** — 1.5% annual fee on assets under management (AUM)
@@ -96,13 +96,13 @@ Pillar A is Signature Sovereign Solutions, LLC itself — the Florida-registered
 | Mandate origination below plan | Medium | High | Three-way differentiation narrative |
 | Key-person event (Konopka/Morrison) | Low | Fatal | No succession plan documented |
 | Regulatory action (unregistered securities) | Low-Medium | Fatal | 506(c) structure planned |
-| Pillar B failure | High | Crippling | Diversified revenue streams |
-| Pillar C failure | Medium-High | Major | Diversified revenue streams |
+| Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC) failure | High | Crippling | Diversified revenue streams |
+| Pillar C: Corleone Enterprise Holdings failure | Medium-High | Major | Diversified revenue streams |
 
 ## 5. Related Artifacts
 
-- **Pillar B**: `02_pillar_b_aia_corridor.md`
-- **Pillar C**: `03_pillar_c_corleone.md`
+- **Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC)**: `02_pillar_b_aia_corridor.md`
+- **Pillar C: Corleone Enterprise Holdings**: `03_pillar_c_corleone.md`
 - **Strategic Thesis**: `08_strategic_thesis.md`
 
 ## 6. Handoff Notes

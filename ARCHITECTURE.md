@@ -58,18 +58,18 @@ The SSS business domain is represented through a **multi-dimensional entity mode
 
 ```
 SSS Platform (Root)
-├── Pillar A: SSS Firm
+├── Pillar A: SSS Firm: SSS Firm
 │   ├── Revenue Stream: Advisory
 │   ├── Revenue Stream: Management Fees
 │   └── Revenue Stream: Carried Interest
-├── Pillar B: AIA Corridor
-│   ├── Program: SSTP
+├── Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC): Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC)
+│   ├── Program: Sovereign SafeTrade Program (SSTP)
 │   ├── Corridor: AIA-SMCC
 │   ├── Initiative: SovereignSomaliland PPP
 │   │   └── Asset: SSTLC (Proposed)
 │   └── Initiative: IndiSovereign PPP
 │       └── Asset: BIBC (Proposed)
-└── Pillar C: Corleone Holdings
+└── Pillar C: Corleone Enterprise Holdings: Corleone Holdings
     ├── Division: CPG (16-SKU Italian Heritage Line)
     ├── Division: Franchise (Don Vito's Pizza Oven)
     └── Division: Media & Licensing

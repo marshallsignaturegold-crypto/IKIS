@@ -53,10 +53,10 @@ governance:
 `high`, `medium`, `low`, `provisional`
 
 ### Pillar Codes
-`A` (SSS Firm), `B` (AIA Corridor), `C` (Corleone), `multiple`, `none`
+`A` (SSS Firm), `B` (Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC)), `C` (Corleone), `multiple`, `none`
 
 ### Portfolio Entity Codes
-`SSTLC`, `BIBC`, `SSTP`, `AIA-SMCC`, `CORLEONE`, `DVPO`, `SSS`, `none`
+`SSTLC`, `BIBC`, `Sovereign SafeTrade Program (SSTP)`, `AIA-SMCC`, `CORLEONE`, `DVPO`, `SSS`, `none`
 
 ### Classification Levels
 `public`, `internal`, `confidential`, `restricted`

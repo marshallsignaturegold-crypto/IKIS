@@ -75,7 +75,7 @@ The IndiSovereign Bihar Integrated Bullion Complex (BIBC) is a proposed infrastr
 
 ## 6. Related Artifacts
 
-- **Pillar B**: `02_pillar_b_aia_corridor.md`
+- **Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC)**: `02_pillar_b_aia_corridor.md`
 - **SSTLC**: `04_sstlc_profile.md`
 
 ---

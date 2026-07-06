@@ -1,7 +1,7 @@
 ---
 artifact_id: "IKIS-SSS-2026-004"
 type: "sss_initiative"
-title: "Pillar C: Corleone Enterprise Holdings — Premium CPG & Franchise"
+title: "Pillar C: Corleone Enterprise Holdings: Corleone Enterprise Holdings — Premium CPG & Franchise"
 status: "validated"
 confidence: "high"
 pillar: "C"
@@ -36,7 +36,7 @@ governance:
   legal_reviewed: true
 ---
 
-# Pillar C: Corleone Enterprise Holdings
+# Pillar C: Corleone Enterprise Holdings: Corleone Enterprise Holdings
 
 > **A proposed Delaware Holdco housing premium CPG, franchise, and media & licensing divisions. Target: $111.67M enterprise value at Year 5.**
 
@@ -44,7 +44,7 @@ governance:
 
 ## 1. Overview
 
-Pillar C is Corleone Enterprise Holdings, a proposed Delaware holding company with three divisions:
+Pillar C: Corleone Enterprise Holdings is Corleone Enterprise Holdings, a proposed Delaware holding company with three divisions:
 
 1. **CPG Division (74% of revenue)** — 16-SKU Italian Heritage Line
 2. **Franchise Division (17% of revenue)** — Don Vito's Pizza Oven
@@ -58,7 +58,7 @@ Pillar C is Corleone Enterprise Holdings, a proposed Delaware holding company wi
 | **Jurisdiction** | Delaware (proposed) |
 | **Status** | Proposed — not yet incorporated |
 
-**CRITICAL NOTE**: The Corleone brand and IP agreement with Gianni Russo is not yet executed. Without it, Pillar C has no brand identity.
+**CRITICAL NOTE**: The Corleone brand and IP agreement with Gianni Russo is not yet executed. Without it, Pillar C: Corleone Enterprise Holdings has no brand identity.
 
 ## 3. Financial Summary
 

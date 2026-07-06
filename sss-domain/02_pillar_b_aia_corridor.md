@@ -1,7 +1,7 @@
 ---
 artifact_id: "IKIS-SSS-2026-003"
 type: "sss_initiative"
-title: "Pillar B: AIA Corridor — Blended-Finance Trade Corridor"
+title: "Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC): Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC) — Blended-Finance Trade Corridor"
 status: "validated"
 confidence: "high"
 pillar: "B"
@@ -40,7 +40,7 @@ governance:
   legal_reviewed: true
 ---
 
-# Pillar B: AIA Corridor — Blended-Finance Trade Corridor
+# Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC): Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC) — Blended-Finance Trade Corridor
 
 > **The Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC), a sovereign-grade trade corridor moving strategic minerals and halal protein from Horn-of-Africa origination through Gulf trans-shipment and Indian value-add processing.**
 
@@ -48,7 +48,7 @@ governance:
 
 ## 1. Overview
 
-Pillar B is the AIA Corridor — a blended-finance trade corridor that:
+Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC) is the Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC) — a blended-finance trade corridor that:
 - Moves **strategic minerals** and **halal protein** from Horn-of-Africa origination
 - Transits through **Gulf trans-shipment** nodes
 - Processes through **Indian value-add** facilities
@@ -58,7 +58,7 @@ Pillar B is the AIA Corridor — a blended-finance trade corridor that:
 
 ```
 Signature Sovereign Solutions, LLC
-└── Sovereign SafeTrade Program (SSTP)
+└── Sovereign SafeTrade Program (Sovereign SafeTrade Program (SSTP))
     └── Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC)
         ├── SovereignSomaliland PPP Initiative
         │   └── proposed SSTLC

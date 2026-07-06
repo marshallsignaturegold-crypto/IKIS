@@ -3,18 +3,18 @@
 
 ## Overview
 This document, authored by the Financial Systems Engineer, provides an ultra-high-density specification for Correspondent Banking Network. 
-It focuses on TMICESB network expansion, SWIFT gpi integration, and liquidity management. within the Sovereign SafeTrade Program (SSTP) framework.
+It focuses on Multi-PPP Tokenized Minerals International Clearing Exchange & Settlement Counterparty Bank (TMICESB) network expansion, SWIFT gpi integration, and liquidity management. within the Sovereign SafeTrade Program (Sovereign SafeTrade Program (SSTP)) framework.
 
 ## 1. Institutional Framework & Persona Focus
 - **Persona:** Financial Systems Engineer
-- **Focus Area:** TMICESB banking consolidation, capital stack optimization, and DASP v2.0 settlement architecture.
+- **Focus Area:** Multi-PPP Tokenized Minerals International Clearing Exchange & Settlement Counterparty Bank (TMICESB) banking consolidation, capital stack optimization, and DASP v2.0 settlement architecture.
 - **Strategic Mandate:** Ensure 100% alignment with Vault-Logic and NDAA 1260H standards.
 
 ## 2. Technical & Operational Specifications
 ### 2.1. System Architecture
 - **Backbone:** R3 Corda DLT (Permissioned)
 - **Settlement:** DASP v2.0 Protocol
-- **Banking:** TMICESB Unified Network
+- **Banking:** Multi-PPP Tokenized Minerals International Clearing Exchange & Settlement Counterparty Bank (TMICESB) Unified Network
 
 ### 2.2. Key Parameters & Metrics
 | Parameter | Year 1 Target | Year 5 Target | Year 10 Target |
@@ -35,12 +35,12 @@ It focuses on TMICESB network expansion, SWIFT gpi integration, and liquidity ma
 | Network Access | $50k | Per Institution | $25M/yr |
 | Data Analytics | Tiered | Per Subscription | $15M/yr |
 
-## 5. Integration with SSTP Components
+## 5. Integration with Sovereign SafeTrade Program (SSTP) Components
 | Component | Integration Point |
 | :--- | :--- |
 | SSTLC (Somaliland) | Origin Control & Logistics Data |
 | BIBC (Bihar) | Physical Gold Vaulting & Tokenization |
-| TMICESB (UAE) | Unified Banking & Settlement |
+| Multi-PPP Tokenized Minerals International Clearing Exchange & Settlement Counterparty Bank (TMICESB) (UAE) | Unified Banking & Settlement |
 
 ---
 *Status: INSTITUTIONAL GRADE - ACCREDITED*

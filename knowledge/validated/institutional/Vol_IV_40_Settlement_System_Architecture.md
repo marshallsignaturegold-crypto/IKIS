@@ -3,7 +3,7 @@
 
 ## Overview
 This document, authored by the Digital Infrastructure Lead, provides an ultra-high-density specification for Settlement System Architecture. 
-It focuses on DASP v2.0, Goldflow tokenization, and R3 Corda settlement rails. within the Sovereign SafeTrade Program (SSTP) framework.
+It focuses on DASP v2.0, Goldflow tokenization, and R3 Corda settlement rails. within the Sovereign SafeTrade Program (Sovereign SafeTrade Program (SSTP)) framework.
 
 ## 1. Institutional Framework & Persona Focus
 - **Persona:** Digital Infrastructure Lead
@@ -14,7 +14,7 @@ It focuses on DASP v2.0, Goldflow tokenization, and R3 Corda settlement rails. w
 ### 2.1. System Architecture
 - **Backbone:** R3 Corda DLT (Permissioned)
 - **Settlement:** DASP v2.0 Protocol
-- **Banking:** TMICESB Unified Network
+- **Banking:** Multi-PPP Tokenized Minerals International Clearing Exchange & Settlement Counterparty Bank (TMICESB) Unified Network
 
 ### 2.2. Key Parameters & Metrics
 | Parameter | Year 1 Target | Year 5 Target | Year 10 Target |
@@ -35,12 +35,12 @@ It focuses on DASP v2.0, Goldflow tokenization, and R3 Corda settlement rails. w
 | Network Access | $50k | Per Institution | $25M/yr |
 | Data Analytics | Tiered | Per Subscription | $15M/yr |
 
-## 5. Integration with SSTP Components
+## 5. Integration with Sovereign SafeTrade Program (SSTP) Components
 | Component | Integration Point |
 | :--- | :--- |
 | SSTLC (Somaliland) | Origin Control & Logistics Data |
 | BIBC (Bihar) | Physical Gold Vaulting & Tokenization |
-| TMICESB (UAE) | Unified Banking & Settlement |
+| Multi-PPP Tokenized Minerals International Clearing Exchange & Settlement Counterparty Bank (TMICESB) (UAE) | Unified Banking & Settlement |
 
 ---
 *Status: INSTITUTIONAL GRADE - ACCREDITED*

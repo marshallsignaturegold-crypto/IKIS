@@ -7,9 +7,9 @@ This directory contains all knowledge artifacts specific to Signature Sovereign 
 | File | Description |
 |------|-------------|
 | `00_sss_entity_index.md` | Master index of all SSS entities |
-| `01_pillar_a_sss_firm.md` | Pillar A: SSS Firm |
-| `02_pillar_b_aia_corridor.md` | Pillar B: AIA Corridor |
-| `03_pillar_c_corleone.md` | Pillar C: Corleone Holdings |
+| `01_pillar_a_sss_firm.md` | Pillar A: SSS Firm: SSS Firm |
+| `02_pillar_b_aia_corridor.md` | Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC): Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC) |
+| `03_pillar_c_corleone.md` | Pillar C: Corleone Enterprise Holdings: Corleone Holdings |
 | `04_sstlc_profile.md` | SSTLC profile |
 | `05_bibc_profile.md` | BIBC profile |
 | `06_franchise_portfolio.md` | Franchise portfolio |

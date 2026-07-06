@@ -42,9 +42,9 @@ Contributors include:
 | Scope | Description |
 |-------|-------------|
 | `sss-domain` | SSS business domain artifacts |
-| `pillar-a` | Pillar A (SSS Firm) |
-| `pillar-b` | Pillar B (AIA Corridor) |
-| `pillar-c` | Pillar C (Corleone) |
+| `pillar-a` | Pillar A: SSS Firm (SSS Firm) |
+| `pillar-b` | Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC) (Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC)) |
+| `pillar-c` | Pillar C: Corleone Enterprise Holdings (Corleone) |
 | `automation` | Automation and tooling |
 | `governance` | Governance and process |
 | `ai-agents` | AI agent assets |

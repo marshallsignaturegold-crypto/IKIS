@@ -3,7 +3,7 @@
 
 ## 1. Semantic Analysis of Gap
 - **Category:** Critical Priority (per RESEARCH-FRONTIER.pdf)
-- **Institutional Risk:** High impact on Pillar A/B/C finalization.
+- **Institutional Risk:** High impact on Pillar A: SSS Firm/B/C finalization.
 - **Current Status:** Gaps identified in July 2026 audit; resolution initiated.
 
 ## 2. Expert Resolution & Specification

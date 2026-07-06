@@ -6,7 +6,7 @@
 - **Key Update:** Integration of latest 2026 benchmarks for Project Vault US critical minerals stockpiling 2026.
 - **Verification:** Cross-referenced with official ministerial and regulatory bulletins.
 
-## 2. Impact on SSTP/IKIS Framework
+## 2. Impact on Sovereign SafeTrade Program (SSTP)/IKIS Framework
 - **Strategic Alignment:** Confirmed compliance with 1260H NDAA and Project Vault.
 - **Operational Nuance:** Updated P50 projections based on live Project Vault US critical minerals stockpiling 2026 data.
 - **Node Integration:** Specific implications for SSTLC (Somaliland) and BIBC (Bihar).

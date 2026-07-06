@@ -5,7 +5,7 @@ title: "[Knowledge Entry Title]"
 status: "draft"
 confidence: "[high|medium|low|provisional]"
 pillar: "[A|B|C|multiple|none]"
-portfolio_entity: "[SSTLC|BIBC|SSTP|AIA-SMCC|CORLEONE|DVPO|SSS|none]"
+portfolio_entity: "[SSTLC|BIBC|Sovereign SafeTrade Program (SSTP)|AIA-SMCC|CORLEONE|DVPO|SSS|none]"
 authors:
   - "[github_handle]"
 owner: "[github_handle]"

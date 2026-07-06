@@ -79,7 +79,7 @@ Always use the full, exact program hierarchy for SSS materials:
 
 ```
 Signature Sovereign Solutions, LLC
-└── Sovereign SafeTrade Program (SSTP)
+└── Sovereign SafeTrade Program (Sovereign SafeTrade Program (SSTP))
     └── Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC)
         ├── SovereignSomaliland Public-Private Partnership Initiative
         │   └── proposed SovereignSomaliland SafeTrade and Logistics Complex (SSTLC)

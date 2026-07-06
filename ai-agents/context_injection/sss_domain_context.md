@@ -6,9 +6,9 @@
 
 Signature Sovereign Solutions, LLC (SSS) is a Florida-registered advisory and structuring firm operating three strategic pillars:
 
-- **Pillar A (SSS Firm)**: Advisory fees, management fees (1.5% AUM), carried interest (20%). Revenue: $3.66M (Y1) → $24.16M (Y5).
-- **Pillar B (AIA Corridor)**: Blended-finance trade corridor moving strategic minerals and halal protein from Horn of Africa → Gulf → India → US/Gulf settlement. Target: $225M capital stack, 18% IRR.
-- **Pillar C (Corleone Holdings)**: Premium CPG (16-SKU Italian Heritage Line), franchise (Don Vito's Pizza Oven), media & licensing. Target: $111.67M EV at Y5.
+- **Pillar A: SSS Firm (SSS Firm)**: Advisory fees, management fees (1.5% AUM), carried interest (20%). Revenue: $3.66M (Y1) → $24.16M (Y5).
+- **Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC) (Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC))**: Blended-finance trade corridor moving strategic minerals and halal protein from Horn of Africa → Gulf → India → US/Gulf settlement. Target: $225M capital stack, 18% IRR.
+- **Pillar C: Corleone Enterprise Holdings (Corleone Holdings)**: Premium CPG (16-SKU Italian Heritage Line), franchise (Don Vito's Pizza Oven), media & licensing. Target: $111.67M EV at Y5.
 
 ## Key Entities
 
@@ -34,14 +34,14 @@ Signature Sovereign Solutions, LLC (SSS) is a Florida-registered advisory and st
 
 ## Critical Risks
 
-1. **Corleone IP not secured**: Existential to Pillar C
-2. **AIA anchor not closed**: Crippling to Pillar B + A
+1. **Corleone IP not secured**: Existential to Pillar C: Corleone Enterprise Holdings
+2. **AIA anchor not closed**: Crippling to Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC) + A
 3. **No FDD filed**: Blocks all franchise activity
 4. **No succession plan**: Key-person risk
 
 ## Program Hierarchy (Use Exactly)
 
-Signature Sovereign Solutions, LLC > Sovereign SafeTrade Program (SSTP) > Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC) > SovereignSomaliland PPP Initiative / IndiSovereign PPP Initiative > proposed SSTLC / proposed BIBC.
+Signature Sovereign Solutions, LLC > Sovereign SafeTrade Program (Sovereign SafeTrade Program (SSTP)) > Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC) > SovereignSomaliland PPP Initiative / IndiSovereign PPP Initiative > proposed SSTLC / proposed BIBC.
 
 ## Legal Gating Summary
 

@@ -2,9 +2,9 @@
 # ULTRA-DEEP SPECIFICATION: Regulatory - Somaliland - Land Tenure for PPPs
 
 ## 1. Expert Discovery & Identification
-- **Latent Needs Identified:** Comprehensive mapping of Regulatory - Somaliland - Land Tenure for PPPs within the SSTP framework.
+- **Latent Needs Identified:** Comprehensive mapping of Regulatory - Somaliland - Land Tenure for PPPs within the Sovereign SafeTrade Program (SSTP) framework.
 - **Gap Resolution:** Filling all structural holes with high-density, actionable data.
-- **Institutional Alignment:** Ensuring 100% compliance with Pillar A, B, and C requirements.
+- **Institutional Alignment:** Ensuring 100% compliance with Pillar A: SSS Firm, B, and C requirements.
 
 ## 2. Granular Detail Depth (Expert's Choice)
 - **Advanced Parameterization:** Detailed breakdown of operational, financial, and regulatory variables.
