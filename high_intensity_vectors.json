@@ -1,0 +1,12 @@
+[
+    {"id": "AISTA-001", "vector": "AISTA Bilateral Agreement Framework", "focus": "Actual 2026 trade treaty terms between US, India, and Somaliland."},
+    {"id": "VAULT-12B", "vector": "Project Vault $12B Stockpile", "focus": "Specific EXIM/DFC funding tranches and 1260H-compliant mineral lists for July 2026."},
+    {"id": "BIBC-GMS", "vector": "BIBC & RBI Gold Monetization Scheme", "focus": "2026 RBI GMS revamp details and GIFT City bullion vaulting technical standards."},
+    {"id": "SSTLC-BEZ", "vector": "SSTLC Berbera Economic Zone (BEZ)", "focus": "Phase 2 operational metrics and DP World investment status as of July 2026."},
+    {"id": "CORLEONE-CPG", "vector": "Corleone CPG & Brand Evolution", "focus": "Strategic brand architecture for 'The Making of Vito Corleone' and unit economics for Don Vito's Pizza Oven."},
+    {"id": "TMICESB-ADGM", "vector": "TMICESB ADGM Category 1 Licensing", "focus": "Actual FSRA prudential requirements and capital adequacy for sovereign clearing banks in 2026."},
+    {"id": "R3-CBDC", "vector": "R3 Corda ↔ CBDC Interoperability", "focus": "Technical bridges for mBridge and India's e-Rupee on Corda Enterprise in 2026."},
+    {"id": "NDAA-1260H", "vector": "NDAA 1260H Supply Chain Audit", "focus": "The expanded 188-entity list and its direct impact on AISTA mineral procurement."},
+    {"id": "FRANCHISE-V2", "vector": "Corleone Franchise Agreement v2.0", "focus": "Legal frameworks for consolidated supply chain mandates and royalty settlement rails."},
+    {"id": "HALAL-AISTA", "vector": "AISTA Halal Protein Trade", "focus": "Saudi/GCC 2026 import quotas and SSTLC livestock processing technical specs."}
+]
