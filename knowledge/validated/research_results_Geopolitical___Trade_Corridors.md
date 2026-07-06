@@ -1,7 +1,7 @@
-# SSTP Research Result: Geopolitical - Trade Corridors
+# Sovereign SafeTrade Program (SSTP) Research Result: Geopolitical - Trade Corridors
 
 ## Overview
-This research domain covers the critical parameters for the Sovereign SafeTrade Program (SSTP) as part of the Parallel Wide Research - Pillar A.
+This research domain covers the critical parameters for the Sovereign SafeTrade Program (Sovereign SafeTrade Program (SSTP)) as part of the Parallel Wide Research - Pillar A: SSS Firm.
 
 ## Key Findings
 - **Objective:** Consolidate institutional intelligence for sovereign-aligned capital architecture.
