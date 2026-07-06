@@ -51,7 +51,7 @@ governance:
 SSS offers a single private investor two severable doors:
 
 - **Option A — Corleone Enterprise**: A standalone, fully-architected premium-CPG house-of-brands ($107.0M illustrative EV, standalone)
-- **Option B — the AIA-SMCC Corridor**: A sovereign-PPP framework carrying two corridor assets: strategic minerals and halal protein
+- **Option B — the Afro-Indian-American Strategic Trade Alliance (Afro-Indian-American Strategic Trade Alliance (AISTA)) Corridor Corridor**: A sovereign-PPP framework carrying two corridor assets: strategic minerals and halal protein
 
 Each is investable alone or bundled. The corridor is strictly additive — the combined model proves Path A $107.0M <= Path B $109.1M <= Path C $133.4M EV. Declining the corridor costs the Corleone investor nothing.
 

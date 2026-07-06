@@ -62,9 +62,9 @@ SSS Platform (Root)
 │   ├── Revenue Stream: Advisory
 │   ├── Revenue Stream: Management Fees
 │   └── Revenue Stream: Carried Interest
-├── Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC): Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC)
+├── Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (Afro-Indian-American Strategic Trade Alliance (Afro-Indian-American Strategic Trade Alliance (AISTA)) Corridor): Afro-Indian-American Strategic Minerals and Capital Corridor (Afro-Indian-American Strategic Trade Alliance (Afro-Indian-American Strategic Trade Alliance (AISTA)) Corridor)
 │   ├── Program: Sovereign SafeTrade Program (SSTP)
-│   ├── Corridor: AIA-SMCC
+│   ├── Corridor: Afro-Indian-American Strategic Trade Alliance (Afro-Indian-American Strategic Trade Alliance (AISTA)) Corridor
 │   ├── Initiative: SovereignSomaliland PPP
 │   │   └── Asset: SSTLC (Proposed)
 │   └── Initiative: IndiSovereign PPP

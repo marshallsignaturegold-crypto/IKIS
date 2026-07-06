@@ -96,12 +96,12 @@ Pillar A: SSS Firm is Signature Sovereign Solutions, LLC itself — the Florida-
 | Mandate origination below plan | Medium | High | Three-way differentiation narrative |
 | Key-person event (Konopka/Morrison) | Low | Fatal | No succession plan documented |
 | Regulatory action (unregistered securities) | Low-Medium | Fatal | 506(c) structure planned |
-| Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC) failure | High | Crippling | Diversified revenue streams |
+| Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (Afro-Indian-American Strategic Trade Alliance (Afro-Indian-American Strategic Trade Alliance (AISTA)) Corridor) failure | High | Crippling | Diversified revenue streams |
 | Pillar C: Corleone Enterprise Holdings failure | Medium-High | Major | Diversified revenue streams |
 
 ## 5. Related Artifacts
 
-- **Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC)**: `02_pillar_b_aia_corridor.md`
+- **Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (Afro-Indian-American Strategic Trade Alliance (Afro-Indian-American Strategic Trade Alliance (AISTA)) Corridor)**: `02_pillar_b_aia_corridor.md`
 - **Pillar C: Corleone Enterprise Holdings**: `03_pillar_c_corleone.md`
 - **Strategic Thesis**: `08_strategic_thesis.md`
 

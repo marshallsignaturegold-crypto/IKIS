@@ -43,7 +43,7 @@ Contributors include:
 |-------|-------------|
 | `sss-domain` | SSS business domain artifacts |
 | `pillar-a` | Pillar A: SSS Firm (SSS Firm) |
-| `pillar-b` | Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC) (Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC)) |
+| `pillar-b` | Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (Afro-Indian-American Strategic Trade Alliance (Afro-Indian-American Strategic Trade Alliance (AISTA)) Corridor) (Afro-Indian-American Strategic Minerals and Capital Corridor (Afro-Indian-American Strategic Trade Alliance (Afro-Indian-American Strategic Trade Alliance (AISTA)) Corridor)) |
 | `pillar-c` | Pillar C: Corleone Enterprise Holdings (Corleone) |
 | `automation` | Automation and tooling |
 | `governance` | Governance and process |

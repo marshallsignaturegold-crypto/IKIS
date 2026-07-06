@@ -13,7 +13,7 @@
 
 ## 3. Comprehensive Integration
 - **IKIS Semantic Fusion:** Seamlessly merged with existing ontologies and business domains.
-- **AIA-SMCC Optimization:** Enhancing the corridor's value proposition through Operations - Digital Twins - Real-time Port Monitoring.
+- **Afro-Indian-American Strategic Trade Alliance (Afro-Indian-American Strategic Trade Alliance (AISTA)) Corridor Optimization:** Enhancing the corridor's value proposition through Operations - Digital Twins - Real-time Port Monitoring.
 - **Vault-Logic Finalization:** Delivering the "Perfectly Complete" intelligence artifact.
 
 ---

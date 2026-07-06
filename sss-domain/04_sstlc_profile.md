@@ -80,7 +80,7 @@ The SovereignSomaliland SafeTrade and Logistics Complex (SSTLC) is a proposed in
 
 ## 5. Related Artifacts
 
-- **Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC)**: `02_pillar_b_aia_corridor.md`
+- **Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (Afro-Indian-American Strategic Trade Alliance (Afro-Indian-American Strategic Trade Alliance (AISTA)) Corridor)**: `02_pillar_b_aia_corridor.md`
 - **BIBC**: `05_bibc_profile.md`
 
 ---

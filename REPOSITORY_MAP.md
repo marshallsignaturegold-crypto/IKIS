@@ -77,7 +77,7 @@
 |------|-------------|
 | `00_sss_entity_index.md` | Master index of all SSS entities |
 | `01_pillar_a_sss_firm.md` | Pillar A: SSS Firm: SSS Firm |
-| `02_pillar_b_aia_corridor.md` | Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC): Afro-Indian-American Strategic Minerals and Capital Corridor (AIA-SMCC) |
+| `02_pillar_b_aia_corridor.md` | Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (Afro-Indian-American Strategic Trade Alliance (Afro-Indian-American Strategic Trade Alliance (AISTA)) Corridor): Afro-Indian-American Strategic Minerals and Capital Corridor (Afro-Indian-American Strategic Trade Alliance (Afro-Indian-American Strategic Trade Alliance (AISTA)) Corridor) |
 | `03_pillar_c_corleone.md` | Pillar C: Corleone Enterprise Holdings: Corleone Holdings |
 | `04_sstlc_profile.md` | SSTLC profile |
 | `05_bibc_profile.md` | BIBC profile |

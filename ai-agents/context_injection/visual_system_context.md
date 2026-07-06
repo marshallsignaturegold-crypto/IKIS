@@ -12,7 +12,7 @@
 - Gold SVG connectivity-network overlay
 - SovereignSomaliland PPP circular seal as center hero (max 128mm)
 - SSS stacked logo top-left
-- AIA-SMCC seal top-right
+- Afro-Indian-American Strategic Trade Alliance (Afro-Indian-American Strategic Trade Alliance (AISTA)) Corridor seal top-right
 - Sovereign SafeTrade Program as primary title
 - 5-seal strip at bottom
 
