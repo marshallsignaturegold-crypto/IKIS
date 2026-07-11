@@ -1,0 +1,155 @@
+{
+  "stream": "1.1.10",
+  "title": "Ethiopia-Somaliland Transit Agreement",
+  "research_date": "2025-07-10",
+  "findings": {
+    "existing_transit_agreements": {
+      "value": "Ethiopia and Somaliland signed a landmark MoU on January 1, 2024, to secure sea access and diversify port options, including a potential coastal lease for a naval/commercial port. Full execution has been delayed by broader geopolitical disputes, but both sides reaffirm readiness to negotiate port access. Bilateral efforts also exist to design a Simplified Trade Regime (STR) based on COMESA standards and implement One-Stop Border Post (OSBP) models.",
+      "confidence": "high",
+      "citations": [
+        "https://www.somalilandcurrent.com/somaliland-and-ethiopia-strengthen-cross-border-trade-with-joint-one-stop-border-post-training-in-tog-wajaale/",
+        "https://eu-som-itbp.org/sites/default/files/2024-10/SPDI_Berbera%20Corridor%20Trade%20Barriers%20Report_FINAL.pdf",
+        "https://www.hornpost.com/somaliland-confirms-no-change-to-ethiopia-mou-policy-reaffirms-readiness-for-port-access-talks/",
+        "https://somalilandchronicle.com/2025/07/11/somaliland-ethiopia-mou-2-0-after-ankara-why-a-pact-is-now-inevitable/",
+        "https://www.aa.com.tr/en/africa/ethiopia-signs-deal-with-somaliland-to-secure-access-to-sea/3097715",
+        "https://eu-som-itbp.org/sites/default/files/2024-09/Analysis%20and%20Roadmap%20to%20Establish%20a%20Simplified%20Trade%20Regime%20for%20Somalia%20and%20Ethiopia_0.PDF"
+      ]
+    },
+    "customs_protocols": {
+      "value": "Ethiopia: customs clearance emphasizes revenue collection and tariff enforcement; integrated digital cargo manifests via ASYCUDA system (2020). Somaliland: utilizes clan-based trust networks alongside basic digital systems (2018). Joint OSBP training conducted June 2026 to harmonize systems, digitize documentation, and synchronize customs.",
+      "confidence": "high",
+      "citations": [
+        "https://www.somalilandcurrent.com/somaliland-and-ethiopia-strengthen-cross-border-trade-with-joint-one-stop-border-post-training-in-tog-wajaale/",
+        "https://mag.wcoomd.org/magazine/wco-news-105-issue-3-2024/surveying-stakeholders-ethiopian-borders/",
+        "https://grokipedia.com/page/togo_wuchale"
+      ]
+    },
+    "border_crossings_and_capacities": {
+      "value": "Primary formal border crossing: Tog-Wajaale (Togo Wuchale on Ethiopian side). Handles over 30,000 metric tons of cargo per month. Operates daylight hours (06:00–18:00 or 07:00–17:00). Processes about 1,000 trucks daily during peak periods. Capacity occasionally hindered by seasonal river flows and infrastructure bottlenecks. Togwajaale Border Bridge reconstruction began May 2026.",
+      "confidence": "high",
+      "citations": [
+        "https://trademarkafrica.com/togwajaale-border-bridge-reconstruction-groundbreaking/",
+        "https://bordercrossinghub.com/tog-wajaale-somaliland-togo-wuchale-ethiopia-side-border-crossing/",
+        "https://lca.logcluster.org/23-somalia-road-network",
+        "https://grokipedia.com/page/togo_wuchale"
+      ]
+    },
+    "transit_times": {
+      "value": "Berbera Corridor total distance: 937 km (241 km Somaliland, 696 km Ethiopia). Recent upgrades cut land transit times by more than one-third. Border pedestrian/passenger clearance: 30–90 minutes. Commercial truck clearance on Ethiopian side: averages 2–3 days during peak periods. Truck turnaround to Dire Dawa: ~3 days.",
+      "confidence": "high",
+      "citations": [
+        "https://www.scribd.com/document/719678942/Pre-Feasibility-Study-of-the-Regional-Transport-Sector-in-the-Berbera-Corridor-Final-Pre-Feasibility-Report",
+        "https://bordercrossinghub.com/tog-wajaale-somaliland-togo-wuchale-ethiopia-side-border-crossing/",
+        "https://lca.logcluster.org/23-somalia-road-network",
+        "https://saxafimedia.com/ethiopia-pivot-berbera-port-redrawing-trade-horn/"
+      ]
+    },
+    "freight_costs": {
+      "value": "Inland transport in Ethiopia: ~$0.92 per TEU per km for containers; ~$0.068 per ton-km for dry bulk (fertilizer). Somaliland short-haul cross-border truckloads of agricultural/food commodities: ~$400 per trip. No comprehensive per-ton-km figure for Somaliland corridor specifically found.",
+      "confidence": "medium",
+      "citations": [
+        "https://jtscm.co.za/index.php/jtscm/rt/printerFriendly/567/1066",
+        "https://jtscm.co.za/index.php/jtscm/article/view/567/1066",
+        "https://fews.net/sites/default/files/documents/reports/EA_Crossborder_Profile_Togowajale.pdf"
+      ]
+    },
+    "customs_procedures": {
+      "value": "Documentation: electronic cargo manifests (ASYCUDA Ethiopia), basic digital systems (Somaliland). Inspection: physical inspection rates vary; Ethiopian side emphasizes revenue protection. Clearance time: 2–3 days for trucks at peak on Ethiopian side; Somaliland side generally faster. ECTN required for maritime shipments via Berbera at least 5 days prior to vessel departure.",
+      "confidence": "high",
+      "citations": [
+        "https://www.somalilandcurrent.com/somaliland-and-ethiopia-strengthen-cross-border-trade-with-joint-one-stop-border-post-training-in-tog-wajaale/",
+        "https://mag.wcoomd.org/magazine/wco-news-105-issue-3-2024/surveying-stakeholders-ethiopian-borders/",
+        "https://bordercrossinghub.com/tog-wajaale-somaliland-togo-wuchale-ethiopia-side-border-crossing/",
+        "https://ectnsomaliland.com/somaliland-ectn-faq/"
+      ]
+    },
+    "duties_and_tariffs": {
+      "value": "Somaliland standard tariff schedule: simple unweighted average 22%. Food imports taxed at 26%; fuel/transportation at 12%. Neither country currently participates in COMESA Free Trade Area, so standard schedules apply. Ongoing bilateral negotiations for Simplified Trade Regime (STR) to exonerate small-scale border trade under value thresholds (historically aligned with COMESA $2,000 threshold).",
+      "confidence": "high",
+      "citations": [
+        "https://eu-som-itbp.org/sites/default/files/2024-10/SPDI_Berbera%20Corridor%20Trade%20Barriers%20Report_FINAL.pdf",
+        "https://media.odi.org/documents/AfCFTA_and_Berbera_Corridor_Somaliland_PDF.pdf",
+        "https://eu-som-itbp.org/sites/default/files/2024-09/Analysis%20and%20Roadmap%20to%20Establish%20a%20Simplified%20Trade%20Regime%20for%20Somalia%20and%20Ethiopia_0.PDF"
+      ]
+    },
+    "infrastructure": {
+      "value": "Berbera Corridor: well-maintained tarmac roads funded by Abu Dhabi Fund for Development and UK DFID. Rebuilt 250 km highway and 22.5 km Hargeisa Bypass in Somaliland. Togwajaale Border Bridge reconstruction began May 2026 to replace vulnerable concrete riverbeds/fords that previously caused up to 6-hour delays during rains. Checkpoint and quarantine facilities exist at border.",
+      "confidence": "high",
+      "citations": [
+        "https://trademarkafrica.com/togwajaale-border-bridge-reconstruction-groundbreaking/",
+        "https://saxafimedia.com/regularly-trading-ethiopia-somaliland-borderlands/",
+        "https://www.scribd.com/document/719678942/Pre-Feasibility-Study-of-the-Regional-Transport-Sector-in-the-Berbera-Corridor-Final-Pre-Feasibility-Report",
+        "https://www.dpworld.com/en/news/ministry-of-transport-of-ethiopia-and-dp-world-sign-mou-for-the-development-of-the-ethiopian-side-of-the-berbera-corridor"
+      ]
+    },
+    "security_conditions": {
+      "value": "Security along the corridor is highly stable compared to alternative routes through Somalia. Sporadic localized cargo audits conducted to counter contraband smuggling. Land security on Ethiopian side of border has experienced regional conflict but cargo generally moves normally. No major banditry reported on Somaliland side.",
+      "confidence": "high",
+      "citations": [
+        "https://trademarkafrica.com/togwajaale-border-bridge-reconstruction-groundbreaking/",
+        "https://saxafimedia.com/regularly-trading-ethiopia-somaliland-borderlands/",
+        "https://somalilandchronicle.com/2025/07/11/somaliland-ethiopia-mou-2-0-after-ankara-why-a-pact-is-now-inevitable/"
+      ]
+    },
+    "ethiopian_ministry_role": {
+      "value": "Ethiopian Ministry of Trade and Regional Integration, along with Ethiopian Customs Commission, actively involved in bilateral negotiations with Somaliland's Ministry of Trade and Tourism. Joint focus: implementing OSBP frameworks, establishing STR common list of originating goods, organizing training to standardize border procedures.",
+      "confidence": "high",
+      "citations": [
+        "https://www.somalilandcurrent.com/somaliland-and-ethiopia-strengthen-cross-border-trade-with-joint-one-stop-border-post-training-in-tog-wajaale/",
+        "https://eu-som-itbp.org/sites/default/files/2024-09/Analysis%20and%20Roadmap%20to%20Establish%20a%20Simplified%20Trade%20Regime%20for%20Somalia%20and%20Ethiopia_0.PDF"
+      ]
+    },
+    "bilateral_trade_volume": {
+      "value": "Formal bilateral trade Ethiopia-Somaliland: estimated 30,000–35,000 tons annually. Informal border trade is significantly larger. By early 2026, transit volumes through Berbera accounted for 22% of Ethiopia's total maritime trade. Somaliland's overall livestock exports: $170–180 million annually (mostly to Gulf markets).",
+      "confidence": "high",
+      "citations": [
+        "https://www.scribd.com/document/719678942/Pre-Feasibility-Study-of-the-Regional-Transport-Sector-in-the-Berbera-Corridor-Final-Pre-Feasibility-Report",
+        "https://media.odi.org/documents/AfCFTA_and_Berbera_Corridor_Somaliland_PDF.pdf",
+        "https://www.govsomaliland.org/uploads/files/2022/04/2022-04-10-07-12-42-8537-1649574762.pdf",
+        "https://fews.net/sites/default/files/documents/reports/EA_Crossborder_Profile_Togowajale.pdf"
+      ]
+    },
+    "main_ethiopian_exports": {
+      "value": "Main Ethiopian exports into Somaliland: agricultural produce (potatoes, onions, khat, fruits, coffee) and manufactured items. From Somaliland into Ethiopia: food items (rice, sugar, wheat flour, cooking oil imported via Berbera) and local washing powder. Livestock is primarily exported from Somaliland to Gulf markets, not to Ethiopia.",
+      "confidence": "high",
+      "citations": [
+        "https://www.scribd.com/document/719678942/Pre-Feasibility-Study-of-the-Regional-Transport-Sector-in-the-Berbera-Corridor-Final-Pre-Feasibility-Report",
+        "https://media.odi.org/documents/AfCFTA_and_Berbera_Corridor_Somaliland_PDF.pdf",
+        "https://fews.net/sites/default/files/documents/reports/EA_Crossborder_Profile_Togowajale.pdf",
+        "https://horntribune.com/2023/01/02/somaliland-ethiopia-relations-a-viable-pathway-to-catapult-horn-africas-economic-integration-amb-awed/"
+      ]
+    }
+  },
+  "gaps": [
+    {
+      "priority": "P1",
+      "item": "Ratified, legally binding Ethiopia-Somaliland transit treaty (not just MoU) — does one exist, or is the MoU the only instrument?",
+      "status": "Not found in sources; appears to be MoU only"
+    },
+    {
+      "priority": "P1",
+      "item": "Specific freight cost per ton-km for the full Berbera Corridor (Ethiopia to Berbera port) — not just Ethiopian inland or Somaliland short-haul segments",
+      "status": "Not found in sources"
+    },
+    {
+      "priority": "P2",
+      "item": "Detailed customs documentation checklist and forms required for Ethiopian exports through Somaliland to third countries",
+      "status": "Partially found; ASYCUDA and ECTN mentioned but full checklist not available"
+    },
+    {
+      "priority": "P2",
+      "item": "Current status of the Simplified Trade Regime (STR) implementation — has it been operationalized or is it still in negotiation?",
+      "status": "Sources indicate ongoing negotiation/roadmap phase"
+    },
+    {
+      "priority": "P3",
+      "item": "Specific TIR carnet or bonded transit procedures for Ethiopian goods moving through Somaliland to Berbera port",
+      "status": "Not found in sources"
+    },
+    {
+      "priority": "P3",
+      "item": "Insurance and cargo security arrangements for transit goods (theft, damage, delay coverage)",
+      "status": "Not found in sources"
+    }
+  ]
+}

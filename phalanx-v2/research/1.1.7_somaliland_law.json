@@ -1,0 +1,135 @@
+{
+  "stream": "1.1.7",
+  "title": "Somaliland Investment Law",
+  "research_date": "2025-07-10",
+  "findings": {
+    "investment_law_framework": {
+      "value": "Somaliland's investments are governed by the Somaliland Investment Act (No. 99/2021), which updated and superseded the Foreign Investment Law (No. 29/2004/2008). The law applies to wholly foreign-owned, joint-venture, and wholly domestic investments, aiming to promote, manage, and facilitate investments while addressing poverty and unemployment.",
+      "confidence": "high",
+      "citations": [
+        "http://www.somalilandlaw.com/Xeerka-Maalgashiga-Jamhuuriyadda-Somaliland-Xeer-Lr.-99-2021.pdf",
+        "https://www.govsomaliland.org/uploads/files/2025/09/2025-09-26-08-14-20-9125-1758917660.pdf",
+        "https://investsomaliland.org/files/investment-guide.pdf"
+      ]
+    },
+    "incentives_for_foreign_investors": {
+      "value": "Substantial fiscal incentives: 100% tax holiday on business profits for 3–5 years depending on project scale and sector; 100% customs duty exemptions on imported capital goods, raw materials, machinery, and equipment; 100% profit repatriation; 100% foreign ownership permitted.",
+      "confidence": "high",
+      "citations": [
+        "http://www.somalilandlaw.com/body_foreign_investment_law_2004.htm",
+        "https://www.govsomaliland.org/uploads/files/2025/09/2025-09-26-08-14-20-9125-1758917660.pdf",
+        "https://moiid.govsomaliland.org/article/why-invest-somaliland-1",
+        "https://horntribune.com/wp-content/uploads/2025/10/Somaliland-Investment-Brochure.pdf"
+      ]
+    },
+    "investment_promotion_office": {
+      "value": "The Ministry of Investment and Industrial Development (MOIID), established in 2017, serves as the main regulatory body. It operates a dedicated One-Stop Investment Center to coordinate and streamline registration, licensing, and approval processes for both domestic and foreign investors.",
+      "confidence": "high",
+      "citations": [
+        "https://www.govsomaliland.org/uploads/files/2025/09/2025-09-26-08-14-20-9125-1758917660.pdf",
+        "https://moiid.govsomaliland.org",
+        "https://horntribune.com/wp-content/uploads/2025/10/Somaliland-Investment-Brochure.pdf"
+      ]
+    },
+    "concession_framework": {
+      "value": "Concessions are granted by the Government of Somaliland (typically via Cabinet/Ministry of Investment). Major precedent: DP World Berbera Port concession signed 2016 — 30-year term with optional 10-year extension. DP World holds 51% controlling stake; Somaliland 30%; Ethiopia 19% (Ethiopia failed to acquire its share in 2022). Somaliland receives $5 million annually from 2020 plus 10% of port handling services revenue. 10-year corporate tax holiday (100% first 10 years, 50% next 5 years).",
+      "confidence": "high",
+      "citations": [
+        "https://www.somalilandbiz.net/watch-list-dp-world-berbera-deal/",
+        "https://www.somaliland.com/wp-content/uploads/2019/09/Berbera-Port-Geopolitics-and-State-making-in-Somaliland-by-Wasame-M.-Ahmed-and-Finn-Stepputat-RVI-Briefing-2019.pdf",
+        "https://en.goobjoog.com/somaliland-approves-30-year-berbera-port-concession-to-dp-world/"
+      ]
+    },
+    "foreign_investment_protections": {
+      "value": "Investment Act guarantees against nationalization and expropriation without due process and prompt fair market-value compensation. Dispute resolution promotes ADR, domestic courts, and international arbitration. Historically, arbitration boards formed by representatives from both parties and a neutral chairperson or the President of the Supreme Court.",
+      "confidence": "high",
+      "citations": [
+        "http://www.somalilandlaw.com/Xeerka-Maalgashiga-Jamhuuriyadda-Somaliland-Xeer-Lr.-99-2021.pdf",
+        "http://www.somalilandlaw.com/body_foreign_investment_law_2004.htm",
+        "https://www.govsomaliland.org/uploads/files/2025/09/2025-09-26-08-14-20-9125-1758917660.pdf"
+      ]
+    },
+    "tax_regime": {
+      "value": "Corporate (business income) tax rate: 12.3% inclusive of administrative and stamp duties. Inland taxes include personal payroll taxes, withholding taxes, and Goods and Services Tax (GST). Customs duties and import/export levies collected at ports comprise over 70% of total government revenues. No specific VAT rate confirmed in sources; GST appears to be the consumption tax instrument.",
+      "confidence": "medium",
+      "citations": [
+        "https://www.govsomaliland.org/uploads/files/2022/06/2022-06-12-06-59-48-9310-1655017188.pdf",
+        "https://slmof.org/corporate-income-tax/"
+      ]
+    },
+    "labor_law": {
+      "value": "Private sector employment regulated by Private Sector Employees Law (No. 31/2004, amended 2010 and 2020). SEZ labor quotas: 100% unskilled labor must be Somaliland nationals; priority for nationals in semi-skilled labor with expectation of at least 70% local workforce participation unless special permit granted. No confirmed minimum wage figure in sources.",
+      "confidence": "high",
+      "citations": [
+        "http://www.somalilandlaw.com/labour_employment_law.html",
+        "http://www.somalilandlaw.com/Labour_Law_2020_Arrangments_of_the_Article_Som-Eng.pdf",
+        "http://www.somalilandlaw.com/Somaliland_Special_Economic_Zones_Law_2021.pdf"
+      ]
+    },
+    "land_tenure": {
+      "value": "Land is public property commonly owned by the nation; state acts as manager. Foreigners cannot own land freehold but are granted restricted rights of occupancy or long-term leaseholds. Government provides long-term leases on industrial and commercial land at preferential rates (e.g., 25-year lease terms common in agricultural and economic zones).",
+      "confidence": "high",
+      "citations": [
+        "https://horntribune.com/wp-content/uploads/2025/10/Somaliland-Investment-Brochure.pdf",
+        "https://www.scribd.com/document/829803075/SOMALILAND-NATIONAL-LAND-POLICY-SCOPING",
+        "https://www.openlandcontracts.org/contract/ocds-591adf-7435167933/download/pdf"
+      ]
+    },
+    "environmental_requirements": {
+      "value": "Somaliland Environmental Management Act requires comprehensive Environmental Impact Assessment (EIA) by authorized experts before starting major undertakings. Proponents must obtain environmental clearance certificate from the Ministry. Act also allows customs and excise waivers on imported capital goods designed to prevent environmental degradation.",
+      "confidence": "high",
+      "citations": [
+        "https://leap.unep.org/sites/default/files/legislation/SOM/somaliland-environmental-management-act.pdf"
+      ]
+    },
+    "political_status_and_recognition": {
+      "value": "On December 26, 2025, Israel became the first country to officially recognize Somaliland as an independent state. The move was condemned by Somalia, UN Security Council, and Arab states, but supported by the United States. This is a significant milestone but does not yet provide broad international recognition. Most countries and international organizations still do not recognize Somaliland.",
+      "confidence": "high",
+      "citations": [
+        "https://web.archive.org/web/20260104212412/https:/www.timesofisrael.com/israel-becomes-first-country-to-recognize-breakaway-somaliland-as-independent-state/",
+        "https://www.aljazeera.com/news/2025/12/26/israel-becomes-first-country-to-recognise-somaliland",
+        "https://press.un.org/en/2025/sc16270.doc.htm"
+      ]
+    },
+    "foreign_concession_precedents": {
+      "value": "DP World Berbera Port (2016) is the primary foreign concession precedent. Other smaller precedents exist in telecom and energy but are less documented. Concession durations: 30+10 years for port. Fee structures: annual fixed fee + revenue share (10% of handling services). Revenue sharing and fixed fees are negotiated on a project-by-project basis.",
+      "confidence": "high",
+      "citations": [
+        "https://www.somalilandbiz.net/watch-list-dp-world-berbera-deal/",
+        "https://www.somaliland.com/wp-content/uploads/2019/09/Berbera-Port-Geopolitics-and-State-making-in-Somaliland-by-Wasame-M.-Ahmed-and-Finn-Stepputat-RVI-Briefing-2019.pdf"
+      ]
+    }
+  },
+  "gaps": [
+    {
+      "priority": "P1",
+      "item": "Somaliland VAT/GST rate and detailed tax code for foreign investors — specific rates and exemptions beyond the 12.3% corporate tax headline",
+      "status": "Partially found; detailed GST rate not confirmed"
+    },
+    {
+      "priority": "P1",
+      "item": "Bilateral Investment Treaties (BITs) — does Somaliland have any signed BITs with specific countries, or does it rely on domestic law protections only?",
+      "status": "Not found in sources"
+    },
+    {
+      "priority": "P2",
+      "item": "National minimum wage and expatriate work permit quota system — specific numbers and fees",
+      "status": "Not found in sources"
+    },
+    {
+      "priority": "P2",
+      "item": "Standard concession template / model agreement terms used by Somaliland for new investors (beyond DP World precedent)",
+      "status": "Not found in public sources"
+    },
+    {
+      "priority": "P3",
+      "item": "International arbitration enforceability — has any foreign arbitral award been enforced in Somaliland courts?",
+      "status": "Not found in sources"
+    },
+    {
+      "priority": "P3",
+      "item": "Specific environmental monitoring and compliance cost estimates for industrial projects",
+      "status": "Not found in sources"
+    }
+  ]
+}

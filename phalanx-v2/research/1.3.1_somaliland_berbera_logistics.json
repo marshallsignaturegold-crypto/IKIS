@@ -1,0 +1,147 @@
+{
+  "stream": "1.3.1",
+  "title": "Somaliland-Berbera Logistics",
+  "research_date": "2025-07-10",
+  "findings": {
+    "berbera_port_capacity": {
+      "value": "Phase 1 expansion completed June 2021: capacity increased from 150,000 TEU to 500,000 TEU annually. Facilities: 400m quay, 17m draft, 3 STS gantry cranes, 8 RTGs. Phase 2 (triggered at 75% Phase 1 utilization) will extend quay to 1,000m, add STS cranes to 10 total, expand capacity to 2 million TEU annually, enabling simultaneous handling of multiple large container vessels.",
+      "confidence": "high",
+      "citations": [
+        "https://www.thenationalnews.com/business/2025/07/27/can-somalilands-berbera-port-anchor-african-trade-security/",
+        "https://indiashippingnews.com/transforming-berbera-into-a-world-class-centre-of-trade-dp-world/",
+        "https://www.zawya.com/en/business/dubais-dp-world-opens-berbera-port-in-somaliland-uu688ff1",
+        "https://qaran2.rssing.com/chan-13057437/article16759.html"
+      ]
+    },
+    "road_to_ethiopia": {
+      "value": "Berbera Corridor total distance: 937 km (241 km Somaliland, 696 km Ethiopia). Rebuilt 250 km highway and 22.5 km Hargeisa Bypass in Somaliland funded by Abu Dhabi Fund for Development and UK DFID. Severe seasonal flooding in late 2025 collapsed a key bridge; UAE contractor NBHH resumed rebuilding early 2026. By early 2026, transit volumes through Berbera accounted for 22% of Ethiopia's total maritime trade.",
+      "confidence": "high",
+      "citations": [
+        "https://www.scribd.com/document/719678942/Pre-Feasibility-Study-of-the-Regional-Transport-Sector-in-the-Berbera-Corridor-Final-Pre-Feasibility-Report",
+        "https://maritimafrica.com/en/dp-world-launches-new-jebel-ali-berbera-shipping-route/",
+        "https://saxafimedia.com/nbhh-resumes-work-somaliland-berbera-corridor/"
+      ]
+    },
+    "cold_chain_facilities": {
+      "value": "Berbera Special Economic Zone has dedicated cold chain handling and storage areas. Solar-powered refrigeration and cold storage in Berbera and coastal communities. New solar-powered Berbera Fish Market with built-in cold rooms completed 2024 (TradeMark Africa partnership). Berbera International Airport has cargo facilities for frozen and chilled perishable cargo.",
+      "confidence": "high",
+      "citations": [
+        "https://eu-som-itbp.org/sites/default/files/2024-10/SPDI_Berbera%20Corridor%20Trade%20Barriers%20Report_FINAL.pdf",
+        "https://somalilandstandard.com/cold-chain-in-somaliland-makes-fishing-more-lucrative/",
+        "https://trademarkafrica.com/projects/berbera-fish-market/"
+      ]
+    },
+    "customs_efficiency": {
+      "value": "24-hour electronic processing at Berbera Port. Average container inspection rate ~8%. All import shipments require Electronic Cargo Tracking Note (ECTN) at least 5 days prior to vessel departure. One-Stop Service Centre handles consolidated logistics documentation. Customs processing is generally fast-tracked compared to regional bottlenecks.",
+      "confidence": "high",
+      "citations": [
+        "https://qaran2.rssing.com/chan-13057437/article16759.html",
+        "https://en.56ok.com/topic/detail-815688-berbera-port-boosts-horn-of-africa-trade.html",
+        "https://ectnsomaliland.com/somaliland-ectn-faq/"
+      ]
+    },
+    "shipping_routes": {
+      "value": "Jebel Ali - Berbera service (DP World + Summit Shipping, launched Oct 2025): 9-day rotation (Dubai - Aden - Djibouti - Berbera) using two 713 TEU feeder vessels. RGS service (PIL + Feedertech): 3-week rotation (Mundra India - Dubai - Djibouti - Jeddah - Berbera) using three 1,800 TEU vessels.",
+      "confidence": "high",
+      "citations": [
+        "https://maritimafrica.com/en/dp-world-launches-new-jebel-ali-berbera-shipping-route/",
+        "https://theloadstar.com/dp-world-launches-second-shipping-service-as-it-develops-berbera-port/"
+      ]
+    },
+    "freight_costs": {
+      "value": "FCL freight costs (indicative, highly variable due to geopolitical conditions): Mundra to Berbera ~$7,306; Berbera to Khor Fakkan $8,131–$8,470; Berbera to Jebel Ali $14,877–$15,497. Somaliland Coast Guard provides maritime escorts to reduce war risk insurance premiums.",
+      "confidence": "medium",
+      "citations": [
+        "https://saxafimedia.com/somaliland-maritime-security-escorts-shipping/",
+        "https://www.cogoport.com/tr-TR/rates/berbera-sp-to-khor-fakkan-sp",
+        "https://www.cogoport.com/lv-LV/rates/mundra-sp-to-berbera-sp",
+        "https://www.cogoport.com/lv-LV/rates/berbera-sp-to-jebel-ali-sp"
+      ]
+    },
+    "port_fees_and_charges": {
+      "value": "Terminal Handling Charges (THC): imports/local cargo $482 (20ft) / $859 (40ft) non-cigarettes; transit cargo $330 (20ft) / $650 (40ft). Storage: free first 8 days, then $2/TEU (days 9–14) up to $10.50/TEU (from day 29). Marine services: berthing/unberthing $400 (up to 3,000 GRT); pilotage $300 (up to 3,000 GRT) or $0.12/RTG for larger; general port service charge $90 per ship.",
+      "confidence": "high",
+      "citations": [
+        "https://en.56ok.com/topic/detail-815688-berbera-port-boosts-horn-of-africa-trade.html",
+        "https://myportal.dpworldberbera.com/assets/pdf/bbo_tariff_book_eff_JAN2022.pdf"
+      ]
+    },
+    "dp_world_concession_structure": {
+      "value": "30-year concession (optional 10-year extension) awarded May 2016. Total planned investment up to $442 million. Shareholding: DP World 51%, Somaliland 30%, Ethiopia 19% (Ethiopia failed to acquire its share in 2022). Somaliland receives $5 million annually from 2020 plus 10% of port handling services revenue. 10-year corporate tax holiday (100% first 10 years, 50% next 5 years).",
+      "confidence": "high",
+      "citations": [
+        "https://www.bbc.co.uk/news/business-36537044",
+        "https://pure.diis.dk/ws/files/3006484/RVI_Briefing_2019_Ahmed_and_Stepputat_Berbera.pdf",
+        "https://www.howwemadeitinafrica.com/waiting-for-ethiopia-berbera-port-upgrade-raises-somalilands-hopes-for-trade/146647/",
+        "https://www.somalilandbiz.net/watch-list-dp-world-berbera-deal/"
+      ]
+    },
+    "berbera_economic_zone": {
+      "value": "Berbera Economic Zone (BEZ) launched March 2023, modeled after Dubai's Jebel Ali Free Zone (Jafza). Master plan over 1,200 hectares. Incentives: 0% corporate tax for 50 years, 100% foreign ownership, 100% capital and profit repatriation, duty-free storage, exemption from import/export permits, ability to employ foreign labor. One-stop-shop registration via Jafza-linked system.",
+      "confidence": "high",
+      "citations": [
+        "https://www.somalilandinvest.com/investment-opportunities/somaliland-sez",
+        "https://www.dpworld.com/en/news/dp-world-somaliland-open-berbera-economic-zone",
+        "https://saxafimedia.com/dp-world-launches-berbera-economic-zone-somaliland/",
+        "https://www.jafza.ae/resource-centre/media/news/dp-world-launches-berbera-economic-zone-in-somaliland/"
+      ]
+    },
+    "labor_costs": {
+      "value": "Unskilled casual labor: ~$54/month or $6.15/day standard; ~$10/day in Berbera due to heat/hardship. Semi-skilled: ~$92/month standard; skilled/specialized in Berbera: ~$15/day or $120/month standard. In-port stevedoring/porter unions (Gelle): $3.50 per metric ton.",
+      "confidence": "high",
+      "citations": [
+        "https://lca.logcluster.org/33-somalia-manual-labor-costs"
+      ]
+    },
+    "utility_costs": {
+      "value": "Electricity: historically up to $1.00/kWh due to private monopoly operators and high grid losses. Fresh water: highly scarce; 200-liter tank price rose to 17,000 SL SH (~$4.00 in rural areas) as of early 2026 due to diesel costs. Fuel: volatile; petrol averaged 8,200–8,400 SL SH (~$0.81/liter) in early 2026. Government established technical committee April 2026 to explore cheaper fuel for industrial users.",
+      "confidence": "high",
+      "citations": [
+        "https://somalilandchronicle.com/2020/09/06/somalilands-state-of-energy/",
+        "https://www.gallaydh.com/post/somaliland-fuel-crisis-strategic-economic-solutions-2026",
+        "https://reliefweb.int/sites/reliefweb.int/files/resources/WFP-0000137069.pdf",
+        "https://www.dawan.africa/news/somaliland-sets-up-committee-to-cut-industrial-fuel-costs"
+      ]
+    },
+    "security_situation": {
+      "value": "No successful piracy attacks in Somaliland territorial waters in over a decade. However, Somaliland waters are classified as high-risk by Joint War Committee (JWC) due to lack of international recognition. Somaliland Coast Guard provides 24-hour escorts and introduced Berbera Secure Approach Protocol (BSAP) in early 2026, establishing a Secure Maritime Zone to mitigate risk and provide compliance certificates for insurers. Land security along corridor is stable; cargo moves normally despite regional conflicts on Ethiopian side.",
+      "confidence": "high",
+      "citations": [
+        "https://saxafimedia.com/somaliland-maritime-security-escorts-shipping/",
+        "https://www.thenationalnews.com/business/2025/07/27/can-somalilands-berbera-port-anchor-african-trade-security/"
+      ]
+    }
+  },
+  "gaps": [
+    {
+      "priority": "P1",
+      "item": "Current utilization rate of Berbera Phase 1 capacity (500K TEU) — is the 75% Phase 2 trigger threshold reached?",
+      "status": "Not found in sources"
+    },
+    {
+      "priority": "P1",
+      "item": "Comprehensive refrigerated warehouse capacity (square meters / pallet positions) at Berbera port and BEZ",
+      "status": "Partially found; cold chain areas exist but total capacity not quantified"
+    },
+    {
+      "priority": "P2",
+      "item": "Average customs clearance time in days for containers and breakbulk cargo at Berbera port — specific metrics",
+      "status": "Not found in sources; only 'fast-tracked' mentioned qualitatively"
+    },
+    {
+      "priority": "P2",
+      "item": "Actual war risk insurance premium differential for vessels calling Berbera vs. Djibouti or Mombasa",
+      "status": "Not found in sources; only BSAP mitigation program mentioned"
+    },
+    {
+      "priority": "P3",
+      "item": "BEZ land lease rates per hectare and current occupancy / tenant list",
+      "status": "Not found in sources"
+    },
+    {
+      "priority": "P3",
+      "item": "Reliable electricity tariff for industrial users inside BEZ (distinct from national average $1.00/kWh)",
+      "status": "Not found in sources"
+    }
+  ]
+}

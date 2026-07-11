@@ -1,0 +1,132 @@
+{
+  "stream": "1.1.6",
+  "title": "Ethiopia WOAH FMD-Free Zone",
+  "research_date": "2025-07-10",
+  "findings": {
+    "current_fmd_status_ethiopia": {
+      "value": "FMD is endemic and widely prevalent across Ethiopia, with multiple circulating serotypes including O, A, SAT 1, and SAT 2. Ethiopia does not currently hold an officially recognized FMD-free country or zone status from WOAH. The country is working toward the Progressive Control Pathway (PCP-FMD) and intends to establish official Disease-Free Zones (DFZs) in key pastoral and export livestock-sourcing areas such as Borana, South Omo, Fafan, Ogaden, and Afar.",
+      "confidence": "high",
+      "citations": [
+        "https://bmcvetres.biomedcentral.com/articles/10.1186/s12917-024-04382-4",
+        "https://rr-africa.woah.org/app/uploads/2025/11/6.-Golo-Jaldessa_FMD-Control-Ethiopia.pdf",
+        "https://www.veteringroup.us/articles/IJVSR-7-201.php",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10724896/"
+      ]
+    },
+    "seroprevalence_bale_zone": {
+      "value": "A comprehensive cross-sectional study in the export livestock-sourcing districts of Bale Zone, Ethiopia (published Nov 2024), revealed an overall FMD NSP antibody seroprevalence of 20.8% (95% CI: 18.3–23.5) in tested cattle. Seroprevalence varied significantly by district: Seweyna 35.2%, Dinsho 13.0%. Serotype-specific testing on positive samples indicated exposure to multiple serotypes: 71% SAT 1, 43% serotype O, 38% SAT 2, 30% serotype A. 15–40% of animals showed exposure to multiple serotypes.",
+      "confidence": "high",
+      "citations": [
+        "https://bmcvetres.biomedcentral.com/articles/10.1186/s12917-024-04382-4",
+        "https://doi.org/10.1186/s12917-024-04382-4"
+      ],
+      "note": "This is the most recent published data for Bale Zone as of 2024. No more recent data found."
+    },
+    "woah_fmd_free_zone_requirements": {
+      "value": "WOAH Chapter 8.8 of the Terrestrial Code requires: (1) regular and prompt animal disease reporting; (2) documented proof of effective veterinary supervision and biosecurity; (3) strict animal movement controls and permanent animal identification; (4) prohibition of FMD vaccination within the zone; (5) clearly defined boundaries separating the zone from infected areas (utilizing protection zones or natural barriers); (6) diagnostic testing at approved laboratories in line with the WOAH Terrestrial Manual.",
+      "confidence": "high",
+      "citations": [
+        "https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_selfdeclaration_FMD.htm",
+        "https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/current/chapitre_fmd.pdf"
+      ]
+    },
+    "application_process_and_forms": {
+      "value": "Applicant must complete and submit the detailed questionnaire in Chapter 1.11 of the Terrestrial Animal Health Code. Package includes: (1) formal letter signed by the national Delegate; (2) one-page executive summary; (3) core dossier ~50 pages; (4) contact details of technical staff; (5) proof of application fee payment.",
+      "confidence": "high",
+      "citations": [
+        "https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_selfdeclaration_FMD.htm",
+        "https://www.woah.org/app/uploads/2024/06/a-sop-application-woah.pdf"
+      ]
+    },
+    "twelve_month_surveillance_requirement": {
+      "value": "The applicant must show documented evidence that for at least 12 months: (1) no clinical case of FMD or evidence of infection in unvaccinated animals; (2) no FMD vaccination carried out; (3) active and passive surveillance per Terrestrial Code Articles 8.8.40–8.8.42 fully operational to detect clinical signs and viral presence.",
+      "confidence": "high",
+      "citations": [
+        "https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_selfdeclaration_FMD.htm",
+        "https://www.woah.org/app/uploads/2024/03/a-ahg-fmd-report-2023-public.pdf"
+      ]
+    },
+    "evaluation_criteria_and_timeline": {
+      "value": "Applications must be submitted at least 2 months prior to the ad hoc Group evaluation meeting (typically October). Preliminary screening by Status Department, then detailed evaluation by ad hoc Group, recommendation to Scientific Commission, final recognition by World Assembly the following May. Total timeline from submission to potential recognition: ~12–18 months.",
+      "confidence": "high",
+      "citations": [
+        "https://rr-asia.woah.org/app/uploads/2025/05/5.7-M.Park_SEACFMD_EpiNet_May2025_Day2-2.pdf",
+        "https://www.woah.org/app/uploads/2025/03/a-ahg-fmd-report-2024-public-final.pdf",
+        "https://www.woah.org/app/uploads/2024/10/tor-ad-hoc-fmd-oct24.pdf"
+      ]
+    },
+    "emergency_preparedness_plan": {
+      "value": "The dossier must detail: (1) clear action plan for outbreak control and eradication (stamping-out, modified stamping-out, emergency zoning, movement controls, emergency vaccination); (2) justification of corrective actions; (3) early warning system and diagnostic capabilities to confirm suspected cases rapidly.",
+      "confidence": "high",
+      "citations": [
+        "https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_selfdeclaration_FMD.htm",
+        "https://www.woah.org/app/uploads/2024/03/a-ahg-fmd-report-2023-public.pdf"
+      ]
+    },
+    "geo_referenced_maps": {
+      "value": "Boundaries must be clearly defined. Application must include digitalized, geo-referenced maps plus precise written textual description of geographical limits and any protection zones applied to segregate the free zone from adjacent infected areas.",
+      "confidence": "high",
+      "citations": [
+        "https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_selfdeclaration_FMD.htm"
+      ]
+    },
+    "border_inspection_protocols": {
+      "value": "Must document system preventing FMD virus entry: established border and zone veterinary inspection protocols, veterinary control posts, animal quarantine stations (Ethiopia operates stations in Jijiga, Mile, Metema), strict regulatory controls on import/transit of live animals and commodities.",
+      "confidence": "medium",
+      "citations": [
+        "https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_selfdeclaration_FMD.htm",
+        "https://www.veteringroup.us/articles/IJVSR-7-201.php"
+      ]
+    },
+    "fmd_detection_during_evaluation": {
+      "value": "If FMD is detected during evaluation or in an already recognized zone, status is immediately suspended by the Director General effective from the date of non-compliance. Members have up to 2 years to submit documentation proving successful outbreak management; otherwise status is withdrawn and a new application must be submitted.",
+      "confidence": "high",
+      "citations": [
+        "https://www.woah.org/app/uploads/2024/09/a-sop-susp-recovery-woah-1.pdf",
+        "https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2022.1013768/full"
+      ]
+    },
+    "african_precedents": {
+      "value": "Botswana, Namibia, and Zimbabwe have established WOAH-recognized FMD-free zones where vaccination is not practiced. However, these zones face high vulnerability; Botswana had multiple FMD-free zone statuses suspended in early 2026 following outbreak notifications. These precedents demonstrate both achievability and risk for African countries.",
+      "confidence": "high",
+      "citations": [
+        "https://www.wrlfmd.org/southern-africa/botswana",
+        "https://www.woah.org/app/uploads/2026/06/gs93-2026-res-19-tech-fmd-status-en-1.pdf"
+      ]
+    },
+    "application_costs": {
+      "value": "First-time application fee for FMD-free zone status: 9,000 Euros standard. As a Least Developed Country (LDC), Ethiopia qualifies for 50% discount = 4,500 Euros. Re-application or new zone additions: 2,250 Euros for LDCs. Does NOT include travel/operational costs of expert field missions.",
+      "confidence": "high",
+      "citations": [
+        "https://www.woah.org/app/uploads/2024/06/a-sop-application-woah.pdf"
+      ]
+    }
+  },
+  "gaps": [
+    {
+      "priority": "P1",
+      "item": "Ethiopia's current formal application status to WOAH for FMD-free zone recognition — has Ethiopia submitted a dossier, or is it still in PCP-FMD stage?",
+      "status": "Not found in public sources"
+    },
+    {
+      "priority": "P1",
+      "item": "Specific geo-referenced map files and digital boundary data for proposed DFZs (Borana, South Omo, Fafan, Ogaden, Afar) — are these already prepared?",
+      "status": "Not found in public sources"
+    },
+    {
+      "priority": "P2",
+      "item": "Ethiopia's national FMD emergency preparedness plan documentation — does it meet WOAH standards?",
+      "status": "Not found in public sources"
+    },
+    {
+      "priority": "P2",
+      "item": "Cost estimate for field missions and external veterinary expert support during evaluation",
+      "status": "Not found in public sources"
+    },
+    {
+      "priority": "P3",
+      "item": "Detailed vaccination cessation timeline and livestock movement control implementation records for proposed zones",
+      "status": "Not found in public sources"
+    }
+  ]
+}
