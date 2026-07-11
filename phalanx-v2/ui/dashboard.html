@@ -21,6 +21,8 @@
         th { text-align: left; padding: 8px; border-bottom: 1px solid #333; color: #888; font-weight: normal; text-transform: uppercase; font-size: 0.8em; }
         td { padding: 8px; border-bottom: 1px solid #222; }
         .timestamp { color: #666; font-size: 0.8em; margin-top: 20px; }
+        .section { margin-top: 30px; }
+        .section h2 { font-size: 1.2em; color: #888; text-transform: uppercase; letter-spacing: 2px; border-bottom: 1px solid #333; padding-bottom: 10px; }
     </style>
 </head>
 <body>
@@ -45,12 +47,12 @@
         </div>
         <div class="card">
             <h2>Security Findings</h2>
-            <div class="big ok">0</div>
-            <span class="status status-pass">Open Findings</span>
+            <div class="big crit">3</div>
+            <span class="status status-crit">Open Findings</span>
         </div>
         <div class="card">
             <h2>Swarm Cycles</h2>
-            <div class="big ok">0</div>
+            <div class="big ok">1</div>
             <span class="status status-pass">Completed</span>
         </div>
         <div class="card">
@@ -59,6 +61,39 @@
             <span class="status status-pass">AUTONOMOUS</span>
         </div>
     </div>
-    <p class="timestamp">Generated: 2026-07-11T06:47:06.102822+00:00</p>
+
+    <div class="section">
+        <h2>Agents</h2>
+        <table>
+            <tr><th>ID</th><th>Group</th><th>Role</th><th>Status</th><th>Tasks</th><th>Errors</th></tr>
+            <tr><td>alpha-0</td><td>alpha</td><td>Core Orchestration</td><td class='ok'>active</td><td>1</td><td>0</td></tr><tr><td>alpha-1</td><td>alpha</td><td>Core Orchestration</td><td class='ok'>active</td><td>1</td><td>0</td></tr><tr><td>alpha-2</td><td>alpha</td><td>Core Orchestration</td><td class='ok'>active</td><td>1</td><td>0</td></tr><tr><td>alpha-3</td><td>alpha</td><td>Core Orchestration</td><td class='ok'>active</td><td>1</td><td>0</td></tr><tr><td>beta-0</td><td>beta</td><td>Financial Modeling</td><td class='ok'>active</td><td>1</td><td>0</td></tr><tr><td>beta-1</td><td>beta</td><td>Financial Modeling</td><td class='ok'>active</td><td>1</td><td>0</td></tr><tr><td>beta-2</td><td>beta</td><td>Financial Modeling</td><td class='ok'>active</td><td>1</td><td>0</td></tr><tr><td>beta-3</td><td>beta</td><td>Financial Modeling</td><td class='ok'>active</td><td>1</td><td>0</td></tr><tr><td>delta-0</td><td>delta</td><td>Infrastructure & DevOps</td><td class='ok'>active</td><td>1</td><td>0</td></tr><tr><td>delta-1</td><td>delta</td><td>Infrastructure & DevOps</td><td class='ok'>active</td><td>1</td><td>0</td></tr><tr><td>delta-2</td><td>delta</td><td>Infrastructure & DevOps</td><td class='ok'>active</td><td>0</td><td>0</td></tr><tr><td>delta-3</td><td>delta</td><td>Infrastructure & DevOps</td><td class='ok'>active</td><td>0</td><td>0</td></tr><tr><td>epsilon-0</td><td>epsilon</td><td>Security & Monitoring</td><td class='ok'>active</td><td>0</td><td>0</td></tr><tr><td>epsilon-1</td><td>epsilon</td><td>Security & Monitoring</td><td class='ok'>active</td><td>0</td><td>0</td></tr><tr><td>epsilon-2</td><td>epsilon</td><td>Security & Monitoring</td><td class='ok'>active</td><td>0</td><td>0</td></tr><tr><td>epsilon-3</td><td>epsilon</td><td>Security & Monitoring</td><td class='ok'>active</td><td>0</td><td>0</td></tr><tr><td>eta-0</td><td>eta</td><td>HITL Coordination</td><td class='ok'>active</td><td>0</td><td>0</td></tr><tr><td>eta-1</td><td>eta</td><td>HITL Coordination</td><td class='ok'>active</td><td>0</td><td>0</td></tr><tr><td>eta-2</td><td>eta</td><td>HITL Coordination</td><td class='ok'>active</td><td>0</td><td>0</td></tr><tr><td>gamma-0</td><td>gamma</td><td>Compliance & Regulatory</td><td class='ok'>active</td><td>0</td><td>0</td></tr><tr><td>gamma-1</td><td>gamma</td><td>Compliance & Regulatory</td><td class='ok'>active</td><td>0</td><td>0</td></tr><tr><td>gamma-2</td><td>gamma</td><td>Compliance & Regulatory</td><td class='ok'>active</td><td>0</td><td>0</td></tr><tr><td>gamma-3</td><td>gamma</td><td>Compliance & Regulatory</td><td class='ok'>active</td><td>0</td><td>0</td></tr><tr><td>omega-0</td><td>omega</td><td>Disaster Recovery</td><td class='ok'>active</td><td>0</td><td>0</td></tr><tr><td>omega-1</td><td>omega</td><td>Disaster Recovery</td><td class='ok'>active</td><td>0</td><td>0</td></tr><tr><td>omega-2</td><td>omega</td><td>Disaster Recovery</td><td class='ok'>active</td><td>0</td><td>0</td></tr><tr><td>zeta-0</td><td>zeta</td><td>ETL & Knowledge Graph</td><td class='ok'>active</td><td>0</td><td>0</td></tr><tr><td>zeta-1</td><td>zeta</td><td>ETL & Knowledge Graph</td><td class='ok'>active</td><td>0</td><td>0</td></tr><tr><td>zeta-2</td><td>zeta</td><td>ETL & Knowledge Graph</td><td class='ok'>active</td><td>0</td><td>0</td></tr><tr><td>zeta-3</td><td>zeta</td><td>ETL & Knowledge Graph</td><td class='ok'>active</td><td>0</td><td>0</td></tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Regulatory Filings</h2>
+        <table>
+            <tr><th>ID</th><th>Name</th><th>Jurisdiction</th><th>Deadline</th><th>Days Left</th><th>Risk</th></tr>
+            <tr><td>REG-004</td><td>MEWA/SFDA Protocol</td><td>Saudi Arabia</td><td>2026-07-15</td><td>4</td><td>critical</td></tr><tr><td>REG-003</td><td>PARIVESH (Environmental)</td><td>India</td><td>2026-07-20</td><td>9</td><td>high</td></tr><tr><td>REG-005</td><td>ORIASC-HCB SFDA</td><td>Saudi Arabia</td><td>2026-07-30</td><td>19</td><td>high</td></tr><tr><td>REG-006</td><td>FMD-Free Zone (WOAH)</td><td>Ethiopia</td><td>2026-08-01</td><td>21</td><td>critical</td></tr><tr><td>REG-002</td><td>SEBI EGR Registration</td><td>India</td><td>2026-08-15</td><td>35</td><td>critical</td></tr><tr><td>REG-001</td><td>BIIPP-2025 (Bihar SEZ)</td><td>India</td><td>2026-12-31</td><td>173</td><td>high</td></tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Financial Models</h2>
+        <table>
+            <tr><th>ID</th><th>Name</th><th>Status</th><th>NPV Mean</th><th>Last Run</th></tr>
+            <tr><td>AISTA</td><td>AISTA Critical Minerals</td><td>PASS</td><td>11.2</td><td>2026-07-11T08:18:30.543948+00:00</td></tr><tr><td>BERBERA</td><td>Berbera Port PPP</td><td>PASS</td><td>0.0</td><td>2026-07-11T08:18:30.543960+00:00</td></tr><tr><td>BIBC</td><td>BIBC Bullion (EGR)</td><td>PASS</td><td>29.25</td><td>2026-07-11T08:18:30.543962+00:00</td></tr><tr><td>PIZZA</td><td>Pizza Franchise</td><td>PASS</td><td>0.19</td><td>2026-07-11T08:18:30.543964+00:00</td></tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Recent Cycles</h2>
+        <table>
+            <tr><th>Cycle</th><th>Timestamp</th><th>Duration</th><th>Active</th><th>Tasks</th><th>Crit</th><th>High</th></tr>
+            <tr><td>1</td><td>2026-07-11T08:18:31.603437+00:00</td><td>19.7ms</td><td>30</td><td>10</td><td>0</td><td>0</td></tr>
+        </table>
+    </div>
+
+    <p class="timestamp">Generated: 2026-07-11T08:18:34.499035+00:00</p>
 </body>
 </html>
