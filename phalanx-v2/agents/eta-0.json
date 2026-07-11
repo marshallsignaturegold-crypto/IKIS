@@ -1,0 +1,8 @@
+{
+  "id": "eta-0",
+  "group": "eta",
+  "role": "HITL Coordination",
+  "capabilities": ["ETA"],
+  "priority": 3,
+  "enabled": true
+}

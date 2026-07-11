@@ -1,0 +1,8 @@
+{
+  "id": "alpha-2",
+  "group": "alpha",
+  "role": "Core Orchestration",
+  "capabilities": ["ALPHA"],
+  "priority": 1,
+  "enabled": true
+}

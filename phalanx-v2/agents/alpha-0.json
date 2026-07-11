@@ -1,0 +1,13 @@
+{
+  "id": "alpha-0",
+  "group": "alpha",
+  "role": "Core Orchestration",
+  "capabilities": ["orchestration", "task_dispatch", "health_monitoring"],
+  "priority": 1,
+  "enabled": true,
+  "config": {
+    "cycle_interval": 300,
+    "heartbeat_timeout": 60,
+    "max_retries": 3
+  }
+}

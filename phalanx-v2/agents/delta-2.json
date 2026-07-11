@@ -1,0 +1,8 @@
+{
+  "id": "delta-2",
+  "group": "delta",
+  "role": "Infrastructure & DevOps",
+  "capabilities": ["DELTA"],
+  "priority": 2,
+  "enabled": true
+}

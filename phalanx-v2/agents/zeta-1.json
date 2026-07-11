@@ -1,0 +1,8 @@
+{
+  "id": "zeta-1",
+  "group": "zeta",
+  "role": "ETL & Knowledge Graph",
+  "capabilities": ["ZETA"],
+  "priority": 2,
+  "enabled": true
+}

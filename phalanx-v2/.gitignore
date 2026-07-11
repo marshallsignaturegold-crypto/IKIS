@@ -1,0 +1,33 @@
+# Data files
+*.db
+*.db-journal
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Reports (keep structure, ignore generated)
+reports/*.md
+reports/*.json
+!reports/.gitkeep
+
+# UI (keep structure, ignore generated)
+ui/*.html
+!ui/.gitkeep
+
+# Data (keep structure, ignore generated)
+data/*.json
+data/*.log
+!data/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

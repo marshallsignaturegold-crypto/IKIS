@@ -1,0 +1,8 @@
+{
+  "id": "beta-3",
+  "group": "beta",
+  "role": "Financial Modeling",
+  "capabilities": ["BETA"],
+  "priority": 1,
+  "enabled": true
+}

@@ -1,0 +1,8 @@
+{
+  "id": "omega-0",
+  "group": "omega",
+  "role": "Disaster Recovery",
+  "capabilities": ["OMEGA"],
+  "priority": 3,
+  "enabled": true
+}

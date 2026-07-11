@@ -1,0 +1,8 @@
+{
+  "id": "gamma-3",
+  "group": "gamma",
+  "role": "Compliance & Regulatory",
+  "capabilities": ["GAMMA"],
+  "priority": 1,
+  "enabled": true
+}

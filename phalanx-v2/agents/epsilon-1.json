@@ -1,0 +1,8 @@
+{
+  "id": "epsilon-1",
+  "group": "epsilon",
+  "role": "Security & Monitoring",
+  "capabilities": ["EPSILON"],
+  "priority": 2,
+  "enabled": true
+}

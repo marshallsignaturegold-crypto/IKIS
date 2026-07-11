@@ -1,0 +1,11 @@
+{
+  "id": "gamma-0",
+  "group": "gamma",
+  "role": "Compliance & Regulatory",
+  "capabilities": ["regulatory_tracking", "deadline_monitoring", "hitl_coordination"],
+  "priority": 1,
+  "enabled": true,
+  "config": {
+    "alert_days_before": [30, 7, 1]
+  }
+}
