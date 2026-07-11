@@ -1,0 +1,253 @@
+{
+  "stream_id": "1.1.3",
+  "stream_name": "Bihar SEZ / BIIPP-2025",
+  "last_updated": "2025-01-28",
+  "confidence_framework": {
+    "T1": "Primary government source (Bihar government portals, BIADA, official policy documents, cabinet decisions)",
+    "T2": "Industry publication (Economic Times, Business Standard, ETGovernment, Press Trust of India)",
+    "T3": "General web / tertiary source"
+  },
+  "executive_summary": {
+    "policy_name": "Bihar Industrial Investment Promotion Package 2025 (BIPPP-2025 / BIIPP-2025)",
+    "announced": "August 26, 2025 (Cabinet decision chaired by CM Nitish Kumar)",
+    "validity": "Applications must be submitted before March 31, 2026",
+    "objective": "Boost industrial growth, create approximately 1 crore (10 million) jobs over 5 years, and position Bihar as a serious investment destination",
+    "predecessor": "Bihar Industrial Investment Promotion Policy, 2016 (BIIPP-2016). BIIPP-2025 is described as a '2.0 version' building on the 2016 foundation.",
+    "biada_role": "Bihar Industrial Area Development Authority (BIADA) is the nodal agency for land acquisition, industrial area development, land allotment, and shed management. It is implementing an ERP system to digitize land allotment and industrial processes.",
+    "fintech_city": "FinTech City at Fatuha (Patna district) — 242 acres, ₹408.81 crore sanctioned for land acquisition. Modeled on Gujarat International Finance Tec-City (GIFT City). Located adjacent to Multi Modal Logistic Park (MMLP) at Fatuha circle."
+  },
+  "incentives_for_sez_developers_and_industrialists": {
+    "land_incentives": {
+      "free_land_tiers": [
+        {
+          "investment_threshold": "> ₹100 crore AND > 1,000 direct jobs",
+          "land_allotment": "Up to 10 acres free of cost"
+        },
+        {
+          "investment_threshold": "> ₹1,000 crore",
+          "land_allotment": "Up to 25 acres free of cost"
+        },
+        {
+          "investment_threshold": "Fortune 500 companies",
+          "land_allotment": "Up to 10 acres free of cost"
+        }
+      ],
+      "discounted_land": "Other investors who do not meet the above criteria get land at 50% discount on BIADA land rates",
+      "land_bank": "Approximately 15,000 acres already transferred or in process of acquisition for industrial use. Government approved acquisition of 14,600 acres for 32 industrial areas/parks in the past year. BIADA has acquired 8,000 acres since its inception.",
+      "district_coverage": "In-principle decision to set up an industrial area or park in every district of Bihar",
+      "source": "T1: Bihar Cabinet announcement (Aug 2025); T2: Economic Times, Business Standard, ETGovernment interviews"
+    },
+    "financial_incentives": {
+      "interest_subvention": "Up to ₹40 crore",
+      "sgst_reimbursement": "Up to 300% of approved project cost for 14 years (for new units)",
+      "capital_subsidy": "Up to 30% of eligible capital investment",
+      "export_incentive": "Up to ₹40 lakh per year for 14 years (doubled from previous ₹20 lakh/year limit)",
+      "employment_incentives": {
+        "textile_units": "Up to ₹5,000 per month per employee + 300% of ESI and EPF",
+        "other_units": "Up to ₹2,000 per month per employee + 100% of ESI and EPF"
+      },
+      "skill_development": "Up to ₹20,000 per worker",
+      "environmental_protection": "25% reimbursement up to ₹1 crore",
+      "renewable_energy": "20% reimbursement, maximum ₹6 lakh",
+      "stamp_duty_reimbursement": "Reimbursement of stamp duty and land conversion fees",
+      "patent_registration": "50% reimbursement of expenses including attorney fees",
+      "quality_certification": "50% reimbursement of costs for GMP, ISO, BIS, etc.",
+      "common_facility_centres_cfc": "Case-to-case basis support",
+      "source": "T1: Bihar Cabinet announcement; T2: Economic Times, Business Standard, ETGovernment"
+    }
+  },
+  "biipp_2025_application_process": {
+    "eligibility_criteria": {
+      "entity_types": "Companies, LLPs, partnerships, proprietorships (specifically for industrial units)",
+      "investment_threshold_for_land": "₹100 crore with 1,000 jobs (10 acres); ₹1,000 crore (25 acres); Fortune 500 (10 acres)",
+      "minimum_investment_for_incentives": "Not explicitly stated for all incentives, but the ₹100 crore + 1,000 jobs threshold is the primary tier for free land. Other investors may avail incentives at lower investment levels subject to policy terms.",
+      "sector_focus": "Textiles, apparel, food processing, agro-based industries, engineering goods, electronics assembly, IT/ITeS, MSMEs, renewable energy, and other manufacturing sectors",
+      "time_bound": "Must apply before March 31, 2026",
+      "source": "T2: Economic Times, Business Standard, ETGovernment interviews"
+    },
+    "three_incentive_models": {
+      "model_1_interest_subvention_plus_sgst": {
+        "description": "For SMEs and debt-heavy projects needing cheaper debt. Interest subvention combined with SGST reimbursement.",
+        "suitable_for": "Small and medium enterprises struggling with cost of borrowing"
+      },
+      "model_2_sgst_reimbursement": {
+        "description": "For companies with high sales volume and high GST outflow. SGST reimbursement up to 300% of project cost over 14 years.",
+        "suitable_for": "High GST-outflow industries (e.g., cement, beverages)"
+      },
+      "model_3_capital_subsidy": {
+        "description": "For capital-intensive industries requiring heavy machinery and infrastructure upfront. 30% capital subsidy.",
+        "suitable_for": "Large manufacturing units with significant upfront investment"
+      },
+      "source": "T2: ETGovernment interview with Additional Chief Secretary Mihir Kumar Singh (Sept 2025)"
+    },
+    "application_steps": {
+      "step_1": "Investor identifies project, investment size, and employment potential",
+      "step_2": "Choose incentive model (Interest Subvention + SGST / SGST Reimbursement / Capital Subsidy)",
+      "step_3": "Submit application through BIADA online portal (or designated government portal) before March 31, 2026",
+      "step_4": "BIADA / State Investment Promotion Board (SIPB) processes application with time-bound and transparent decision-making (virtual meetings available for investor observation)",
+      "step_5": "Upon approval, land allotment and incentive disbursal as per selected model",
+      "note": "Exact online portal URL and detailed form requirements are not fully specified in public sources. The BIADA portal (https://biada1.bihar.gov.in) has 'Apply Online (Land & Shed)' functionality.",
+      "source": "T2: ETGovernment, Business Standard; T1: BIADA portal"
+    }
+  },
+  "land_allotment_procedures": {
+    "nodal_agency": "Bihar Industrial Area Development Authority (BIADA)",
+    "online_application": "Available at BIADA portal: https://biada1.bihar.gov.in — 'Apply Online (Land & Shed)'",
+    "land_bank": "BIADA maintains a 'Land Bank' showing available land and a 'Plug & Play Bank' for available sheds",
+    "cluster_locations": [
+      "Begusarai",
+      "Bhagalpur, Purnia & Saharsa",
+      "Darbhanga",
+      "Gaya",
+      "Hajipur",
+      "Muzaffarpur",
+      "Motipur",
+      "Patna",
+      "Bihta"
+    ],
+    "process": {
+      "step_1": "Submit online application for land/shed through BIADA portal",
+      "step_2": "BIADA evaluates application based on merit, investment, employment, innovation, and sector alignment",
+      "step_3": "Payment of land cost (or confirmation of free land eligibility) and execution of lease/deed",
+      "step_4": "Post-allotment, use eCollection Portal for payments",
+      "note": "For free land under BIIPP-2025, the allotment is contingent on meeting investment and job thresholds. Investors must commit to creating the specified number of jobs."
+    },
+    "policy_documents": [
+      "BIADA Land Allotment & Management Policy, 2026",
+      "BIADA Land Allotment & Management Policy, 2026 (As amended)",
+      "BIADA Amnesty Policy, 2025 (Amendment)",
+      "Exit Policy-2025"
+    ],
+    "source": "T1: BIADA portal (https://biada1.bihar.gov.in); T2: Economic Times, Business Standard"
+  },
+  "export_obligations": {
+    "biipp_2025_export_incentive": "Up to ₹40 lakh per year for 14 years for export promotion. This is an incentive, not an obligation.",
+    "sez_export_obligations": "If the project is designated as a Special Economic Zone (SEZ) under the central SEZ Act, 2005, then the developer/unit must meet the following:",
+    "sez_net_foreign_exchange_earning": "SEZ units must achieve positive Net Foreign Exchange Earning (NFE) within 5 years of commencement of production. NFE = Foreign Exchange earned minus Foreign Exchange spent (excluding capital goods and raw material imports).",
+    "sez_penalty_for_non_compliance": "If a unit fails to achieve positive NFE within 5 years, it may lose SEZ status and benefits, and may be required to pay duties/taxes on imported goods as if they were imported into the Domestic Tariff Area (DTA). The exact penalty is governed by the SEZ Rules, 2006 and Development Commissioner discretion.",
+    "sez_developer_obligations": "SEZ developers must complete infrastructure within specified timelines (typically 10 years for multi-product SEZs, 5 years for sector-specific SEZs) and maintain the SEZ as a fenced area with customs control.",
+    "note": "BIIPP-2025 itself does not explicitly impose export obligations. However, if the industrial unit is in an SEZ, central SEZ laws apply. Bihar's BIIPP-2025 export incentive is a subsidy to encourage exports, not a legal requirement.",
+    "source": "T2: Economic Times, Business Standard; T1: SEZ Act, 2005 (general knowledge)"
+  },
+  "biada_role": {
+    "full_name": "Bihar Industrial Area Development Authority",
+    "establishment": "Established under the Bihar Industrial Area Development Authority Act, 1974",
+    "functions": [
+      "Land acquisition and creation of land bank for industrial use",
+      "Development of industrial areas, parks, and zones",
+      "Land allotment and shed allotment to industrial units",
+      "Maintenance of industrial infrastructure (roads, water, power, drainage)",
+      "Investment promotion and facilitation",
+      "Implementation of industrial policies (BIIPP-2025, BIADA Amnesty Policy, Exit Policy)",
+      "ERP implementation (in progress) for digitizing land allotment, HR, finance, project management, and investment promotion"
+    ],
+    "current_initiatives": {
+      "erp_project": "BIADA is implementing an end-to-end ERP solution for Project Management System (PMS), land allotment, service delivery, investment promotion, finance, HR, and vendor management. Completion target: 32 weeks from award.",
+      "land_acquisition": "8,000 acres acquired since inception; 14,600 acres approved for 32 industrial areas/parks in the past year; 15,000 acres in pipeline",
+      "industrial_parks_every_district": "In-principle decision to have an industrial area/park in every district"
+    },
+    "contact": "Executive Director (Operations), BIADA, Udyog Bhawan, East Gandhi Maidan, Patna 800004. Phone: 0612-2675898",
+    "source": "T1: BIADA portal (https://biada1.bihar.gov.in); T2: Economic Times, Business Standard"
+  },
+  "existing_sezs_in_bihar": {
+    "note": "Bihar does not currently have a large, fully operational multi-product SEZ under the central SEZ Act, 2005. The state has been focusing on 'Special Industrial Zones' (SIZs) and dedicated industrial parks rather than formal SEZs. However, the following related zones exist or are planned:",
+    "planned_zones": [
+      {
+        "name": "FinTech City at Fatuha",
+        "location": "Patna district, adjacent to MMLP at Fatuha circle",
+        "area": "242 acres",
+        "investment": "₹408.81 crore sanctioned for land acquisition",
+        "model": "Modeled on Gujarat International Finance Tec-City (GIFT City)",
+        "status": "Land acquisition phase; cabinet sanctioned in August 2025",
+        "source": "T1: Bihar Cabinet; T2: Business Standard, Economic Times"
+      },
+      {
+        "name": "Special Industrial Zones (SIZs) across districts",
+        "location": "Planned in almost all districts",
+        "sectors": "Toys and plastics (Begusarai, West Champaran); Pharmaceuticals (Hajipur); Textiles; Food processing; Renewable energy",
+        "status": "Planning phase; new industrial policy at final stage",
+        "source": "T2: Economic Times (April 2025)"
+      },
+      {
+        "name": "IT Parks",
+        "location": "Bihta (Patna) and Rajgir",
+        "status": "Notified land; development status unclear",
+        "source": "T1: Bihar Industrial Investment Policy 2016"
+      },
+      {
+        "name": "Bihar Integrated Manufacturing City Gaya Limited (BIMCGL)",
+        "location": "Gaya",
+        "status": "Referenced on BIADA portal; detailed status not available in public sources",
+        "source": "T1: BIADA portal"
+      }
+    ],
+    "sez_gap": "There is no confirmed, fully operational large SEZ in Bihar as of early 2026. The state is pursuing 'Special Industrial Zones' under the new industrial policy rather than formal SEZ Act status. Investors seeking SEZ benefits (duty-free imports, single-window clearance, tax holidays) may need to apply for SEZ designation under the central SEZ Act, 2005, which is separate from BIIPP-2025."
+  },
+  "fintech_city_fatuha": {
+    "name": "FinTech City at Fatuha",
+    "location": "Fatuha circle, Patna district, Bihar",
+    "area": "242 acres",
+    "investment_sanctioned": "₹408.81 crore for land acquisition",
+    "model": "Modeled on Gujarat International Finance Tec-City (GIFT City) located between Ahmedabad and Gandhinagar",
+    "adjacent_infrastructure": "Multi Modal Logistic Park (MMLP) at Fatuha circle",
+    "acquiring_authority": "Infrastructure Development Authority in Patna",
+    "status": "Land acquisition phase; cabinet approved in August 2025",
+    "relation_to_sez": "Not explicitly designated as an SEZ under the SEZ Act, 2005 in current announcements. It is a dedicated zone for FinTech and digital services. If SEZ status is sought, a separate application to the Ministry of Commerce & Industry (SEZ Board of Approval) would be required. The 242-acre size is smaller than typical multi-product SEZs (which require 1,000+ hectares or 2,500+ acres), but sector-specific SEZs can be smaller (10+ hectares for sector-specific with 100% FDI).",
+    "source": "T1: Bihar Cabinet announcement (Aug 2025); T2: Business Standard, Economic Times"
+  },
+  "gaps": [
+    {
+      "priority": "P1",
+      "gap": "Whether Bihar has any formally notified SEZ under the SEZ Act, 2005, and if so, their exact status, export performance, and NFE achievement",
+      "action": "Query Ministry of Commerce & Industry SEZ portal (sezindia.nic.in) or contact Bihar Industries Department for SEZ status list"
+    },
+    {
+      "priority": "P1",
+      "gap": "Exact application form, URL, and document checklist for BIIPP-2025 incentives — not fully detailed in public sources",
+      "action": "Contact BIADA or Bihar Industries Department for the official BIIPP-2025 application form and process manual"
+    },
+    {
+      "priority": "P1",
+      "gap": "Whether FinTech City at Fatuha will apply for SEZ status under the SEZ Act, 2005, or remain a state-level industrial zone",
+      "action": "Contact Bihar Industries Secretary or Infrastructure Development Authority Patna for SEZ intent"
+    },
+    {
+      "priority": "P2",
+      "gap": "Detailed BIADA Land Allotment & Management Policy, 2026 text — exact allotment rates, lease terms, transferability, and exit conditions",
+      "action": "Download BIADA Land Allotment & Management Policy 2026 from https://biada1.bihar.gov.in/ActRule.aspx"
+    },
+    {
+      "priority": "P2",
+      "gap": "Current land allotment rates per acre at each BIADA cluster (Patna, Bihta, Gaya, Hajipur, Muzaffarpur, etc.)",
+      "action": "Check BIADA 'Land Bank' and 'eCollection Portal' for current rates"
+    },
+    {
+      "priority": "P2",
+      "gap": "Whether BIIPP-2025 incentives can be combined with central SEZ benefits (duty drawback, STPI, EOU status) or if they are mutually exclusive",
+      "action": "Review BIIPP-2025 fine print and seek clarification from Bihar Industries Department and MoCI SEZ Division"
+    },
+    {
+      "priority": "P3",
+      "gap": "Status of Bihar Integrated Manufacturing City Gaya Limited (BIMCGL) — whether it is operational, land allotted, or still in planning",
+      "action": "Contact BIADA or Bihar Industries Department for BIMCGL status report"
+    },
+    {
+      "priority": "P3",
+      "gap": "Detailed breakdown of the ₹408.81 crore Fatuha FinTech City budget — how much for land acquisition vs. infrastructure development",
+      "action": "Request Bihar Cabinet note or Infrastructure Development Authority budget document"
+    }
+  ],
+  "citations": [
+    "[T1] Bihar Cabinet announcement — BIIPP-2025 — August 26, 2025",
+    "[T1] BIADA Portal — https://biada1.bihar.gov.in/Default.aspx",
+    "[T1] BIADA Act & Rules page — https://biada1.bihar.gov.in/ActRule.aspx",
+    "[T2] ETGovernment — 'Bihar's Ambitious BIIPP-2025: A Game Changer for Global Investment and Job Creation' — Sept 15, 2025 — https://government.economictimes.indiatimes.com/news/governance/bihars-ambitious-biipp-2025-a-game-changer-for-global-investment-and-job-creation/123882428",
+    "[T2] Business Standard — 'Bihar to provide free land, ₹40 crore incentives to investors: CM' — Aug 26, 2025 — https://www.business-standard.com/india-news/bihar-to-provide-free-land-40-crore-incentives-to-investors-cm-125082600532_1.html",
+    "[T2] Economic Times — 'Free land in Bihar if you meet the conditions; incentives for EPF, ESI, GST will also be given under this scheme' — https://economictimes.indiatimes.com/wealth/save/free-land-in-bihar-if-you-meet-the-conditions-incentives-for-epf-esi-gst-will-also-be-given-under-this-scheme/articleshow/123597686.cms",
+    "[T2] Economic Times — 'Nitish govt to set up special industrial zones across Bihar: Official' — April 13, 2025 — https://economictimes.indiatimes.com/news/india/nitish-govt-to-set-up-special-industrial-zones-across-bihar-official/articleshow/120251888.cms",
+    "[T2] NewsOnAir — 'Bihar: State Gov Approved New Bihar Industrial Investment Promotion Package' — https://www.newsonair.gov.in/bihar-state-gov-has-approved-new-bihar-industrial-investment-promotion-package/",
+    "[T1] Bihar Agri Investment Promotion Policy (BAIPP) 2020 — https://horticulture.bihar.gov.in/HORTMIS/BAIPP/Home.aspx (for context on parallel policy)",
+    "[T1] Bihar Wood Based Industries Promotion Policy (BWBIIP) — https://forestonline.bihar.gov.in/BWBIIP/Home.aspx (for context on sector-specific policy)",
+    "[T1] Bihar Industrial Investment Policy, 2016 — https://static.investindia.gov.in/Industrial%20Investment%20Promotion%20Policy%202016.pdf"
+  ]
+}

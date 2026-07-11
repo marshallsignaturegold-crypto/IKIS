@@ -1,0 +1,133 @@
+{
+  "stream_id": "1.1.1",
+  "stream_name": "SEBI EGR Registration",
+  "last_updated": "2025-01-28",
+  "confidence_framework": {
+    "T1": "Primary government source (SEBI circulars, gazette notifications, official regulations)",
+    "T2": "Industry publication (TaxGuru, Economic Times, Business Standard, legal databases)",
+    "T3": "General web / tertiary source"
+  },
+  "executive_summary": {
+    "what_is_egr": "Electronic Gold Receipt (EGR) is a digital certificate representing ownership of physical gold stored in a SEBI-registered vault, notified as a 'security' under Section 2(h)(iia) of the Securities Contracts (Regulation) Act, 1956. EGRs are traded on stock exchanges (BSE, NSE) and can be converted back to physical gold.",
+    "regulatory_overview": "The EGR ecosystem comprises Vault Managers (custody), Depositories (NSDL/CDSL), Stock Exchanges (BSE/NSE), Clearing Corporations, and Trading Members. SEBI is the sole regulator.",
+    "status": "BSE launched EGR trading in October 2022; NSE launched in May 2026. As of now, three Vault Managers are registered: Brink's India Pvt Ltd (Mumbai), Malca-Amit JK Logistics Pvt Ltd (Mumbai), and Sequels Logistics Pvt Ltd (Ahmedabad)."
+  },
+  "registration_requirements": {
+    "vault_manager": {
+      "eligibility": {
+        "entity_type": "Body corporate incorporated in India",
+        "net_worth": "Minimum Rs. 50 crore (as per VM Regulations 2021); note: SEBI Custodian Regulations amended in Sept 2025 raised net worth for custodians generally to Rs. 75 crore with 3-year transition for existing entities. Vault Managers should confirm if this amendment applies to them specifically.",
+        "infrastructure": "Adequate office space, vaults for safe deposit/storage/withdrawal of gold, computer systems capability, and technology for real-time tracking",
+        "sop": "Standard Operating Procedure (SOP) for all recognized vaults covering security, storage, withdrawal, creation/extinguishment of EGRs",
+        "source": "T1: SEBI (Vault Managers) Regulations, 2021; T2: TaxGuru summary"
+      },
+      "application_process": {
+        "form": "Form A of the First Schedule under VM Regulations, 2021",
+        "application_fee": "Non-refundable fee of Rs. 1,00,000 (one lakh rupees)",
+        "registration_fee": "Rs. 10,00,000 (ten lakh rupees) at the time of grant of certificate",
+        "renewal_fee": "Rs. 10,00,000 every three years, payable within three months before expiry of the block period",
+        "source": "T1: SEBI VM Regulations 2021, Second Schedule"
+      },
+      "documents_required": [
+        "Net Worth certificate (not older than 3 months from date of application)",
+        "Copy of audited financial statements for last two financial years",
+        "SOP for all recognized vaults",
+        "Details of infrastructure (office space, vaults, IT systems)",
+        "Details of competent personnel and their experience",
+        "Proof of incorporation and corporate structure",
+        "Source: T1: VM Regulations 2021; T2: TaxGuru analysis"
+      ],
+      "fsd_requirement": {
+        "description": "Fixed Sum Deposit (FSD) of Rs. 10,00,000 to be furnished to either NSDL or CDSL before obtaining certificate of registration from SEBI. This minimum FSD must be maintained at all points in time.",
+        "source": "T1: SEBI Standard Operating Guidelines for VM & Depositories; T2: TaxGuru"
+      },
+      "ongoing_compliance": {
+        "net_worth_maintenance": "Must maintain minimum net worth at all times during validity of registration",
+        "quarterly": "Compliance Officer must issue quarterly declaration to Depository within 7 working days from quarter end, confirming compliance with all applicable norms",
+        "reconciliation": "Vault Manager and Depositories must regularly reconcile data of EGRs created with physical gold in vaults",
+        "physical_verification": "Depositories must carry out physical verification of gold stored in recognized vaults at least once in a fortnight; full inspection of Vault Manager and vaults annually",
+        "records_retention": "All records and documents must be preserved for a minimum period of 5 financial years",
+        "inspection": "SEBI may appoint inspecting officers with at least 10 days' notice; may appoint auditors to inspect books and gold deposits",
+        "source": "T1: SEBI VM Regulations 2021; T1: SOG for VM & Depositories"
+      }
+    },
+    "depository": {
+      "role": "NSDL and CDSL hold EGRs in dematerialized form; create ISINs; provide common interface for VM interaction",
+      "source": "T1: SEBI Master Circular for EGRs, June 2024"
+    },
+    "stock_exchange_trading_member": {
+      "note": "Trading Members (stock brokers) must be registered with SEBI and have membership on the stock exchange offering EGR segment. Capital requirements for brokers are governed by SEBI (Stock Brokers) Regulations and exchange-specific net worth norms, not EGR-specific regulations.",
+      "source": "T2: Economic Times, TaxGuru analysis"
+    }
+  },
+  "fees_and_timelines": {
+    "vault_manager_registration": {
+      "application_fee": "Rs. 1,00,000 (non-refundable)",
+      "registration_fee": "Rs. 10,00,000",
+      "renewal_fee": "Rs. 10,00,000 every 3 years",
+      "fsd": "Rs. 10,00,000 to NSDL/CDSL",
+      "timeline": "SEBI evaluates application based on completeness; no statutory timeline specified for grant, but typically 3-6 months for intermediaries"
+    },
+    "source": "T1: SEBI VM Regulations 2021, Second Schedule"
+  },
+  "precedents": {
+    "registered_vault_managers": [
+      {
+        "name": "Brink's India Private Limited",
+        "location": "Mumbai",
+        "status": "Registered"
+      },
+      {
+        "name": "Malca-Amit JK Logistics Private Limited",
+        "location": "Mumbai",
+        "status": "Registered"
+      },
+      {
+        "name": "Sequels Logistics Private Limited",
+        "location": "Ahmedabad",
+        "status": "Registered"
+      }
+    ],
+    "stock_exchanges_with_egr_segment": ["BSE (launched Oct 2022)", "NSE (launched May 2026)"],
+    "source": "T2: TaxGuru analysis article (June 2026); T2: Economic Times"
+  },
+  "gaps": [
+    {
+      "priority": "P1",
+      "gap": "Exact capital requirements for Trading Members (stock brokers) in the EGR segment — whether any EGR-specific deposit or margin requirements exist beyond standard broker norms",
+      "action": "Query SEBI circular on 'Risk Management Framework in EGR segment' dated April 11, 2022 and any subsequent amendments"
+    },
+    {
+      "priority": "P1",
+      "gap": "Whether the Sept 2025 amendment to Custodian Regulations (raising net worth to Rs. 75 crore) has been explicitly applied to Vault Managers under VM Regulations, or if VM Regulations retain the Rs. 50 crore threshold",
+      "action": "Review SEBI VM Regulations amendment history post-Feb 2025"
+    },
+    {
+      "priority": "P2",
+      "gap": "Current processing time for VM registration applications at SEBI — no statutory timeline is specified in the regulations",
+      "action": "Check SEBI internal processing norms or recent application precedents"
+    },
+    {
+      "priority": "P2",
+      "gap": "Detailed IT audit requirements for Vault Managers — the regulations mention computer systems capability but do not specify exact cybersecurity/audit standards",
+      "action": "Review SEBI circulars on IT infrastructure for intermediaries and any VM-specific IT audit guidelines"
+    },
+    {
+      "priority": "P3",
+      "gap": "Trading volumes and liquidity metrics for EGRs on BSE/NSE to assess market viability",
+      "action": "Pull exchange trading data or AMFI/SEBI market reports"
+    }
+  ],
+  "citations": [
+    "[T1] SEBI (Vault Managers) Regulations, 2021 (last amended Feb 10, 2025) — https://www.sebi.gov.in/legal/regulations/feb-2025/securities-and-exchange-board-of-india-vault-managers-regulations-2021-last-amended-on-february-10-2025-_92416.html",
+    "[T1] SEBI Master Circular for Electronic Gold Receipts (EGRs), June 24, 2024 — SEBI/HO/MRD/MRD-PoD-1/P/CIR/2024/87",
+    "[T1] SEBI Standard Operating Guidelines for Vault Managers & Depositories — EGR Segment, Feb 2022",
+    "[T1] SEBI (Custodian) (Amendment) Regulations, 2025 — net worth raised to Rs. 75 crore",
+    "[T2] TaxGuru: 'SEBI (Vault Managers) Regulations, 2021' — Dec 31, 2021",
+    "[T2] TaxGuru: 'Master Circular for Electronic Gold Receipts (EGRs)' — June 1, 2023 / June 24, 2024",
+    "[T2] TaxGuru: 'Standard Operating Guidelines for Vault Managers & Depositories' — Feb 14, 2022",
+    "[T2] Economic Times: 'NSE launches Electronic Gold Receipts' — May 2026 coverage",
+    "[T2] Economic Times: 'Gold exchange: Sebi notifies vault managers rules' — Jan 3, 2022",
+    "[T2] TaxGuru: 'Electronic Gold Receipts (EGRs): Analysis of India's Exchange-Traded Gold Ecosystem' — June 2026"
+  ]
+}

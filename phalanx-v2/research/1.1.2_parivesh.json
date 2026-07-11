@@ -1,0 +1,226 @@
+{
+  "stream_id": "1.1.2",
+  "stream_name": "PARIVESH Environmental Clearance",
+  "last_updated": "2025-01-28",
+  "confidence_framework": {
+    "T1": "Primary government source (MoEFCC notifications, PARIVESH portal, EIA Notification 2006, official OMs)",
+    "T2": "Industry publication (legal databases, industry analysis)",
+    "T3": "General web / tertiary source"
+  },
+  "executive_summary": {
+    "what_is_parivesh": "PARIVESH (Pro-Active and Responsive facilitation by Interactive, Virtuous, and Environmental Single-Window Hub) is a web-based, role-based workflow portal launched by MoEFCC in August 2018 for online submission, tracking, and monitoring of proposals seeking Environment, Forest, Wildlife, and CRZ clearances from Central, State, and district authorities.",
+    "current_version": "PARIVESH 2.0 — upgraded with GIS, data analytics, and enhanced modules for Category B proposals, Certified Compliance Reports (CCR), and SPCB comment workflows. Key modules made live: Oct 2021 (EC identification number & e-sign); Dec 2023 (Category B module for SEIAA/SEAC); Jan 2025 (SPCB comment SOP); Oct 2025 (SPCB comment workflow live); Mar 2026 (CCR module mandatory online).",
+    "sez_project_context": "A 50 sq km (5,000 hectare) SEZ would likely fall under Category A or Category B depending on its specific characteristics. Under EIA Notification 2006 Schedule Item 7(c), industrial estates/parks/complexes/areas, EPZs, SEZs, Biotech Parks, and Leather Complexes are listed. If the area exceeds thresholds and houses Category A/B industries, it requires prior Environmental Clearance (EC)."
+  },
+  "eia_categories": {
+    "category_a": {
+      "description": "Projects/activities with significant spatial extent of potential impacts and potential impacts on human health and natural/man-made resources. Require prior EC from Central Government (MoEFCC) based on recommendations of Expert Appraisal Committee (EAC).",
+      "sez_applicability": "Industrial estates/SEZs with area > 500 ha and housing at least one Category A or B industry are Category A. If > 500 ha and not housing any Category A/B industry, they are Category B.",
+      "source": "T1: EIA Notification 2006, para 4; OM dated April 4, 2016"
+    },
+    "category_b": {
+      "description": "Projects/activities with comparatively smaller impacts. Require prior EC from State/UT Environment Impact Assessment Authority (SEIAA) based on recommendations of State Expert Appraisal Committee (SEAC).",
+      "sub_categories": {
+        "b1": "Projects requiring further environmental studies and preparation of an Environmental Impact Assessment (EIA) report for appraisal. Termed Category B1.",
+        "b2": "Projects not requiring an EIA report. Termed Category B2. For mining of minor minerals with lease area ≤ 5 ha, B2 projects are handled by District EIAA (DEIAA)."
+      },
+      "sez_applicability": "SEZ projects not meeting Category A thresholds (e.g., smaller areas or not housing Category A/B industries) fall under Category B. The specific B1/B2 determination is made by SEAC during scoping.",
+      "source": "T1: EIA Notification 2006, para 4(iii), 4(iv); OM dated April 4, 2016"
+    },
+    "general_conditions": {
+      "description": "If a Category B project fulfills General Conditions (GC) stipulated in the Schedule (e.g., proximity to sensitive areas), it is considered at the Central level as Category A.",
+      "source": "T1: EIA Notification 2006, para 4(iii)"
+    }
+  },
+  "eia_requirement_by_category": {
+    "category_a": "Mandatory EIA report required. Scoping by EAC determines Terms of Reference (ToR) for EIA preparation.",
+    "category_b1": "Mandatory EIA report required. SEAC determines during scoping whether further environmental studies are needed.",
+    "category_b2": "No EIA report required. Appraised based on Form 1/Form 1A and other documents without EIA.",
+    "sez_specific": "For a 50 sq km (5,000 ha) SEZ, if it houses Category A or B industries, it is Category A and requires full EIA. If it is a smaller SEZ or does not house such industries, it may be Category B and require SEAC scoping to determine B1/B2.",
+    "source": "T1: EIA Notification 2006, para 4; OM dated April 4, 2016"
+  },
+  "forms_required": {
+    "form_1": {
+      "description": "Prescribed application form for seeking prior environmental clearance in all cases (Category A and B). To be submitted after identification of prospective site(s).",
+      "source": "T1: EIA Notification 2006, para 6"
+    },
+    "form_1a": {
+      "description": "Supplementary Form 1A, applicable if required (e.g., for expansion/modernization/change in product mix).",
+      "source": "T1: EIA Notification 2006, para 6"
+    },
+    "form_1m": {
+      "description": "For mining of minor minerals up to 5 ha under Category B2 projects.",
+      "source": "T1: EIA Notification 2006, Appendix VIII"
+    },
+    "pre_feasibility_report": {
+      "description": "To be furnished along with Form 1/Form 1A.",
+      "source": "T1: EIA Notification 2006, para 6"
+    },
+    "conceptual_plan": {
+      "description": "For construction projects/activities (Item 8 of Schedule), a conceptual plan is provided instead of pre-feasibility report.",
+      "source": "T1: EIA Notification 2006, para 6"
+    },
+    "eia_emp_report": {
+      "description": "For Category A and B1 projects, an Environmental Impact Assessment (EIA) Report and Environment Management Plan (EMP) are required, prepared in accordance with ToR.",
+      "source": "T1: EIA Notification 2006, Stage (2) Scoping"
+    },
+    "tor": {
+      "description": "Terms of Reference (ToR) determined by EAC (for Category A) or SEAC (for Category B1) after scrutiny of Form 1/Form 1A. ToR addresses all relevant environmental concerns for EIA preparation.",
+      "source": "T1: EIA Notification 2006, Stage (2)"
+    }
+  },
+  "timeline": {
+    "scoping_tor": {
+      "description": "EAC/SEAC determines ToR based on Form 1/Form 1A. No fixed statutory timeline for ToR issuance, but typically 30-60 days.",
+      "source": "T1: EIA Notification 2006, Stage (2)"
+    },
+    "public_hearing_request": {
+      "description": "Applicant makes request to Member Secretary of SPCB/UTPCC to arrange public hearing. SPCB/UTPCC must forward proceedings to regulatory authority within 45 days of request.",
+      "source": "T1: EIA Notification 2006, Stage (3)(iii)"
+    },
+    "public_hearing_completion": {
+      "description": "Public hearing must be completed within 45 days of request. If SPCB/UTPCC does not complete within this period, regulatory authority may engage another public agency to complete within a further 45 days.",
+      "source": "T1: EIA Notification 2006, Stage (3)(iii)-(iv)"
+    },
+    "website_publicity": {
+      "description": "Within 7 days of written request for public hearing, regulatory authority and SPCB place Summary EIA report and application on their website for written responses from concerned persons.",
+      "source": "T1: EIA Notification 2006, Stage (3)(vi)"
+    },
+    "appraisal_completion": {
+      "description": "EAC/SEAC must complete appraisal within 60 days of receipt of final EIA/EMP report and other documents (or Form 1/Form 1A where public consultation is not necessary). Recommendations placed before competent authority for final decision within next 15 days.",
+      "source": "T1: EIA Notification 2006, Stage (3)(iii)"
+    },
+    "total_estimated": {
+      "description": "Overall timeline from application to EC grant is typically 6-12 months for Category A, and 4-8 months for Category B, depending on complexity and public hearing scheduling.",
+      "source": "T2: Industry practice; T1: EIA Notification 2006"
+    }
+  },
+  "fees": {
+    "note": "EIA Notification 2006 does not prescribe a uniform fee structure for EC applications. Fees vary by state (SEIAA) and project type. Some states charge processing fees based on project cost (e.g., 0.1% to 0.5% of project cost, subject to minimum/maximum caps). Central level (MoEFCC) fees are typically nominal or nil for application processing, but NOC fees from SPCBs may apply.",
+    "source": "T2: Industry practice; T3: General web"
+  },
+  "public_hearing_process": {
+    "applicability": "All Category A and Category B1 projects must undertake Public Consultation, except specific exempted categories (e.g., small-scale industrial units in designated industrial areas, units in EPZs/SEZs per the 2001 notification, but note: OM April 4, 2016 clarified that many projects still require public consultation even if in notified industrial areas).",
+    "components": [
+      "Public hearing at the site or in close proximity (district-wise), conducted by SPCB/UTPCC",
+      "Written responses from other concerned persons having a plausible stake in environmental aspects"
+    ],
+    "notice_requirements": {
+      "newspaper": "Notice published in at least two newspapers widely circulated in the region, one in vernacular language",
+      "website": "Summary EIA and application placed on regulatory authority and SPCB website within 7 days of request",
+      "access_to_draft_eia": "Draft EIA report made available for inspection at a notified place during normal office hours until public hearing date"
+    },
+    "panel_composition": [
+      "Representative of SPCB/UTPCC",
+      "District Collector or nominee",
+      "Representative of State Government dealing with the subject",
+      "Representative of State Department dealing with Environment",
+      "Not more than 3 representatives of local bodies (Municipalities/Panchayats)",
+      "Not more than 3 senior citizens nominated by District Collector"
+    ],
+    "exemptions_for_sez": {
+      "historical": "The 2001 notification (reflected in EIA 2006 Para 7) exempted units in EPZs/SEZs from public hearing. However, the OM dated April 4, 2016 clarified that exemption from public consultation applies only to small-scale industrial units in industrial estates that existed as of the EIA Notification 2006 date and had obtained EC. Large projects (e.g., thermal power, cement, steel) even in SEZs cannot be exempted.",
+      "current_position": "For a 50 sq km SEZ, public hearing is likely required unless the specific project falls under exempted categories. The SEZ as a whole may have obtained EC, and individual units within it may be exempt if the SEZ has prior EC and the unit is small-scale."
+    },
+    "source": "T1: EIA Notification 2006, Stage (3); OM dated April 4, 2016; T1: Schedule IV (Public Hearing Procedure)"
+  },
+  "conditions_typically_imposed_on_sez_projects": {
+    "standard_conditions": [
+      "Abide by all commitments and recommendations made in EIA/EMP report",
+      "Abide by commitments made during Public Hearing",
+      "Submit six-monthly compliance reports on status of stipulated environmental conditions to MoEFCC via PARIVESH portal",
+      "Submit annual environmental statement in Form-V to concerned State Pollution Control Board",
+      "Make public the EC granted along with conditions by advertising in at least two local newspapers (one vernacular) within 7 days",
+      "Display EC on project proponent's website permanently",
+      "Submit copies of EC to Heads of local bodies, Panchayats, Municipal Bodies for 30-day display",
+      "Inform Regional Office and Ministry of date of financial closure and final approval",
+      "Inform Regional Office and Ministry of commencement of land development work and start of production"
+    ],
+    "additional_sez_specific": [
+      "Wastewater treatment and zero liquid discharge (ZLD) requirements",
+      "Common effluent treatment plant (CETP) if applicable",
+      "Air pollution control measures (ESP, bag filters, scrubbers)",
+      "Hazardous waste management and authorization under HW Rules",
+      "Green belt development (typically 33% of area)",
+      "Rainwater harvesting and groundwater monitoring",
+      "Traffic management and road infrastructure",
+      "CSR and local community development programs"
+    ],
+    "source": "T1: OM dated January 4, 2019 (Standardization of EC Conditions); T2: Industry practice"
+  },
+  "compliance_monitoring_post_approval": {
+    "six_monthly_reports": "Project proponent must submit six-monthly compliance reports on status of stipulated environmental conditions on the MoEFCC PARIVESH portal/environment clearance portal.",
+    "annual_environmental_statement": "Submit Form-V environmental statement to concerned State Pollution Control Board as per Environment (Protection) Rules, 1986.",
+    "certified_compliance_report_ccr": "For expansion proposals, obtain Certified Compliance Report (CCR) from respective Regional Office on compliance status of conditions stipulated in existing EC. A dedicated CCR module is now available on PARIVESH. From March 1, 2026, all CCR applications must be submitted and processed online only.",
+    "inspections": "Regional Offices of MoEFCC conduct periodic inspections. Non-compliance can lead to revocation of EC, penalties, or closure directions.",
+    "source": "T1: OM dated Jan 4, 2019; OM dated Jan 25, 2026 (CCR module); T1: PARIVESH portal guidelines"
+  },
+  "parivesh_portal_status_and_workflow": {
+    "portal_url": "https://parivesh.nic.in / https://cpc.parivesh.nic.in",
+    "modules": [
+      "Environmental Clearance (EC)",
+      "Forest Clearance (FC)",
+      "Wildlife Clearance (WL)",
+      "Coastal Regulatory Zone (CRZ) Clearance",
+      "Terms of Reference (ToR)",
+      "Certified Compliance Report (CCR) — new dedicated module",
+      "SPCB Comments workflow — live from Oct 24, 2025"
+    ],
+    "key_workflows": {
+      "tor": "ToR applications submitted to Ministry (Cat A) or SEAC (Cat B). After grant, replica auto-forwarded to SPCB for comments.",
+      "ec_application": "EC application submitted with Form 1/1A, EIA/EMP, public hearing proceedings, SPCB comments.",
+      "ec_identification_number": "16-digit EC identification number generated by system with e-sign. Mandatory for all ECs from Oct 2021 (Central) / Oct 2021 (SEIAAs). ECs without this are invalid.",
+      "spcb_comments": "As per OM Jan 14, 2025 and Oct 8, 2025, SPCB comments are obtained through PARIVESH. SPCB verifies payment receipt and uploads comments within 15-30 days.",
+      "ccr": "Project proponents submit CCR request online; Regional Office processes, conducts site visit, generates CCR with e-sign."
+    },
+    "digital_features": [
+      "Online submission and editing of proposals",
+      "Real-time status tracking at each workflow stage",
+      "GIS integration and data analytics (PARIVESH 2.0)",
+      "e-KYC and KYA (Know Your Approval)",
+      "Standard ToR issuance by MS, SEAC",
+      "Automated EC cover page generation with identification number",
+      "Helpdesk: Toll-free 1800119792 (9 AM to 5:30 PM working days)"
+    ],
+    "source": "T1: PARIVESH portal; OM dated Dec 8, 2023 (PARIVESH 2.0); OM dated Jan 14, 2025; OM dated Oct 8, 2025; OM dated Jan 25, 2026 (CCR)"
+  },
+  "gaps": [
+    {
+      "priority": "P1",
+      "gap": "Exact fee structure for EC application for a 50 sq km SEZ project — fees vary by state and are not uniformly prescribed in EIA Notification 2006",
+      "action": "Contact MoEFCC or concerned SEIAA for current fee schedule; check PARIVESH portal fee calculator if available"
+    },
+    {
+      "priority": "P1",
+      "gap": "Whether a 50 sq km SEZ would be Category A or Category B, and whether it would be B1 or B2 — this depends on the specific industries housed in the SEZ and the General Conditions",
+      "action": "Submit pre-feasibility report and Form 1 to SEAC for scoping determination; or consult MoEFCC for clarification if General Conditions apply"
+    },
+    {
+      "priority": "P2",
+      "gap": "Current average processing time for SEZ EC applications at MoEFCC and SEIAA levels in Bihar",
+      "action": "Query PARIVESH dashboard for Bihar-specific EC data; contact MoEFCC Regional Office (East) or Bihar SEIAA"
+    },
+    {
+      "priority": "P2",
+      "gap": "Public hearing exemption status for a large SEZ (50 sq km) — whether the entire SEZ can obtain a single EC with individual units exempted, or whether each major unit requires separate EC and public hearing",
+      "action": "Review MoEFCC OM on industrial estate exemptions and seek legal opinion on SEZ-specific treatment"
+    },
+    {
+      "priority": "P3",
+      "gap": "Detailed Bihar-specific SEIAA/SEAC composition, meeting schedules, and current backlog",
+      "action": "Check Bihar State Environment Department website or contact SEIAA Bihar directly"
+    }
+  ],
+  "citations": [
+    "[T1] EIA Notification, 2006 (as amended) — https://cpc.parivesh.nic.in/writereaddata/ENV/EnvironmentalClearance-General/18.pdf",
+    "[T1] MoEFCC OM dated April 4, 2016 — Clarification on exemption from Public Consultation for industrial estates/SEZs — https://parivesh.nic.in/publicdocument/UPLOAD_OM_NOTIFICATION/IA_DOCS/Manual/1302801941$7_OM_04_04_2016.pdf",
+    "[T1] MoEFCC OM dated December 8, 2023 — PARIVESH 2.0 reforms for Category B proposals — https://parivesh.nic.in/publicdocument/UPLOAD_OM_NOTIFICATION/IA_DOCS/Manual/859218817$15.%208.12.2023.pdf",
+    "[T1] MoEFCC OM dated January 4, 2019 — Standardization of EC Conditions — https://parivesh.nic.in/publicdocument/UPLOAD_OM_NOTIFICATION/IA_DOCS/Manual/1609291781$27._OM_04_01_2019.pdf",
+    "[T1] MoEFCC OM dated January 14, 2025 — SOP for obtaining comments from SPCBs/PCCs through PARIVESH — https://parivesh.nic.in/publicdocument/UPLOAD_OM_NOTIFICATION/IA_DOCS/1002_14102025125219.pdf",
+    "[T1] MoEFCC OM dated October 8, 2025 — SOP implementation live on PARIVESH from Oct 24, 2025 — https://parivesh.nic.in/publicdocument/UPLOAD_OM_NOTIFICATION/IA_DOCS/1002_25112025074332.pdf",
+    "[T1] MoEFCC OM dated January 25, 2026 — Submission of Certified Compliance Report through PARIVESH — https://parivesh.nic.in/publicdocument/UPLOAD_OM_NOTIFICATION/IA_DOCS/1002_25012026043343.pdf",
+    "[T1] PARIVESH Portal — https://cpc.parivesh.nic.in/",
+    "[T1] PARIVESH Online Search Dashboard — https://cpc.parivesh.nic.in/onlinesearch_dashboard.aspx",
+    "[T2] TaxGuru / Legal databases summarizing EIA Notification 2006 procedures"
+  ]
+}
