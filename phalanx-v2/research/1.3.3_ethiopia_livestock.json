@@ -1,0 +1,187 @@
+{
+  "stream_id": "1.3.3",
+  "title": "Ethiopia Livestock Supply Chain Research",
+  "date_researched": "2025-01-21",
+  "confidence": "high",
+  "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11762185/",
+    "https://birrmetrics.com/halal-meat-exports-to-gulf-states-push-ethiopias-livestock-earnings-to-120-million/",
+    "https://www.mathewsopenaccess.com/full-text/review-on-ethiopia-meat-export-navigating-opportunities-and-challenges-in-global-market",
+    "https://capitalethiopia.com/2024/07/08/50-million-cool-chain-logistics-hub-to-launch-in-mojo/",
+    "https://rr-africa.woah.org/app/uploads/2025/11/6.-Golo-Jaldessa_FMD-Control-Ethiopia.pdf",
+    "https://akademiya2063.org/publications/mamo/EN/Meat%20Milk%20and%20More/Meat_Milk_and_More_Ethiopia_Case_Study_2020_ENG.pdf",
+    "https://fic.tufts.edu/wp-content/uploads/Hargreaves-Belatchew.pdf",
+    "https://dairyethiopia.com/wp-content/uploads/2015/11/agp-lmd-end-market-analysis.pdf",
+    "https://standardsfacility.org/sites/default/files/STDF_PG_477_Final_Project_Report.pdf",
+    "https://tamrin.com.et/live-stock-exports/",
+    "https://www.fao.org/4/x5461e/x5461e03.htm",
+    "https://doi.org/10.13140/rg.2.1.5119.0803",
+    "https://doi.org/10.22004/ag.econ.252697"
+  ],
+  "major_breeding_zones": {
+    "description": "Ethiopia's major livestock breeding zones are concentrated in lowland pastoral and agro-pastoral rangelands, with highland mixed farming areas also supporting significant cattle populations.",
+    "key_regions": [
+      {
+        "region": "Borana (Oromia Regional State)",
+        "characteristics": "Primary source of cattle for export; Boran breed known for fast growth, large body size, and feed conversion efficiency."
+      },
+      {
+        "region": "Somali Region",
+        "characteristics": "Major source of shoats (sheep and goats) for export; pastoral production systems."
+      },
+      {
+        "region": "Afar",
+        "characteristics": "Pastoral and agro-pastoral systems; source of cattle and camels."
+      },
+      {
+        "region": "South Omo",
+        "characteristics": "Livestock production area; part of planned Disease-Free Zones."
+      },
+      {
+        "region": "Highland Mixed Farming Areas",
+        "characteristics": "High animal densities; predominantly cattle used for local traction and regional trade."
+      }
+    ],
+    "cattle_breeds": "Boran (Borena) cattle are the primary indigenous breed for export; known for adaptation to harsh conditions and fast growth."
+  },
+  "abattoir_capacity": {
+    "total_export_abattoirs": "Approximately 14 export-standard abattoirs (per 2021 data).",
+    "aggregate_capacity": "Approximately 200,000 tons of sheep, goats, and beef per year.",
+    "capacity_utilization": "Less than 10% of full capacity due to insufficient supply of suitable quality live animals and high domestic demand.",
+    "known_facilities": [
+      "ELFORA",
+      "Hashim",
+      "Luna",
+      "Mwashi",
+      "Modjo / Safi",
+      "Organic Export Abattoir",
+      "Alnujum Slaughterhouse (Dukem, Oromia)",
+      "HALAL Foods Industries PLC"
+    ],
+    "certification_status": "All export abattoirs are halal-certified or in the process of obtaining halal certification. Most are HACCP-certified or working toward it. Some hold Dubai Municipality approval.",
+    "location": "Most export abattoirs located along the Addis Ababa–Metahara corridor, within 45–200 km from Addis Ababa."
+  },
+  "cold_chain_infrastructure": {
+    "status": "Major bottleneck; characterized by lack of refrigerated vehicles, limited freezing facilities, and aging packaging systems.",
+    "current_practices": "Most meat export relies on basic stockinette wrapping. Chill facilities at abattoirs are inadequate; no blast freezer procedure/equipment at many facilities.",
+    "key_initiatives": [
+      {
+        "project": "Cool Port Addis (Modjo Dry Port)",
+        "investment": "$50 million USD",
+        "grant": "10.6 million euros from Netherlands",
+        "capacity": "Up to 242,000 metric tons of cargo per annum",
+        "connection": "Addis-Djibouti railway",
+        "status": "Under development / launch planned",
+        "primary_focus": "Horticultural exports, but capable of integrating meat exports and secondary flows."
+      }
+    ],
+    "bole_airport": "Temperatures at Bole Airport in Addis Ababa are not sufficiently cool (tailored for cut flowers); carcasses often sit on tarmac awaiting loading with no refrigeration.",
+    "air_transport": "Only once in air does cargo area achieve adequate cooling temperatures. Air freight costs range from USD 700 per ton to Middle East destinations to USD 2,500 per ton to other regions.",
+    "transport_share_of_costs": "Transport costs represent roughly 27% of total marketing costs for live animals and 32% for meat exports."
+  },
+  "veterinary_infrastructure": {
+    "national_referral_lab": "Animal Health Institute (AHI)",
+    "regional_labs": "17 regional veterinary laboratories",
+    "surveillance_systems": [
+      "National Animal Disease Surveillance System (NADSS)",
+      "ADNIS (real-time notification)",
+      "DOVAR-II (monthly reporting)"
+    ],
+    "fmd_status": {
+      "disease": "Foot-and-Mouth Disease (FMD)",
+      "prevalence": "Highly prevalent, endemic, notifiable disease that continues to trigger trade bans.",
+      "control_efforts": "Government working to establish Disease-Free Zones (DFZs) in Borana, South Omo, and Fafan."
+    },
+    "digital_traceability": "ET-LITS (Ethiopia Livestock Identification and Traceability System) being introduced.",
+    "quarantine_capacity": "Inadequate number of quarantine centers to meet 21–30 day pre-export quarantine requirements for Saudi Arabia and other markets.",
+    "sps_compliance": "Past trade bans imposed due to poor hygiene and sanitation at some export abattoirs. SPS compliance remains a major challenge."
+  },
+  "livestock_marketing_institutions": {
+    "evolution": [
+      "1998: Livestock Marketing Agency (LMA) established within Ministry of Trade",
+      "Later: Integrated into Ministry of Agriculture as Livestock and Fishery Marketing Department (LFMD)",
+      "2013: Ethiopian Meat and Dairy Industry Development Institute (EMDIDI)",
+      "Current: Ethiopian Livestock Development Institute (ELDI) — coordinates market access, targets illegal trade, promotes contract-breeding systems linking pastoralists with export abattoirs."
+    ],
+    "current_role": "ELDI manages market access, targets illegal cross-border trade, promotes contract-breeding systems directly linking pastoralists with export abattoirs, and supports policy reforms."
+  },
+  "export_volumes_and_destinations": {
+    "meat_exports_fy2025": {
+      "volume_tons": 22620,
+      "value_usd": 120000000,
+      "description": "Halal-certified meat and by-products exported in fiscal year ending June 2025."
+    },
+    "top_meat_destinations": {
+      "uae": "~51-55% of chilled sheep and goat carcass exports",
+      "saudi_arabia": "~28-32% of meat exports; major market for live sheep and goats",
+      "other": "Egypt, Yemen, Oman, Libya, Djibouti, Sudan"
+    },
+    "live_animal_exports": {
+      "formal_volume_2010_11": 472041,
+      "estimated_total_value": "USD 190 million (formal channels); substantial informal trade also exists",
+      "growth_rate": "15-25% per year (historical formal channel growth)",
+      "top_destinations": ["Sudan", "Somaliland", "Egypt", "Djibouti", "Saudi Arabia", "Yemen", "UAE"]
+    },
+    "historical_trends": [
+      "2008: 5 export abattoirs; 6,490 tons meat worth USD 20.86 million",
+      "2019: 14 exporting abattoirs; 19,110 tons carcass and offal worth USD 92.65 million",
+      "2021: 11 active export abattoirs; 14,750 tons and USD 80.79 million"
+    ]
+  },
+  "pricing_and_costs": {
+    "cattle_prices": {
+      "live_weight_purchase": "ETB 5 per kg live weight at abattoir gate (historical benchmark)",
+      "price_increases_2009_2012": {
+        "goat": "280 ETB to 860 ETB (207% increase)",
+        "sheep": "340 ETB to 900 ETB (165% increase)",
+        "cattle": "3,400 ETB to 5,400 ETB (59% increase)"
+      },
+      "export_price_floor": "USD 500 per head (informal floor historically enforced by National Bank concerns)",
+      "beef_export_fob_per_ton": "USD 4,197 to 4,579 per metric ton (2023-2024 range)",
+      "shoat_meat_fob_per_ton": "USD 2,200 per ton (fresh/chilled carcass to Jeddah/Dubai)"
+    },
+    "transport_costs": {
+      "live_animal_share_of_marketing_costs": "~27%",
+      "meat_export_share_of_marketing_costs": "~32%",
+      "air_freight_middle_east": "USD 700 per ton",
+      "air_freight_other_regions": "Up to USD 2,500 per ton",
+      "live_animal_to_djibouti_port": "USD 28.94 per head (total cost at port)"
+    },
+    "profit_margins": {
+      "shoat_meat_export": {
+        "profit_before_tax_margin_percent": 28.19,
+        "profit_after_tax_margin_percent": 19.74,
+        "net_profit_per_ton_usd": 434.17,
+        "cost_per_ton_usd": 1579.76,
+        "fob_revenue_per_ton_usd": 2200.00
+      },
+      "live_sheep_export": {
+        "profit_before_tax_margin_percent": 3.5,
+        "profit_after_tax_margin_percent": 2.5,
+        "fob_djibouti_price_per_head": 30.00,
+        "cost_per_head_at_djibouti": 28.94,
+        "note": "Very low margins; business difficult to sustain without price premiums or volume scale."
+      }
+    },
+    "documentation_costs_per_shipment": {
+      "halal_certification": "ETB 50 (approx USD 0.50)",
+      "health_certificate": "ETB 10",
+      "certificate_of_origin": "ETB 40",
+      "sanitary_inspection": "ETB 120",
+      "authentication": "ETB 162",
+      "total_documentation": "ETB 511 per shipment"
+    }
+  },
+  "gaps": [
+    "Current 2024-2025 live cattle prices per kg or per head at specific markets (Borana, Adama, etc.).",
+    "Up-to-date list of all 14 export abattoirs with exact halal/HACCP/SFDA certification status for each.",
+    "Current capacity and utilization rates of Cool Port Addis and other cold chain facilities.",
+    "Exact number and location of functional quarantine centers in Ethiopia meeting Saudi 21-30 day requirements.",
+    "Current FMD vaccination coverage rates and DFZ (Disease-Free Zone) establishment progress.",
+    "Latest export volume data for 2024-2025 (live animals and meat) with destination breakdown.",
+    "Current air freight rates from Addis Ababa to Jeddah/Dubai for chilled meat per ton.",
+    "Profit margin data for cattle/beef exports specifically (most data available is for shoats).",
+    "Extent of informal vs. formal live animal exports and revenue leakage estimates.",
+    "Role and current operational status of Ethiopian Livestock Development Institute (ELDI) programs."
+  ]
+}

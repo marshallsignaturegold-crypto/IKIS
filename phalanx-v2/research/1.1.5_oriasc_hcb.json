@@ -1,0 +1,159 @@
+{
+  "stream_id": "1.1.5",
+  "title": "ORIASC-HCB / OIC Halal Certification Body Accreditation for Saudi SFDA Recognition",
+  "date_researched": "2025-01-21",
+  "confidence": "high",
+  "sources": [
+    "https://smiic.org/en/content/573",
+    "https://academy.smiic.org/09-introduction-to-oic-smiic-2-90.html",
+    "https://smiic.org/standards",
+    "https://smiic.org/en/content/792",
+    "https://halal.parfonet-tech.com/",
+    "https://oriasc.org/",
+    "https://ethiopianbusinessreview.net/can-halal-bailout-ethiopias-exports/",
+    "https://www.sfda.gov.sa/en/halal",
+    "https://artemis-bc.com/blog/how-to-export-agro-food-products-to-saudi-arabia-1-navigating-halal-certification/",
+    "https://halalqualitycontrol.com/wp-content/uploads/2025/11/Saudi-Arabia-Export-Guideline-by-HQC-W0499-4-EN-1.pdf",
+    "https://capitalethiopia.com/2026/02/28/federation-of-saudi-chambers-announces-the-formation-of-the-saudi-ethiopian-business-council/",
+    "https://somalilandstandard.com/somaliland-to-export-fish-to-saudi-arabia/",
+    "https://english.hak.gov.tr/data/5f323fb813b87687483395d1/AKR-KL-001-Rv02_ENG.pdf"
+  ],
+  "oic_smiic_framework": {
+    "description": "The Organization of Islamic Cooperation (OIC) halal system is governed by standards developed by the Standards and Metrology Institute for Islamic Countries (SMIIC).",
+    "key_standards": [
+      {
+        "standard": "OIC/SMIIC 1:2019",
+        "title": "General Requirements for Halal Food",
+        "price_usd": 64
+      },
+      {
+        "standard": "OIC/SMIIC 2:2019",
+        "title": "Conformity Assessment – Requirements for Bodies Providing Halal Certification",
+        "price_usd": 80,
+        "normative_references": ["ISO/IEC 17065", "ISO/IEC 17021-1", "ISO/TS 22003"]
+      },
+      {
+        "standard": "OIC/SMIIC 3:2019",
+        "title": "Conformity Assessment – Requirements for Halal Accreditation Bodies Accrediting Halal Conformity Assessment Bodies",
+        "price_usd": 68
+      }
+    ],
+    "purpose": "Facilitate recognition and acceptance of halal certifications on a national, OIC, and international basis to support international trade.",
+    "smiic_cca": "SMIIC Committee on Standards for Conformity Assessment (SMIIC/CCA) prepares policies and standards for testing, calibration, certification, inspection, and accreditation."
+  },
+  "halal_certification_body_hcb": {
+    "definition": "A body that operates halal product, service, process, or management system certification in a competent, consistent, and impartial manner.",
+    "general_requirements": [
+      "Must be an Islamic entity",
+      "Take full responsibility for conformity with all Islamic requirements",
+      "Sign halal certification agreement with clients",
+      "Full responsibility for halal certification decisions",
+      "Use halal certification marks adhering to Islamic values",
+      "Maintain impartiality (avoid offering consultancy services to maintain objectivity)",
+      "Evaluate and minimize conflicts of interest",
+      "Ensure financial stability and liability coverage",
+      "Maintain transparent and non-discriminatory fee policies",
+      "Implement traceability with unique identifiers on products and packaging"
+    ],
+    "resource_requirements": {
+      "personnel": "Competent management and personnel with appropriate knowledge in relevant areas.",
+      "audit_team_composition": "At least two personnel: (1) a technical auditor with lead auditor qualifications and at least 4 years of work experience (2 years in halal certification), and (2) an Islamic affairs expert with at least 2 years of work experience in the Islamic work area.",
+      "islamic_work_ethics": "All personnel must adhere to Islamic work ethics.",
+      "ongoing_competence": "Defined competence criteria and ongoing evaluation of personnel performance."
+    },
+    "process_requirements": {
+      "initial_audit_and_certification": "Formal process for initial audit and certification decision.",
+      "surveillance": "Ongoing surveillance activities to ensure continued conformity.",
+      "recertification": "Periodic recertification process.",
+      "special_audits": "Provisions for special audits as needed.",
+      "appeals_and_complaints": "Formal handling procedures for appeals and complaints.",
+      "record_management": "Management of records and changes affecting certification."
+    }
+  },
+  "oriasc_hcb": {
+    "full_name": "Oromiya Region Islamic Affairs Supreme Council Department of Halal Certification Body (ORIASC-HCB)",
+    "website": "https://oriasc.org/",
+    "certification_portal": "https://halal.parfonet-tech.com/",
+    "location": "Ethiopia (Oromia Regional State)",
+    "accreditation": [
+      "Emirates International Accreditation Center (EIAC)",
+      "Saudi Food and Drug Authority (SFDA) Halal Center"
+    ],
+    "role": "National halal certification body in Ethiopia. Inspects and certifies agro-food and consumer products in accordance with Sharia law and Gulf Standardization Organization (GSO) standards to facilitate exports to Saudi Arabia, UAE, and other Gulf markets.",
+    "services": [
+      "Halal product certification",
+      "Halal standards development",
+      "Halal product inspection",
+      "Training of experts",
+      "Halal awareness promotion"
+    ],
+    "key_personnel": {
+      "name": "Siraj Ibrahim",
+      "title": "Head of Halal Certification Department",
+      "linkedin": "https://linkedin.com/in/siraj-ibrahim-a07a3a1b4",
+      "education": "DVM, Veterinary Medicine, Addis Ababa University"
+    },
+    "chairman": "Sheikh Bedru Nuru Tolosa (spoke at 1st Global Halal Industry Summit 2024)"
+  },
+  "saudi_sfda_hcb_recognition": {
+    "requirement": "Foreign Halal Certification Bodies (HCBs) must be formally recognized and accredited by the SFDA Saudi Halal Center in the country of origin to issue certificates valid for Saudi imports.",
+    "certificates_required": [
+      "Halal Facility Certificate (HFC) — issued through halal.gov.sa",
+      "Halal Shipment Certificate (HSC) — issued through halal.gov.sa"
+    ],
+    "recognition_process": "HCB must be listed as an accredited/recognized body by SFDA Saudi Halal Center. Exporters must use only recognized HCBs for halal certification of products destined for Saudi Arabia.",
+    "portal": "halal.gov.sa"
+  },
+  "audit_requirements_for_hcbs": {
+    "initial_audit": "Full facility audit by audit team (technical auditor + Islamic affairs expert) to verify compliance with halal standards and metrology.",
+    "surveillance": "Ongoing surveillance activities as per OIC/SMIIC 2 requirements; frequency not explicitly defined in available sources but typically annual or bi-annual.",
+    "recertification": "Periodic recertification required to maintain HCB recognition.",
+    "special_audits": "Triggered by complaints, changes in facility operations, or non-compliance findings.",
+    "complaint_handling": "Formal complaint and appeal handling procedures required under OIC/SMIIC 2; HCB must maintain records and implement corrective actions."
+  },
+  "fees_for_hcb_accreditation": {
+    "smiic_standard_document": {
+      "oic_smiic_2": "$80 USD"
+    },
+    "training_fee": {
+      "amount": "400 USD per person",
+      "duration": "2 days including exam",
+      "discount": "15% for groups of 5 persons",
+      "exam": "Online exam via Google Form; 70% pass threshold for Successful Completion certificate"
+    },
+    "actual_hcb_accreditation_fees": "NOT explicitly published in available sources. Fees likely negotiated with SFDA Saudi Halal Center and/or national accreditation body (e.g., EIAC).",
+    "sfda_portal_fees_for_exporters": {
+      "halal_facility_certificate": "3,750 SAR/year",
+      "halal_shipment_certificate": "1,000 SAR/shipment"
+    }
+  },
+  "bilateral_agreements": {
+    "saudi_ethiopia": {
+      "status": "Saudi-Ethiopian Business Council established under the Federation of Saudi Chambers (announced February 2026 per Capital Ethiopia). Focus on overcoming barriers to livestock and meat exports.",
+      "link": "https://capitalethiopia.com/2026/02/28/federation-of-saudi-chambers-announces-the-formation-of-the-saudi-ethiopian-business-council/"
+    },
+    "saudi_somaliland": {
+      "status": "Saudi Arabia requested Somaliland initiate fish exports to replace disrupted supplies from Yemen. Key condition: establishment of dedicated health certification laboratory in Somaliland.",
+      "link": "https://somalilandstandard.com/somaliland-to-export-fish-to-saudi-arabia/"
+    },
+    "gcc_recognition_eatsafe": {
+      "note": "Eatsafe (Ethiopian halal certifying company, established 2018) received GCC Standardization Organization halal accreditation in December 2020. This is a precedent for Ethiopian HCB recognition by Gulf accreditors.",
+      "source": "Ethiopian Business Review"
+    }
+  },
+  "precedents_for_oic_hcb_recognition_in_livestock": [
+    "Eatsafe Certification PLC (Ethiopia) — accredited by Ethiopian National Accreditation Office; received GCC halal accreditation December 2020.",
+    "ORIASC-HCB — accredited by EIAC and SFDA Halal Center; currently certifies Ethiopian agro-food products for Gulf export.",
+    "Saudi Arabia recognizes foreign HCBs through SFDA Saudi Halal Center portal (halal.gov.sa); meat and poultry imports require halal certificates from recognized Islamic centers approved by Muslim World League (historically) or SFDA-designated HCBs (current framework).",
+    "ORIASC chairman spoke at 1st Global Halal Industry Summit 2024 on 'The Responsibility of Issuing Halal Certificate,' indicating active international engagement."
+  ],
+  "gaps": [
+    "Exact SFDA-published list of recognized HCBs in Ethiopia/Somaliland (need to verify ORIASC-HCB current status on halal.gov.sa).",
+    "Specific annual surveillance audit frequency for HCBs under SFDA recognition (OIC/SMIIC 2 implies surveillance but does not specify cadence).",
+    "Published fee schedule for HCB accreditation by SFDA or EIAC (not found in public sources).",
+    "Detailed complaint resolution timelines and success rates for HCB appeals.",
+    "Formal bilateral agreement text between Saudi Arabia and Ethiopia specifically for halal certification mutual recognition (Saudi-Ethiopian Business Council exists but specific halal MOU not located).",
+    "ORIASC-HCB's exact audit capacity, number of certified auditors, and geographic coverage within Ethiopia.",
+    "Whether ORIASC-HCB is the only SFDA-recognized HCB in Ethiopia, or if Eatsafe and others also hold recognition."
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "stream_id": "1.1.4",
+  "title": "Saudi SFDA / MEWA Halal Protocol for Food & Livestock Imports",
+  "date_researched": "2025-01-21",
+  "confidence": "high",
+  "sources": [
+    "https://halalqualitycontrol.com/wp-content/uploads/2025/11/Saudi-Arabia-Export-Guideline-by-HQC-W0499-4-EN-1.pdf",
+    "https://halalqualitycontrol.com/wp-content/uploads/2025/11/HQC_Announcement_Letter_on_Saudi_Arabia.01.pdf",
+    "https://www.sfda.gov.sa/sites/default/files/2021-08/RulesRegulationsImportingMeatE.pdf",
+    "https://www.sfda.gov.sa/sites/default/files/2025-04/ConditionsRequirementsFoodClearanceE.pdf",
+    "https://www.sfda.gov.sa/sites/default/files/2025-02/GuideObtainingLicenseOperateFoodFeedManufacturersWarehouses.pdf",
+    "https://www.sfda.gov.sa/sites/default/files/2024-07/TechnicalRequirementsFoodWaterManufacture.pdf",
+    "https://www.sfda.gov.sa/sites/default/files/2020-12/FoodHygieneRequirementsEn.pdf",
+    "https://www.sfda.gov.sa/en/halal",
+    "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=FAIRS+Export+Certificate+Report+Annual_Riyadh_Saudi+Arabia_SA2025-0009.pdf",
+    "https://www.mewa.gov.sa/en/MediaCenter/News/Pages/News742020.aspx",
+    "https://www.thereporterethiopia.com/22438/",
+    "https://somalilandsun.com/somaliland-government-confirms-lifting-of-livestock-exports-to-saudi-arabia/",
+    "https://www.sfda.gov.sa/sites/default/files/2021-12/MissionClearanceProcess.pdf"
+  ],
+  "halal_center_platform": {
+    "name": "Saudi Halal Center (SHC) Portal",
+    "url": "halal.gov.sa",
+    "mandatory_since": "2024-10-01",
+    "description": "All facilities exporting halal products to Saudi Arabia must register on the Saudi Halal Platform to obtain Halal Facility Certificates (HFC) and Halal Shipment Certificates (HSC)."
+  },
+  "certification_fees": {
+    "facility_certificate_annual": {
+      "amount": 3750,
+      "currency": "SAR",
+      "approx_eur": 900,
+      "period": "per facility per year",
+      "notes": "Plus VAT. Optional Saudi Halal Center Logo usage fee: 6,000 SAR per product per year."
+    },
+    "shipment_certificate": {
+      "amount": 1000,
+      "currency": "SAR",
+      "approx_eur": 240,
+      "period": "per consignment/shipment",
+      "weight_limit": "up to 27 metric tons (27,000 kg)",
+      "notes": "Additional charges apply for heavier increments. Plus VAT."
+    }
+  },
+  "haccp_requirements": {
+    "standard": "GSO 21/1984",
+    "title": "Health conditions in food factories and their workers",
+    "scope": "All abattoirs, poultry slaughterhouses, and food factories preparing meat of any type must fully implement HACCP across all production stages.",
+    "certification_source": "Accredited certification body"
+  },
+  "facility_certification_requirements": {
+    "licensing_steps": [
+      "Obtain environmental permit from National Center for Environmental Compliance Monitoring",
+      "Establish and equip facility per SFDA technical guides and licensing entity requirements (Ministry of Municipal and Rural Affairs, Industrial/Economic Cities Authority, or Royal Commission)",
+      "Obtain HACCP certificate from accredited certification body",
+      "Conduct laboratory testing in SFDA-approved private laboratory",
+      "Register in unified electronic system 'Ghad' and submit operating license request",
+      "Obtain final operating license approval from SFDA General Authority for Food and Drug"
+    ],
+    "required_documents": [
+      "Industrial license copy from Ministry of Industry and Mineral Resources",
+      "Environmental permit",
+      "HACCP certificate",
+      "Municipal license (if applicable)",
+      "Lease agreement (if renting warehouse; minimum 20 sqm for food storage)",
+      "SFDA technical compliance documentation"
+    ],
+    "facility_design": {
+      "size_and_area": "Must be spacious and proportional to SFDA-approved factory construction plan; include production halls, warehouses, staff quarters, laboratory, maintenance, and administrative offices.",
+      "equipment_spacing": "Equipment at least 2 meters from walls; adjacent equipment at least 4 meters apart.",
+      "materials": "Corrosion-resistant, non-absorbent, easy to clean and sterilize.",
+      "temperature_control": "Suitable temperature-controlled handling and storage with monitoring and recording.",
+      "ventilation": "Prevent airflow from contaminated to clean areas; regular filter maintenance.",
+      "sanitation": "Adequate flush lavatories, hand wash basins with hot/cold water and soap, separate from food washing facilities."
+    },
+    "staffing_requirements": {
+      "health_certificates": "All workers must have valid health certificates from competent authority.",
+      "medical_examination": "Periodic medical exams at least annually; pre-resumption checks after vacations abroad.",
+      "exclusion": "Workers with contaminated wounds, sores, or contagious diseases excluded until treated.",
+      "first_aid": "Available on site with trained responders.",
+      "quality_department": "Preferably implement a quality/control system with qualified personnel for self-monitoring, inspection, and audits.",
+      "food_safety_system": "Preferably adopt a food safety system (e.g., ISO 22000 / FSSC 22000)."
+    },
+    "inspection": "SFDA Designated Officer conducts on-site visit before license issuance. License valid for one year; can be suspended or withdrawn for violations."
+  },
+  "labeling_requirements": {
+    "standard": "GSO 9",
+    "language": "Arabic and English",
+    "mandatory_elements": [
+      "Product name and description",
+      "Net weight/volume",
+      "Country of origin",
+      "Nutritional facts",
+      "Allergen declaration",
+      "Production and expiry dates",
+      "Storage conditions",
+      "Manufacturer/distributor name and address"
+    ],
+    "halal_mark_rules": "Prepackaged food labels must not include any halal claims, symbols, logos, or marks unless authenticating evidence is provided from accredited bodies designated by the Saudi Halal Center.",
+    "carcass_labeling": "For carcasses and wholesale meat, a durable label containing primary GSO data must be securely affixed via wire to one end of the carcass."
+  },
+  "livestock_import_requirements": {
+    "authority": "Ministry of Environment, Water and Agriculture (MEWA)",
+    "import_permit": "Required from MEWA Animal and Plant Quarantine Department before shipments leave exporting country.",
+    "health_certificate": "Must be from recognized authority in country of origin, duly authenticated by Saudi embassy in that country.",
+    "direct_route": "Must ship directly from country of origin to KSA without anchorage or call to any banned/infected port or country.",
+    "pre_export_quarantine": "Livestock must undergo strict pre-export quarantine at certified facilities (e.g., Berbera Port managed by Saudi-Emirates International Veterinary Quarantine Management Company for Somaliland exports).",
+    "disease_inspection": "Inspected for epidemic diseases (Rift Valley Fever, Foot and Mouth Disease, etc.). Necessary vaccinations required.",
+    "veterinary_inspection_on_arrival": "Mandatory at any Saudi port.",
+    "rejection_threshold": "Whole shipment rejected if infected with diseases listed in Table 1 (e.g., FMD, RVF, rabies, BSE).",
+    "quarantine_threshold": "Shipment may be quarantined if infection rate does not exceed 10% of random sample for diseases in Table 2. If >10%, shipment refused entry.",
+    "banned_countries_history": "Saudi Arabia banned live animal imports from Somalia, Ethiopia, Eritrea, Sudan, Kenya, and Djibouti at end of 1990s. Djibouti barred in 2019 after RVF-positive sample.",
+    "recent_imports_ethiopia": {
+      "2020_04": "3,050 sheep from Ethiopia arrived at Al-Ahsa Regional Airport; physical and lab tests confirmed healthy and disease-free."
+    },
+    "ban_status_ethiopia": {
+      "note": "The Reporter Ethiopia reported in March 2022 that the year-long ban on Ethiopian livestock imports remained in place, forcing diplomatic efforts. Contradicts 2020 MEWA import data—suggest ban may be intermittent or lifted and reimposed.",
+      "confidence": "medium"
+    },
+    "ban_status_somaliland": {
+      "lifted": "2022-03-17",
+      "source": "Somaliland Minister of Livestock and Fisheries confirmed lifting of 11-year ban.",
+      "quarantine": "Animals quarantined up to two weeks at Berbera port before export."
+    }
+  },
+  "transit_and_storage_requirements": {
+    "frozen_meat": {
+      "temperature": "Not exceeding -18°C continuously until reaching consumer",
+      "shelf_life_from_slaughter": "Shipment must arrive within 4 months of slaughter"
+    },
+    "chilled_meat": {
+      "temperature": "-0.5 ± 1°C for vacuum-packed/CO2-packed meat",
+      "max_shelf_life": "90 days"
+    },
+    "container_requirements": "Shipped in closed, sealed transshipment containers waxed with red wax or lead. Containers must not be opened or exposed to harsh weather at transit stations.",
+    "third_country_processing": "No repacking, cutting, canning, or packaging permitted in third countries.",
+    "viscera": "Shipped separately from meat containers; accompanied by health certificate confirming healthy origin and veterinary inspection."
+  },
+  "certification_failure_and_appeal": {
+    "rejection_authority": "SFDA Border Inspection Posts (BIPs) and Executive Management of Food Import Control (EDIFC)",
+    "rejection_reasons": [
+      "Non-compliance with GSO or Saudi regulations/standards",
+      "Missing or invalid Halal certificate",
+      "Missing health certificate or improper authentication",
+      "Failure of laboratory analysis",
+      "Temperature violations for frozen/chilled shipments"
+    ],
+    "rejected_consignments": "Must be re-exported or destroyed under SFDA supervision.",
+    "appeal_process": {
+      "timeline": "File written appeal within 60 days of refusal decision.",
+      "submission": "Written appeal to EDIFC at SFDA headquarters, with certified letter from Chamber of Commerce and complete shipment documents.",
+      "review": "EDIFC forwards to SFDA special committee which studies shipment documentation and BIP test results.",
+      "outcome": "If BIP action found in error, EDIFC overturns and instructs clearance. If compliant with rules, rejection stands.",
+      "importer_obligations": [
+        "Bear costs of any new laboratory tests if re-testing approved",
+        "Responsible for value of goods if shipment remains at port during appeal",
+        "For frozen/chilled shipments, provide temperature reader from rejection until final decision"
+      ],
+      "repeat_appeals": "Appeal cannot be repeated for same customs declaration/consignment to same SFDA branch."
+    },
+    "clearance_timeline": "Containers can be cleared in less than five working days if all documents are in order and products meet Saudi/Gulf specifications."
+  },
+  "precedents_for_ethiopia_somaliland_livestock": [
+    "April 2020: MEWA announced 27,827 head of cattle (sheep, cows, camels) from Djibouti, Ethiopia, and Romania arrived in KSA.",
+    "April 2020: 3,050 sheep from Ethiopia arrived at Al-Ahsa Regional Airport; passed physical and lab tests.",
+    "March 2022: Somaliland government confirmed lifting of 11-year livestock export ban to Saudi Arabia; Djibouti and Somalia also included.",
+    "March 2022: The Reporter Ethiopia reported that Saudi Arabia's year-long ban on Ethiopian livestock imports remained in place, suggesting intermittent or re-imposed restrictions."
+  ],
+  "gaps": [
+    "Exact current ban status for Ethiopian live animal exports to Saudi Arabia (conflicting reports between 2020 imports and 2022 ban).",
+    "Specific facility size minimums for meat processing plants (beyond general proportional requirements).",
+    "Detailed list of SFDA-recognized private laboratories for testing in Ethiopia/Somaliland.",
+    "Appeal success rates and average resolution timelines.",
+    "Current live animal quarantine facility capacity and locations in Ethiopia.",
+    "Updated 2024-2025 MEWA circulars on banned countries and disease status.",
+    "Exact cost of environmental permits and municipal licenses for foreign facilities."
+  ]
+}
