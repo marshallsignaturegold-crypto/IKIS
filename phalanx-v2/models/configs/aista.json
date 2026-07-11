@@ -1,0 +1,208 @@
+{
+  "model_id": "aista-critical-minerals-v2",
+  "project_name": "AISTA Critical Minerals – Somaliland Rare Earth & Base Metals",
+  "model_type": "NPV",
+  "currency": "USD",
+  "country": "Somaliland",
+  "time_series": {
+    "start_date": "2026-01-01",
+    "periods": 22,
+    "period_length_months": 12,
+    "currency": "USD",
+    "inflation_basis": "hybrid",
+    "local_inflation_rate": 0.045,
+    "usd_inflation_rate": 0.025,
+    "fx_rate": 8500.0,
+    "fx_volatility": 0.12
+  },
+  "base_assumptions": {
+    "total_resource_tonnes": {"value": 45000000, "unit": "t", "source": "JORC 2012 Measured & Indicated", "confidence": "B"},
+    "mine_life_years": {"value": 22, "unit": "yr", "source": "Mine plan optimisation", "confidence": "B"},
+    "annual_throughput_tonnes": {"value": 2000000, "unit": "t/yr", "source": "Feasibility study", "confidence": "B"},
+    "head_grade_pct": {"value": 1.85, "unit": "%", "source": "Metallurgical testwork", "confidence": "C"},
+    "recovery_rate_pct": {"value": 78.5, "unit": "%", "source": "Pilot plant results", "confidence": "C"},
+    "commodity_basket_price_usd_tonne": {"value": 2850, "unit": "USD/t", "source": "Bloomberg 2025-06 forward curve", "confidence": "B"},
+    "capex_initial_usd": {"value": 420000000, "unit": "USD", "source": "EPCM estimate ±15%", "confidence": "C"},
+    "capex_sustaining_usd": {"value": 18000000, "unit": "USD/yr", "source": "LOM sustaining plan", "confidence": "C"},
+    "opex_mining_usd_tonne_mined": {"value": 12.50, "unit": "USD/t", "source": "Contractor quotes", "confidence": "B"},
+    "opex_processing_usd_tonne_milled": {"value": 18.75, "unit": "USD/t", "source": "Vendor quotes", "confidence": "B"},
+    "opex_g_a_usd_tonne_milled": {"value": 4.20, "unit": "USD/t", "source": "Corporate overhead allocation", "confidence": "C"},
+    "transport_cost_usd_tonne_product": {"value": 65.00, "unit": "USD/t", "source": "Berbera Port logistics agreement", "confidence": "B"},
+    "royalty_rate_pct": {"value": 5.0, "unit": "%", "source": "Somaliland Mining Code draft", "confidence": "D"},
+    "corporate_tax_rate_pct": {"value": 25.0, "unit": "%", "source": "Somaliland draft fiscal terms", "confidence": "D"},
+    "debt_ratio_pct": {"value": 55.0, "unit": "%", "source": "Target capital structure", "confidence": "B"},
+    "cost_of_debt_pct": {"value": 8.5, "unit": "%", "source": "AfDB + ECIC indicative terms", "confidence": "C"},
+    "beta_levered": {"value": 1.35, "unit": "", "source": "Peer group (Lynas, MP Materials)", "confidence": "B"},
+    "risk_free_rate_pct": {"value": 4.35, "unit": "%", "source": "US 10-yr Treasury 2025-06", "confidence": "A"},
+    "equity_risk_premium_pct": {"value": 5.5, "unit": "%", "source": "Damodaran 2025", "confidence": "B"},
+    "country_risk_premium_pct": {"value": 10.5, "unit": "%", "source": "Framework registry (Somaliland)", "confidence": "C"},
+    "terminal_method": {"value": "perpetuity", "source": "Mining convention", "confidence": "C"},
+    "terminal_perpetuity_growth_pct": {"value": 1.5, "unit": "%", "source": "Long-term commodity inflation", "confidence": "C"}
+  },
+  "distribution_parameters": {
+    "commodity_basket_price_usd_tonne": {
+      "dist_type": "lognormal",
+      "params": {"mu": 7.955, "sigma": 0.25},
+      "description": "Geometric Brownian motion proxy for rare earth basket"
+    },
+    "recovery_rate_pct": {
+      "dist_type": "triangular",
+      "params": {"low": 72.0, "mode": 78.5, "high": 84.0},
+      "description": "Metallurgical uncertainty"
+    },
+    "capex_initial_usd": {
+      "dist_type": "triangular",
+      "params": {"low": 357000000, "mode": 420000000, "high": 483000000},
+      "description": "EPCM estimate range ±15%"
+    },
+    "opex_mining_usd_tonne_mined": {
+      "dist_type": "normal",
+      "params": {"mu": 12.50, "sigma": 1.25},
+      "description": "Labour and diesel price volatility"
+    },
+    "annual_throughput_tonnes": {
+      "dist_type": "triangular",
+      "params": {"low": 1600000, "mode": 2000000, "high": 2300000},
+      "description": "Ramp-up and geological uncertainty"
+    },
+    "transport_cost_usd_tonne_product": {
+      "dist_type": "normal",
+      "params": {"mu": 65.0, "sigma": 8.0},
+      "description": "Fuel and port tariff uncertainty"
+    }
+  },
+  "correlation_matrix": {
+    "variables": [
+      "commodity_basket_price_usd_tonne",
+      "recovery_rate_pct",
+      "capex_initial_usd",
+      "opex_mining_usd_tonne_mined",
+      "annual_throughput_tonnes",
+      "transport_cost_usd_tonne_product"
+    ],
+    "matrix": [
+      [1.00,  0.10, -0.05,  0.20,  0.15,  0.10],
+      [0.10,  1.00, -0.15,  0.05,  0.30,  0.05],
+      [-0.05, -0.15, 1.00,  0.25,  0.10,  0.10],
+      [0.20,  0.05,  0.25,  1.00,  0.10,  0.40],
+      [0.15,  0.30,  0.10,  0.10,  1.00,  0.15],
+      [0.10,  0.05,  0.10,  0.40,  0.15,  1.00]
+    ]
+  },
+  "scenarios": {
+    "base_case": {
+      "description": "Feasibility study base case assumptions",
+      "multipliers": {},
+      "overrides": {}
+    },
+    "best_case": {
+      "description": "High commodity prices, high recovery, capex at lower bound",
+      "multipliers": {
+        "commodity_basket_price_usd_tonne": 1.25,
+        "recovery_rate_pct": 1.06,
+        "annual_throughput_tonnes": 1.10
+      },
+      "overrides": {
+        "capex_initial_usd": 357000000
+      }
+    },
+    "worst_case": {
+      "description": "Low commodity prices, low recovery, capex at upper bound, transport disruption",
+      "multipliers": {
+        "commodity_basket_price_usd_tonne": 0.75,
+        "recovery_rate_pct": 0.94,
+        "annual_throughput_tonnes": 0.85
+      },
+      "overrides": {
+        "capex_initial_usd": 483000000,
+        "transport_cost_usd_tonne_product": 90.0
+      }
+    },
+    "stress_case": {
+      "description": "Sovereign disruption, 3-year construction delay, 50% debt recall",
+      "multipliers": {
+        "commodity_basket_price_usd_tonne": 0.65,
+        "recovery_rate_pct": 0.90,
+        "annual_throughput_tonnes": 0.70
+      },
+      "overrides": {
+        "capex_initial_usd": 550000000,
+        "transport_cost_usd_tonne_product": 120.0,
+        "country_risk_premium_pct": 18.0
+      }
+    }
+  },
+  "risk_factors": {
+    "commodity_price": {
+      "severity": "high",
+      "probability": "medium",
+      "mitigation": "Off-take agreements, hedging 30% first 5 years",
+      "contingency_usd": 50000000
+    },
+    "sovereign_political": {
+      "severity": "high",
+      "probability": "medium",
+      "mitigation": "Sovereign guarantee wrap, MIGA insurance, local JV",
+      "contingency_usd": 35000000
+    },
+    "metallurgical_recovery": {
+      "severity": "medium",
+      "probability": "medium",
+      "mitigation": "Pilot plant validation, 10% design contingency",
+      "contingency_usd": 25000000
+    },
+    "construction_cost_overrun": {
+      "severity": "medium",
+      "probability": "high",
+      "mitigation": "Fixed-price EPC, LDs, performance bonds",
+      "contingency_usd": 63000000
+    },
+    "fx_volatility": {
+      "severity": "medium",
+      "probability": "high",
+      "mitigation": "USD-denominated debt, natural hedge via USD revenue",
+      "contingency_usd": 15000000
+    },
+    "logistics_port": {
+      "severity": "medium",
+      "probability": "medium",
+      "mitigation": "Berbera Port concession alignment, dual-port study",
+      "contingency_usd": 20000000
+    }
+  },
+  "wacc_components": {
+    "risk_free_rate": 0.0435,
+    "equity_risk_premium": 0.055,
+    "beta": 1.35,
+    "market_return": 0.0985,
+    "cost_of_debt": 0.085,
+    "tax_rate": 0.25,
+    "debt_ratio": 0.55,
+    "equity_ratio": 0.45,
+    "country_risk_premium": 0.105,
+    "size_premium": 0.02,
+    "industry_premium": 0.015
+  },
+  "waterfall_config": {
+    "opex_priority": 1,
+    "debt_service_priority": 2,
+    "tax_priority": 3,
+    "reserve_priority": 4,
+    "distribution_priority": 5,
+    "reserve_target_months": 6,
+    "min_cash_balance": 5000000
+  },
+  "depreciation": {
+    "method": "units_of_production",
+    "total_capex_usd": 420000000,
+    "salvage_usd": 25000000,
+    "life_years": 22
+  },
+  "debt_schedule": {
+    "total_debt_usd": 231000000,
+    "tenor_years": 12,
+    "grace_period_years": 3,
+    "interest_rate": 0.085,
+    "principal_repayment": "sculpted"
+  }
+}
