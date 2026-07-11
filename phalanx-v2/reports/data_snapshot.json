@@ -1,0 +1,140 @@
+{
+  "filings": [
+    {
+      "id": "REG-001",
+      "name": "BIIPP-2025 (Bihar SEZ)",
+      "jurisdiction": "India",
+      "deadline": "2026-12-31",
+      "status": "ready",
+      "days_remaining": 173,
+      "risk_level": "high",
+      "hitl_required": 1,
+      "budget_usd": 250000,
+      "completed_items": 5,
+      "total_items": 6
+    },
+    {
+      "id": "REG-002",
+      "name": "SEBI EGR Registration",
+      "jurisdiction": "India",
+      "deadline": "2026-08-15",
+      "status": "ready",
+      "days_remaining": 35,
+      "risk_level": "critical",
+      "hitl_required": 1,
+      "budget_usd": 150000,
+      "completed_items": 6,
+      "total_items": 7
+    },
+    {
+      "id": "REG-003",
+      "name": "PARIVESH (Environmental)",
+      "jurisdiction": "India",
+      "deadline": "2026-07-20",
+      "status": "ready",
+      "days_remaining": 9,
+      "risk_level": "high",
+      "hitl_required": 1,
+      "budget_usd": 100000,
+      "completed_items": 5,
+      "total_items": 6
+    },
+    {
+      "id": "REG-004",
+      "name": "MEWA/SFDA Protocol",
+      "jurisdiction": "Saudi Arabia",
+      "deadline": "2026-07-15",
+      "status": "ready",
+      "days_remaining": 4,
+      "risk_level": "critical",
+      "hitl_required": 1,
+      "budget_usd": 80000,
+      "completed_items": 5,
+      "total_items": 6
+    },
+    {
+      "id": "REG-005",
+      "name": "ORIASC-HCB SFDA",
+      "jurisdiction": "Saudi Arabia",
+      "deadline": "2026-07-30",
+      "status": "ready",
+      "days_remaining": 19,
+      "risk_level": "high",
+      "hitl_required": 1,
+      "budget_usd": 120000,
+      "completed_items": 5,
+      "total_items": 6
+    },
+    {
+      "id": "REG-006",
+      "name": "FMD-Free Zone (WOAH)",
+      "jurisdiction": "Ethiopia",
+      "deadline": "2026-08-01",
+      "status": "ready",
+      "days_remaining": 21,
+      "risk_level": "critical",
+      "hitl_required": 1,
+      "budget_usd": 200000,
+      "completed_items": 5,
+      "total_items": 6
+    }
+  ],
+  "models": [
+    {
+      "id": "AISTA",
+      "name": "AISTA Critical Minerals",
+      "project": "AISTA",
+      "npv_mean": 11.2,
+      "npv_p5": 8.5,
+      "npv_p95": 14.8,
+      "dscr_mean": 0.0,
+      "irr_mean": 18.5,
+      "wacc": 9.5,
+      "validation_status": "PASS",
+      "last_run": "2026-07-11T06:47:06.101980+00:00"
+    },
+    {
+      "id": "BERBERA",
+      "name": "Berbera Port PPP",
+      "project": "Berbera",
+      "npv_mean": 0.0,
+      "npv_p5": 0.0,
+      "npv_p95": 0.0,
+      "dscr_mean": 2.11,
+      "irr_mean": 16.2,
+      "wacc": 8.5,
+      "validation_status": "PASS",
+      "last_run": "2026-07-11T06:47:06.101994+00:00"
+    },
+    {
+      "id": "BIBC",
+      "name": "BIBC Bullion (EGR)",
+      "project": "BIBC",
+      "npv_mean": 29.25,
+      "npv_p5": 22.0,
+      "npv_p95": 37.5,
+      "dscr_mean": 0.0,
+      "irr_mean": 22.1,
+      "wacc": 8.0,
+      "validation_status": "PASS",
+      "last_run": "2026-07-11T06:47:06.101997+00:00"
+    },
+    {
+      "id": "PIZZA",
+      "name": "Pizza Franchise",
+      "project": "Pizza",
+      "npv_mean": 0.19,
+      "npv_p5": 0.12,
+      "npv_p95": 0.28,
+      "dscr_mean": 0.0,
+      "irr_mean": 24.5,
+      "wacc": 12.0,
+      "validation_status": "PASS",
+      "last_run": "2026-07-11T06:47:06.101999+00:00"
+    }
+  ],
+  "agents": [],
+  "last_cycle": {},
+  "findings": {},
+  "timestamp": "2026-07-11T06:47:10.173192+00:00"
+}

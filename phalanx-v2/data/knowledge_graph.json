@@ -1,0 +1,322 @@
+{
+  "timestamp": "2026-07-11T06:50:01.535642+00:00",
+  "cycle": 2,
+  "agents": [
+    {
+      "id": "alpha-0",
+      "group": "alpha",
+      "role": "Core Orchestration",
+      "status": "active",
+      "tasks_completed": 1,
+      "errors": 0
+    },
+    {
+      "id": "alpha-1",
+      "group": "alpha",
+      "role": "Core Orchestration",
+      "status": "active",
+      "tasks_completed": 1,
+      "errors": 0
+    },
+    {
+      "id": "alpha-2",
+      "group": "alpha",
+      "role": "Core Orchestration",
+      "status": "active",
+      "tasks_completed": 1,
+      "errors": 0
+    },
+    {
+      "id": "alpha-3",
+      "group": "alpha",
+      "role": "Core Orchestration",
+      "status": "active",
+      "tasks_completed": 1,
+      "errors": 0
+    },
+    {
+      "id": "beta-0",
+      "group": "beta",
+      "role": "Financial Modeling",
+      "status": "active",
+      "tasks_completed": 1,
+      "errors": 0
+    },
+    {
+      "id": "beta-1",
+      "group": "beta",
+      "role": "Financial Modeling",
+      "status": "active",
+      "tasks_completed": 1,
+      "errors": 0
+    },
+    {
+      "id": "beta-2",
+      "group": "beta",
+      "role": "Financial Modeling",
+      "status": "active",
+      "tasks_completed": 1,
+      "errors": 0
+    },
+    {
+      "id": "beta-3",
+      "group": "beta",
+      "role": "Financial Modeling",
+      "status": "active",
+      "tasks_completed": 1,
+      "errors": 0
+    },
+    {
+      "id": "gamma-0",
+      "group": "gamma",
+      "role": "Compliance & Regulatory",
+      "status": "active",
+      "tasks_completed": 1,
+      "errors": 0
+    },
+    {
+      "id": "gamma-1",
+      "group": "gamma",
+      "role": "Compliance & Regulatory",
+      "status": "active",
+      "tasks_completed": 1,
+      "errors": 0
+    },
+    {
+      "id": "gamma-2",
+      "group": "gamma",
+      "role": "Compliance & Regulatory",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    },
+    {
+      "id": "gamma-3",
+      "group": "gamma",
+      "role": "Compliance & Regulatory",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    },
+    {
+      "id": "delta-0",
+      "group": "delta",
+      "role": "Infrastructure & DevOps",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    },
+    {
+      "id": "delta-1",
+      "group": "delta",
+      "role": "Infrastructure & DevOps",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    },
+    {
+      "id": "delta-2",
+      "group": "delta",
+      "role": "Infrastructure & DevOps",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    },
+    {
+      "id": "delta-3",
+      "group": "delta",
+      "role": "Infrastructure & DevOps",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    },
+    {
+      "id": "epsilon-0",
+      "group": "epsilon",
+      "role": "Security & Monitoring",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    },
+    {
+      "id": "epsilon-1",
+      "group": "epsilon",
+      "role": "Security & Monitoring",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    },
+    {
+      "id": "epsilon-2",
+      "group": "epsilon",
+      "role": "Security & Monitoring",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    },
+    {
+      "id": "epsilon-3",
+      "group": "epsilon",
+      "role": "Security & Monitoring",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    },
+    {
+      "id": "zeta-0",
+      "group": "zeta",
+      "role": "ETL & Knowledge Graph",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    },
+    {
+      "id": "zeta-1",
+      "group": "zeta",
+      "role": "ETL & Knowledge Graph",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    },
+    {
+      "id": "zeta-2",
+      "group": "zeta",
+      "role": "ETL & Knowledge Graph",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    },
+    {
+      "id": "zeta-3",
+      "group": "zeta",
+      "role": "ETL & Knowledge Graph",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    },
+    {
+      "id": "eta-0",
+      "group": "eta",
+      "role": "HITL Coordination",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    },
+    {
+      "id": "eta-1",
+      "group": "eta",
+      "role": "HITL Coordination",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    },
+    {
+      "id": "eta-2",
+      "group": "eta",
+      "role": "HITL Coordination",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    },
+    {
+      "id": "omega-0",
+      "group": "omega",
+      "role": "Disaster Recovery",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    },
+    {
+      "id": "omega-1",
+      "group": "omega",
+      "role": "Disaster Recovery",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    },
+    {
+      "id": "omega-2",
+      "group": "omega",
+      "role": "Disaster Recovery",
+      "status": "active",
+      "tasks_completed": 0,
+      "errors": 0
+    }
+  ],
+  "filings": [
+    {
+      "id": "REG-001",
+      "name": "BIIPP-2025 (Bihar SEZ)",
+      "jurisdiction": "India",
+      "deadline": "2026-12-31",
+      "status": "ready",
+      "budget_usd": 250000
+    },
+    {
+      "id": "REG-002",
+      "name": "SEBI EGR Registration",
+      "jurisdiction": "India",
+      "deadline": "2026-08-15",
+      "status": "ready",
+      "budget_usd": 150000
+    },
+    {
+      "id": "REG-003",
+      "name": "PARIVESH (Environmental)",
+      "jurisdiction": "India",
+      "deadline": "2026-07-20",
+      "status": "ready",
+      "budget_usd": 100000
+    },
+    {
+      "id": "REG-004",
+      "name": "MEWA/SFDA Protocol",
+      "jurisdiction": "Saudi Arabia",
+      "deadline": "2026-07-15",
+      "status": "ready",
+      "budget_usd": 80000
+    },
+    {
+      "id": "REG-005",
+      "name": "ORIASC-HCB SFDA",
+      "jurisdiction": "Saudi Arabia",
+      "deadline": "2026-07-30",
+      "status": "ready",
+      "budget_usd": 120000
+    },
+    {
+      "id": "REG-006",
+      "name": "FMD-Free Zone (WOAH)",
+      "jurisdiction": "Ethiopia",
+      "deadline": "2026-08-01",
+      "status": "ready",
+      "budget_usd": 200000
+    }
+  ],
+  "models": [
+    {
+      "id": "AISTA",
+      "name": "AISTA Critical Minerals",
+      "npv_billions": 11.2,
+      "status": "pass"
+    },
+    {
+      "id": "BERBERA",
+      "name": "Berbera Port PPP",
+      "dscr": 2.11,
+      "status": "pass"
+    },
+    {
+      "id": "BIBC",
+      "name": "BIBC Bullion (EGR)",
+      "npv_billions": 29.25,
+      "status": "pass"
+    },
+    {
+      "id": "PIZZA",
+      "name": "Pizza Franchise",
+      "npv_billions": 0.19,
+      "status": "pass"
+    }
+  ]
+}

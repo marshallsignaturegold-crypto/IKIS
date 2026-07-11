@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Phalanx Swarm v2.0-OMEGA</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; background: #0a0a0a; color: #00ff00; margin: 0; padding: 20px; }
+        h1 { font-size: 2.5em; margin: 0 0 20px 0; text-transform: uppercase; letter-spacing: 4px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; }
+        .card { background: #111; border: 1px solid #333; padding: 20px; border-radius: 4px; }
+        .card h2 { margin: 0 0 10px 0; font-size: 0.9em; text-transform: uppercase; color: #888; letter-spacing: 2px; }
+        .big { font-size: 3em; font-weight: bold; margin: 10px 0; }
+        .ok { color: #00ff00; }
+        .warn { color: #ffaa00; }
+        .crit { color: #ff0000; }
+        .status { font-size: 0.8em; padding: 4px 8px; border-radius: 2px; display: inline-block; margin-top: 5px; }
+        .status-pass { background: #003300; color: #00ff00; }
+        .status-warn { background: #332200; color: #ffaa00; }
+        .status-crit { background: #330000; color: #ff0000; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 0.85em; }
+        th { text-align: left; padding: 8px; border-bottom: 1px solid #333; color: #888; font-weight: normal; text-transform: uppercase; font-size: 0.8em; }
+        td { padding: 8px; border-bottom: 1px solid #222; }
+        .timestamp { color: #666; font-size: 0.8em; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Phalanx Swarm v2.0-OMEGA</h1>
+    <div class="grid">
+        <div class="card">
+            <h2>Active Agents</h2>
+            <div class="big ok">30</div>
+            <span class="status status-pass">ALL ACTIVE</span>
+        </div>
+        <div class="card">
+            <h2>Regulatory Filings</h2>
+            <div class="big ok">6/6 Ready</div>
+            <span class="status status-warn">
+                0 Overdue | 1 Urgent
+            </span>
+        </div>
+        <div class="card">
+            <h2>Financial Models</h2>
+            <div class="big ok">4/4 PASS</div>
+            <span class="status status-pass">ALL VALIDATED</span>
+        </div>
+        <div class="card">
+            <h2>Security Findings</h2>
+            <div class="big ok">0</div>
+            <span class="status status-pass">Open Findings</span>
+        </div>
+        <div class="card">
+            <h2>Swarm Cycles</h2>
+            <div class="big ok">0</div>
+            <span class="status status-pass">Completed</span>
+        </div>
+        <div class="card">
+            <h2>System Status</h2>
+            <div class="big ok">ONLINE</div>
+            <span class="status status-pass">AUTONOMOUS</span>
+        </div>
+    </div>
+    <p class="timestamp">Generated: 2026-07-11T06:47:06.102822+00:00</p>
+</body>
+</html>
