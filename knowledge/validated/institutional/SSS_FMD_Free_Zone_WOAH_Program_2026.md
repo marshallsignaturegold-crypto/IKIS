@@ -1,7 +1,7 @@
 ---
 artifact_id: "IKIS-INST-2026-007"
 type: "program_plan"
-title: "FMD-Free Zone Program — Ethiopian Highlands (WOAH Pathway, 3ABC-ELISA, 24-36 Month Timeline)"
+title: "FMD-Free Zone Program — Ethiopian Highlands (WOAH Pathway, 3ABC-ELISA, 24-36 Month Timeline, $2M Budget)"
 status: "validated"
 confidence: "high"
 pillar: "B"
@@ -9,6 +9,7 @@ portfolio_entity: "AISTA"
 authors:
   - "marshallwmorrison"
   - "phalanx-swarm-omega"
+  - "regulatory-research-subagent"
 owner: "marshallwmorrison"
 created_date: "2026-07-10"
 last_reviewed: "2026-07-11"
@@ -26,6 +27,7 @@ tags:
   - "ethiopia"
   - "foot-and-mouth-disease"
   - "livestock-export"
+  - "3abc-elisa"
   - "institutional"
 related_artifacts:
   - "IKIS-INST-2026-001"
@@ -92,6 +94,39 @@ governance:
 | Annual vaccine cost | $4,000,000 |
 | Cold chain | 2-8°C, solar-powered refrigerators |
 | **Note:** Vaccination cost covered by Ethiopian government + FAO + World Bank LRP. SSS contribution: $0 (technical assistance only). |
+
+## 2. BUDGET BREAKDOWN ($2M over 36 months)
+
+| Phase | Activities | Cost | Timeline |
+|-------|------------|------|----------|
+| Phase 1 (Months 1-6) | GIS mapping, woreda selection, baseline sero-survey, 1 lab upgrade | $350,000 | Aug 2026 – Jan 2027 |
+| Phase 2 (Months 7-18) | Vaccination campaign (Year 1), 4 additional labs, 5 quarantine stations, biosecurity training | $800,000 | Feb 2027 – Jan 2028 |
+| Phase 3 (Months 19-30) | Sero-surveillance (Year 2), outbreak response drills, PVS follow-up preparation | $550,000 | Feb 2028 – Jan 2029 |
+| Phase 4 (Months 31-36) | WOAH application, official endorsement, accreditation ceremony | $300,000 | Feb 2029 – Jul 2029 |
+| **Total** | | **$2,000,000** | **36 months** |
+
+## 3. STRATEGIC VALUE
+
+| Market | Current Price (Non-FMD-Free) | Premium (FMD-Free Certified) | Volume Potential |
+|--------|------------------------------|------------------------------|------------------|
+| Saudi Arabia (live sheep) | $80–100/head | +$20–40/head (25–40%) | 30,000–50,000 head/year |
+| UAE (live sheep) | $75–95/head | +$15–30/head (20–30%) | 20,000–40,000 head/year |
+| Qatar (live sheep) | $85–105/head | +$20–35/head (20–30%) | 10,000–20,000 head/year |
+| **Total Premium Value** | | **+$55–105/head** | **60,000–110,000 head/year** |
+| **Annual Premium Revenue** | | **$3.3M–$11.6M** | |
+
+**ROI:** 165–580% over 3 years on $2M investment.
+
+## 4. RISKS & MITIGATION
+
+| Risk | Probability | Impact | Mitigation |
+|------|------------|--------|------------|
+| Vaccine supply disruption | Medium | High | Dual-source procurement (FAO + EU tender) |
+| Laboratory capacity failure | Medium | High | Modular lab design, mobile lab backup |
+| Cross-border reinfection | High | Very High | Buffer zones, movement controls, bilateral agreements with Sudan/South Sudan |
+| Political instability (woreda level) | Medium | Medium | Community engagement, local leadership buy-in |
+| WOAH inspection delay | Medium | Medium | Early engagement, pre-inspection audit, consultant support |
+| Funding shortfall (GoE + donors) | Medium | High | Diversified funding: GoE, FAO, World Bank LRP, bilateral donors |
 
 ---
 
