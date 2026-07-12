@@ -1,0 +1,116 @@
+groups:
+  - name: terminology
+    interval: 60s
+    rules:
+      - alert: AISTATerminologyViolation
+        expr: terminology_violations_total > 0
+        for: 5m
+        labels:
+          severity: critical
+          team: governance
+        annotations:
+          summary: "AISTA terminology violation detected"
+          description: "{{ $value }} terminology violations found in repository. Check terminology report for details."
+          runbook_url: "https://github.com/marshallsignaturegold-crypto/IKIS/wiki/Terminology-Remediation-Runbook"
+      
+      - alert: DeprecatedTermUsage
+        expr: deprecated_term_usage_total > 0
+        for: 1m
+        labels:
+          severity: warning
+          team: governance
+        annotations:
+          summary: "Deprecated terms detected in repository"
+          description: "{{ $value }} deprecated terms (AIA-SMCC, etc.) found. Immediate remediation required."
+
+  - name: contradictions
+    interval: 300s
+    rules:
+      - alert: RepositoryContradiction
+        expr: repository_contradictions_total > 0
+        for: 10m
+        labels:
+          severity: warning
+          team: governance
+        annotations:
+          summary: "Repository contradictions detected"
+          description: "{{ $value }} contradictions found. Review contradiction report."
+      
+      - alert: JurisdictionRoleMismatch
+        expr: jurisdiction_role_mismatch_total > 0
+        for: 5m
+        labels:
+          severity: critical
+          team: compliance
+        annotations:
+          summary: "Jurisdiction role mismatch detected"
+          description: "BIBC described as upstream or UAE as final refining node. Critical structural error."
+
+  - name: knowledge
+    interval: 300s
+    rules:
+      - alert: LowConfidenceArtifact
+        expr: knowledge_artifact_score < 60
+        for: 30m
+        labels:
+          severity: warning
+          team: knowledge
+        annotations:
+          summary: "Low confidence knowledge artifact"
+          description: "Artifact {{ $labels.artifact_id }} has score {{ $value }}/100. Review and enrich."
+      
+      - alert: KnowledgeArtifactExpired
+        expr: knowledge_artifact_age_days > 90
+        for: 1h
+        labels:
+          severity: info
+          team: knowledge
+        annotations:
+          summary: "Knowledge artifact needs review"
+          description: "Artifact {{ $labels.artifact_id }} is {{ $value }} days old. Consider re-validation."
+
+  - name: deadlines
+    interval: 3600s
+    rules:
+      - alert: CriticalDeadlineApproaching
+        expr: days_to_deadline < 7 and deadline_criticality == 1
+        for: 1h
+        labels:
+          severity: critical
+          team: operations
+        annotations:
+          summary: "CRITICAL deadline within 7 days"
+          description: "{{ $labels.artifact_id }}: {{ $labels.deadline_name }} due in {{ $value }} days. IMMEDIATE ACTION REQUIRED."
+      
+      - alert: DeadlineApproaching
+        expr: days_to_deadline < 30 and days_to_deadline >= 7
+        for: 1h
+        labels:
+          severity: warning
+          team: operations
+        annotations:
+          summary: "Deadline approaching within 30 days"
+          description: "{{ $labels.artifact_id }}: {{ $labels.deadline_name }} due in {{ $value }} days."
+
+  - name: infrastructure
+    interval: 60s
+    rules:
+      - alert: GitHubRepositoryDown
+        expr: up{job="github-repo-health"} == 0
+        for: 5m
+        labels:
+          severity: critical
+          team: devops
+        annotations:
+          summary: "GitHub repository health check failed"
+          description: "Repository health check has been down for 5 minutes."
+      
+      - alert: BIBCRefineryThroughputDrop
+        expr: bibc_refinery_throughput_kg_day < 800
+        for: 15m
+        labels:
+          severity: warning
+          team: operations
+        annotations:
+          summary: "BIBC refinery throughput below threshold"
+          description: "Refinery throughput at {{ $value }} kg/day (target: 1,000 kg/day)."

@@ -1,0 +1,94 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+  external_labels:
+    cluster: 'sstp-production'
+    replica: '{{.ExternalURL}}'
+
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+          - alertmanager:9093
+
+rule_files:
+  - /etc/prometheus/rules/*.yml
+
+scrape_configs:
+  # Self-monitoring
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+    scrape_interval: 15s
+
+  # GitHub repository health
+  - job_name: 'github-repo-health'
+    static_configs:
+      - targets: ['github-exporter:9100']
+    scrape_interval: 300s
+    metrics_path: /metrics
+
+  # Terminology enforcement metrics
+  - job_name: 'terminology-enforcer'
+    static_configs:
+      - targets: ['terminology-enforcer:9101']
+    scrape_interval: 60s
+    metrics_path: /metrics
+
+  # Contradiction detection metrics
+  - job_name: 'contradiction-detector'
+    static_configs:
+      - targets: ['contradiction-detector:9102']
+    scrape_interval: 300s
+    metrics_path: /metrics
+
+  # Knowledge confidence metrics
+  - job_name: 'knowledge-confidence'
+    static_configs:
+      - targets: ['knowledge-confidence:9103']
+    scrape_interval: 300s
+    metrics_path: /metrics
+
+  # AISTA corridor health (custom exporter)
+  - job_name: 'aista-corridor-health'
+    static_configs:
+      - targets: ['aista-exporter:9104']
+    scrape_interval: 60s
+    metrics_path: /metrics
+
+  # BIBC refinery metrics
+  - job_name: 'bibc-refinery'
+    static_configs:
+      - targets: ['bibc-metrics:9105']
+    scrape_interval: 30s
+    metrics_path: /metrics
+
+  # Berbera PPP infrastructure
+  - job_name: 'berbera-ppp'
+    static_configs:
+      - targets: ['berbera-metrics:9106']
+    scrape_interval: 60s
+    metrics_path: /metrics
+
+  # Node exporter (system metrics)
+  - job_name: 'node-exporter'
+    static_configs:
+      - targets: ['node-exporter:9100']
+    scrape_interval: 15s
+
+  # Blackbox exporter (endpoint monitoring)
+  - job_name: 'blackbox'
+    metrics_path: /probe
+    params:
+      module: [http_2xx]
+    static_configs:
+      - targets:
+        - https://github.com/marshallsignaturegold-crypto/IKIS
+        - https://github.com/marshallsignaturegold-crypto/The-Sovereign-SafeTrade-Program
+    relabel_configs:
+      - source_labels: [__address__]
+        target_label: __param_target
+      - source_labels: [__param_target]
+        target_label: instance
+      - target_label: __address__
+        replacement: blackbox-exporter:9115
