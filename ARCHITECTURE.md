@@ -14,6 +14,8 @@ IKIS is designed as a **GitHub-native AI Knowledge Operating System**. The repos
 4. **Extensibility** — New artifact types, domains, and automation can be added without destabilizing the core
 5. **Governability** — Ownership, review, approval, and escalation are explicit, not implicit
 
+---
+
 ## 2. System Layers
 
 ```
@@ -41,6 +43,8 @@ IKIS is designed as a **GitHub-native AI Knowledge Operating System**. The repos
 └─────────────────────────────────────────────────────────────┘
 ```
 
+---
+
 ## 3. Knowledge Flow Architecture
 
 ```
@@ -49,6 +53,8 @@ Source Material → Capture → Curate → Validate → Store → Retrieve → S
                  Template  Review   Schema   Metadata  Search   Intelligence
                  Driven    Gate     Valid.   Enrich.   Index    Brief
 ```
+
+---
 
 ## 4. SSS Domain Representation
 
@@ -62,9 +68,9 @@ SSS Platform (Root)
 │   ├── Revenue Stream: Advisory
 │   ├── Revenue Stream: Management Fees
 │   └── Revenue Stream: Carried Interest
-├── Pillar B: Afro-Indian-American Strategic Minerals and Capital Corridor (Afro-Indian-American Strategic Trade Alliance (Afro-Indian-American Strategic Trade Alliance (AISTA)) Corridor): Afro-Indian-American Strategic Minerals and Capital Corridor (Afro-Indian-American Strategic Trade Alliance (Afro-Indian-American Strategic Trade Alliance (AISTA)) Corridor)
+├── Pillar B: African Infrastructure & SafeTrade Alliance / Corridor (AISTA): African Infrastructure & SafeTrade Alliance / Corridor (AISTA)
 │   ├── Program: Sovereign SafeTrade Program (SSTP)
-│   ├── Corridor: Afro-Indian-American Strategic Trade Alliance (Afro-Indian-American Strategic Trade Alliance (AISTA)) Corridor
+│   ├── Corridor: African Infrastructure & SafeTrade Alliance / Corridor (AISTA)
 │   ├── Initiative: SovereignSomaliland PPP
 │   │   └── Asset: SSTLC (Proposed)
 │   └── Initiative: IndiSovereign PPP
@@ -74,6 +80,8 @@ SSS Platform (Root)
     ├── Division: Franchise (Don Vito's Pizza Oven)
     └── Division: Media & Licensing
 ```
+
+---
 
 ## 5. Key Design Decisions
 
@@ -106,6 +114,8 @@ SSS Platform (Root)
 **Decision**: Legal gating rules are encoded in AI agent context and templates.
 **Rationale**: Ensures all AI-generated SSS materials comply with legal constraints automatically.
 
+---
+
 ## 6. Related Documentation
 
 - [`AI_OPERATING_MANUAL.md`](./AI_OPERATING_MANUAL.md) — AI agent usage protocols
@@ -114,6 +124,6 @@ SSS Platform (Root)
 
 ---
 
-*Last updated: 2026-07-05*  
+*Last updated: 2026-07-11*  
 *Status: Validated*  
 *Owner: marshallwmorrison*
